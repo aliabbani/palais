@@ -1,23 +1,14 @@
-// import Slider from "../components/Slider.js";
-// import Announcement from "../components/Announcement.js";
-// import Navbar from "../components/Navbar.js";
-// import Categories from "../components/Categories.js";
-// import Products from "../components/Products.js";
-// import Newsletter from "../components/Newsletter.js";
-// import Footer from "../components/Footer.js";
+import React from "react";
+import NavBar from "../components/NavBar";
+import Slider from "../components/Slider";
 
-// const Home = () => {
-//   return (
-//     <div>
-//       <Announcement />
-//       <Navbar />
-//       <Slider />
-//       <Categories />
-//       <Products />
-//       <Newsletter />
-//       <Footer />
-//     </div>
-//   );
-// };
+const Home = () => {
+  return (
+    <>
+      <NavBar />
+      <Slider />
+    </>
+  );
+};
 
-// export default Home;
+export default Home;

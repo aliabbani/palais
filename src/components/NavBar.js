@@ -16,7 +16,7 @@ const NavBar = () => {
         </div>
         {showMenu ? (
           // mobile
-          <div className="bg-white w-full h-full absolute top-0 left-0 overflow-scroll">
+          <div className="z-50 bg-white w-full h-full absolute top-0 left-0 overflow-scroll">
             <div className="text-black bg-silver p-6 bg-stone-200 flex flex-row justify-between items-center ">
               <div className="uppercase">Palais</div>
               <AiOutlineClose
