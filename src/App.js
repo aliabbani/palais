@@ -1,38 +1,18 @@
-import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Home from "./pages/Home.js";
+import Loyality from "./pages/Loyality.js";
+import Brand from "./pages/Brand.js";
 
 function App() {
+  // const user = true;
   return (
-    <div className="App border border-black">
-      <Home />
-      <div className="text-3xl font-bold underline text-blue-500">Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-      <div>Palais</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/brand" element={<Brand />} />
+        <Route path="/loyality" element={<Loyality />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
