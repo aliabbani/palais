@@ -7,6 +7,30 @@ const Home = () => {
     <>
       <NavBar />
       <Slider />
+      <div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+        <div>Palais</div>
+      </div>
     </>
   );
 };

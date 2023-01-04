@@ -13,7 +13,7 @@ const NavBar = () => {
             <div>Palais</div>
           </Link>
           <AiOutlineMenu
-            className="flex md:hidden text-2xl text-yellow-600"
+            className="flex md:hidden text-4xl text-white hover:text-yellow-600 cursor-pointer"
             onClick={() => setShowMenu(true)}
           />
         </div>
@@ -21,9 +21,9 @@ const NavBar = () => {
           // mobile
           <div className="z-50 bg-white w-full h-full absolute top-0 left-0 overflow-scroll">
             <div className="text-black bg-silver p-6 bg-stone-200 flex flex-row justify-between items-center ">
-              <div className="uppercase">Palais</div>
+              <div className="uppercase cursor-pointer">Palais</div>
               <AiOutlineClose
-                className="text-2xl"
+                className="text-3xl cursor-pointer"
                 onClick={() => setShowMenu(false)}
               />
             </div>
