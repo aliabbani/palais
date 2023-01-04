@@ -9,7 +9,7 @@ const Brand = () => {
   return (
     <div>
       <NavBar />
-      <div className="brand-main pb-[180px] bg-slate-300">
+      <div className="brand-main bg-slate-300">
         <div className="flex flex-col md:flex-row justify-between pb-10 px-4 pt-6">
           <div className="brand uppercase text-2xl md:text-4xl">brand</div>
           <div className="flex md:justify-between font-semibold pt-4">
@@ -32,13 +32,13 @@ const Brand = () => {
           </div>
         </div>
         {story ? (
-          <div className="px-4">
+          <div className="px-4 md:px-40 text-base md:text-xl">
             <p className="pb-5">
               aLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
               facilisi. Mauris at congue lacus, quis rutrum nulla.
             </p>
-            <p className="pb-5">
+            <p className="pb-5 text-red-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
               facilisi. Mauris at congue lacus, quis rutrum nulla.
@@ -55,8 +55,8 @@ const Brand = () => {
             </p>
           </div>
         ) : (
-          <div className="px-4">
-            <p className="pb-5">
+          <div className="px-4 md:px-40 text-base md:text-xl">
+            <p className="pb-5 text-red-600">
               1985 Ali, elementum ornare tellus dapibus eu. Nulla facilisi.
               Mauris at congue lacus, quis rutrum nulla.
             </p>
@@ -75,7 +75,7 @@ const Brand = () => {
               dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
               facilisi. Mauris at congue lacus, quis rutrum nulla.
             </p>
-            <p className="pb-5">
+            <p className="pb-5 text-red-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
