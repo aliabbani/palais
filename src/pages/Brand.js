@@ -9,78 +9,77 @@ const Brand = () => {
   return (
     <div>
       <NavBar />
-      <div className="back">
-        <div className="brand-main pb-[180px] bg-slate-300">
-          <div className="flex flex-col md:flex-row justify-between pb-10">
-            <div className="brand uppercase text-2xl md:text-4xl">brand</div>
-            <div className="flex md:justify-between font-semibold pt-4">
-              <div
-                className="pr-6 cursor-pointer uppercase"
-                onClick={() => setStory(!story)}
-              >
-                <div>our story</div>
-              </div>
-              <div
-                className="cursor-pointer uppercase"
-                onClick={() => setStory(!story)}
-              >
-                our history
-              </div>
+      <div className="brand-main pb-[180px] bg-slate-300">
+        <div className="flex flex-col md:flex-row justify-between pb-10 px-4 pt-6">
+          <div className="brand uppercase text-2xl md:text-4xl">brand</div>
+          <div className="flex md:justify-between font-semibold pt-4">
+            <div
+              className={`pr-6 cursor-pointer uppercase ${
+                story ? "text-red-600" : "text-black"
+              }`}
+              onClick={() => setStory(true)}
+            >
+              our story
+            </div>
+            <div
+              className={`cursor-pointer uppercase ${
+                !story ? "text-red-600" : "text-black"
+              }`}
+              onClick={() => setStory(false)}
+            >
+              our history
             </div>
           </div>
-          {story ? (
-            <div>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          ) : (
-            <div>
-              <p className="px-28 pb-5">
-                1985 Ali, elementum ornare tellus dapibus eu. Nulla facilisi.
-                Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas dictum posuere nulla, elementum ornare tellus dapibus
-                eu. Nulla facilisi. Mauris at congue lacus, quis rutrum nulla.
-              </p>
-              <p className="px-28 pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          )}
         </div>
+        {story ? (
+          <div className="px-4">
+            <p className="pb-5">
+              aLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+          </div>
+        ) : (
+          <div className="px-4">
+            <p className="pb-5">
+              1985 Ali, elementum ornare tellus dapibus eu. Nulla facilisi.
+              Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        )}
       </div>
       <Footer />
     </div>

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-[#272a31] text-white">
       <div>
-        © 2022 Le Palais Restaurants | ALL RIGHTS RESERVED | DEVELOPED BY Ali
+        © 2022 Le Palais Restaurants | ALL RIGHTS RESERVED | DEVELOPED BY ALI
       </div>
       <div>fb</div>
     </div>
