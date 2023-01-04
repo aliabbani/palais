@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import "./Brand.css";
 
 const Brand = () => {
-  const [story, setStory] = useState(false);
+  const [story, setStory] = useState(true);
 
   return (
     <div>
@@ -11,49 +11,73 @@ const Brand = () => {
 
       <div className="brand-main">
         <div className="flex flex-col md:flex-row justify-between pb-10">
-          <div className="brand uppercase">brand</div>
-          <div className="flex md:justify-between">
+          <div className="brand uppercase text-2xl md:text-4xl">brand</div>
+          <div className="flex md:justify-between font-semibold pt-4">
             <div
-              className="pr-6 cursor-pointer "
+              className="pr-6 cursor-pointer uppercase"
               onClick={() => setStory(!story)}
             >
-              our story
+              <div>our story</div>
             </div>
-            <div className="cursor-pointer" onClick={() => setStory(!story)}>
+            <div
+              className="cursor-pointer uppercase"
+              onClick={() => setStory(!story)}
+            >
               our history
             </div>
           </div>
         </div>
         {story ? (
-          <p className="text-center px-40">
-            brand pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeee loren ipsum dolor sit amet
-            loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor
-            sit amet loren ipsumloren ipsum dolor sit amet loren ipsumloren
-            ipsum dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsumloren ipsum dolor sit amet loren
-            ipsumloren ipsum dolor sit amet loren ipsumloren ipsum dolor sit
-            amet loren ipsumloren ipsum dolor sit amet loren ipsumloren ipsum
-            dolor sit amet loren ipsum
-          </p>
+          <div>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         ) : (
-          <p className="text-center px-40">second</p>
+          <div>
+            <p className="px-28 pb-5">
+              1985 Ali, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              dictum posuere nulla, elementum ornare tellus dapibus eu. Nulla
+              facilisi. Mauris at congue lacus, quis rutrum nulla.
+            </p>
+            <p className="px-28 pb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         )}
       </div>
     </div>
