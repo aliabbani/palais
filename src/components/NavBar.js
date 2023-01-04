@@ -7,9 +7,11 @@ const NavBar = () => {
 
   return (
     <div>
-      <nav className="flex flex-row w-full justify-between bg-black">
+      <nav className="flex flex-row w-full justify-between bg-[#272a31]">
         <div className="flex flex-row justify-between items-center text-white uppercase p-6 w-full md:w-max">
-          <div>Palais</div>
+          <Link to="/">
+            <div>Palais</div>
+          </Link>
           <AiOutlineMenu
             className="flex md:hidden text-2xl text-yellow-600"
             onClick={() => setShowMenu(true)}
@@ -26,11 +28,13 @@ const NavBar = () => {
               />
             </div>
             <div className="items-center justify-evenly opacity-95 text-white uppercase h-full flex flex-col text-black">
-              <Link to="brand">
+              <Link to="/brand">
                 <div>brand</div>
               </Link>
               <div>restaurants</div>
-              <div>loyality card</div>
+              <Link to="/loyality">
+                <div>loyality card</div>
+              </Link>
               <div>careers</div>
               <div>contact</div>
               <a href="https://menu.omegasoftware.ca/lepalais1">menu</a>
@@ -38,13 +42,13 @@ const NavBar = () => {
           </div>
         ) : (
           // desktop
-          <div className="hidden md:flex flex-row justify-between items-center bg-black py-7 px-4">
+          <div className="hidden md:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
             <div className="flex md:gap-5 lg:gap-10 text-white uppercase">
-              <Link to="brand">
+              <Link to="/brand">
                 <div>brand</div>
               </Link>
               <div>restaurants</div>
-              <Link to="loyality">
+              <Link to="/loyality">
                 <div>loyality card</div>
               </Link>
               <div>careers</div>
