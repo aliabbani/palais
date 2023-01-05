@@ -19,7 +19,7 @@ const NavBar = () => {
         </div>
         {showMenu ? (
           // mobile
-          <div className="z-50 bg-white w-full h-full absolute top-0 left-0 overflow-scroll">
+          <div className="z-50  w-full h-full absolute top-0 left-0 overflow-scroll">
             <div className="text-black bg-silver p-6 bg-stone-200 flex flex-row justify-between items-center ">
               <div className="uppercase cursor-pointer">Palais</div>
               <AiOutlineClose
@@ -27,7 +27,7 @@ const NavBar = () => {
                 onClick={() => setShowMenu(false)}
               />
             </div>
-            <div className="items-center justify-evenly opacity-95 text-white uppercase h-full flex flex-col text-black">
+            <div className="items-center justify-center gap-5 bg-white text-white uppercase h-full flex flex-col text-black font-semibold text-lg">
               <Link to="/brand">
                 <div>brand</div>
               </Link>

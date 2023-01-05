@@ -17,7 +17,9 @@ const Loyality = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </div>
-        <button>Apply Now</button>
+        <button className="border border-red-600 w-28 h-16 text-red-600">
+          Apply Now
+        </button>
       </div>
     </div>
   );
