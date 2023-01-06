@@ -23,6 +23,7 @@ const Contact = () => {
               name="message"
               placeholder="*Please provide more details about your feedback"
               className="h-28 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+              required
             ></textarea>
           </label>
           <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
@@ -60,8 +61,9 @@ const Contact = () => {
               className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               placeholder="*Phone Number"
               bordered="false"
-              type="text"
+              type="tel"
               name="phone number"
+              pattern="[0-9]{9}"
               required
             />
           </div>
