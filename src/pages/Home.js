@@ -1,14 +1,17 @@
 import React from "react";
 import Footer from "../components/Footer";
+import GridExample from "../components/GridExample";
 import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
+import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <NavBar />
       <Slider />
-      <div>
+
+      <div className="pt-10">
         <div>Palais</div>
         <div>Palais</div>
         <div>Palais</div>
@@ -32,6 +35,8 @@ const Home = () => {
         <div>Palais</div>
         <div>Palais</div>
       </div>
+      <GridExample />
+
       <Footer />
     </>
   );
