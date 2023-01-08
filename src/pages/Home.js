@@ -35,6 +35,9 @@ const Home = () => {
         <div>Palais</div>
         <div>Palais</div>
       </div>
+      <h2 className="text-2xl font-black text-center pt-4">
+        Palais restaurants
+      </h2>
       <GridExample />
 
       <Footer />

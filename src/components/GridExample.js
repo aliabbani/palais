@@ -1,6 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import React from "react";
 
 function GridExample() {
   const images = [
@@ -10,7 +8,7 @@ function GridExample() {
   ];
 
   return (
-    <div className="main px-2 md:px-2 flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8 py-16 md:py-16 justify-evenly">
+    <div className="main px-2 md:px-2 py-10 md:py-10 justify-evenly flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8">
       {/* first */}
       <div className="border border-slate-400 basis-5/12">
         <div>
