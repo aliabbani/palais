@@ -19,8 +19,8 @@ function GridExample() {
             src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
           />
         </div>
-        <div className="px-2">
-          <h1>Palais</h1>
+        <div className="px-2 py-4">
+          <h2 className="py-4 text-2xl font-extrabold">Palais</h2>
           <div>
             lorem icons lorem iconslorem icons lorem iconslorem iconslorem icons{" "}
           </div>
@@ -34,8 +34,8 @@ function GridExample() {
             src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
           />
         </div>
-        <div className="px-2">
-          <h1>Palais circle</h1>
+        <div className="px-2 py-4">
+          <h2 className="py-4 text-2xl font-extrabold">Circle de Palais</h2>
           <div>
             lorem icons lorem iconslorem icons lorem iconslorem iconslorem
             iconslorem icons lorem iconslorem icons lorem iconslorem iconslorem
@@ -54,8 +54,8 @@ function GridExample() {
             src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
           />
         </div>
-        <div className="px-2">
-          <h1>Le Petit Palais</h1>
+        <div className="px-2 py-4">
+          <h2 className="py-4 text-2xl font-extrabold">Le Petit Palais</h2>
           <div>
             lorem icons lorem iconslorem icons lorem iconslorem iconslorem icons{" "}
           </div>
@@ -69,8 +69,8 @@ function GridExample() {
             src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
           />
         </div>
-        <div className="px-2">
-          <h1>Royal Burger</h1>
+        <div className="px-2 py-4">
+          <h2 className="py-4 text-2xl font-extrabold">Royal Burger</h2>
           <div>
             lorem icons lorem iconslorem icons lorem iconslorlorem icons lorem
             iconslorem icons lorem iconslorem iconslorem iconslorem icons lorem
