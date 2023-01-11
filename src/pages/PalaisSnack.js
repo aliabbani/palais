@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
@@ -35,7 +36,18 @@ const PalaisSnack = () => {
           </div>
         </div>
       </div>
-      <div>Palais Snack</div>
+      {/* <div>Palais Snack</div> */}
+      <div className="text-center pt-5">
+        <Link to="https://menu.omegasoftware.ca/lepalais1">
+          <button
+            type="button"
+            className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+          >
+            delivery menu
+          </button>
+        </Link>
+      </div>
+
       {/* Maps & contact */}
       <div className="container my-24 px-6 mx-auto">
         <section className="mb-32 text-gray-800">
