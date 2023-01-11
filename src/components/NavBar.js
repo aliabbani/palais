@@ -46,10 +46,12 @@ const NavBar = () => {
           // desktop
           <div className="hidden md:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
             <div className="flex md:gap-5 lg:gap-10 text-white uppercase">
+              <Link to="/">
+                <div>restaurants</div>
+              </Link>
               <Link to="/brand">
                 <div>brand</div>
               </Link>
-              <div>restaurants</div>
               <Link to="/loyality">
                 <div>loyality card</div>
               </Link>
@@ -68,77 +70,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-// import Button from "react-bootstrap/Button";
-// import Container from "react-bootstrap/Container";
-// import Form from "react-bootstrap/Form";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
-// import Offcanvas from "react-bootstrap/Offcanvas";
-
-// function NavBar() {
-//   return (
-//     <>
-//       {["md"].map((expand) => (
-//         <Navbar key={expand} bg="dark" expand={"md"} className="py-4">
-//           <Container fluid>
-//             <Navbar.Brand href="#" className="text-light">
-//               Le Palais Group
-//             </Navbar.Brand>
-//             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-//             <Navbar.Offcanvas
-//               id={`offcanvasNavbar-expand-${expand}`}
-//               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-//               placement="end"
-//             >
-//               <Offcanvas.Header closeButton>
-//                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-//                   Offcanvas
-//                 </Offcanvas.Title>
-//               </Offcanvas.Header>
-//               <Offcanvas.Body>
-//                 <Nav className="justify-content-end flex-grow-1 pe-3">
-//                   <Nav.Link href="#action1" className="text-light">
-//                     Home
-//                   </Nav.Link>
-//                   <Nav.Link href="#action2" className="text-light">
-//                     Link
-//                   </Nav.Link>
-//                   <NavDropdown
-//                     title={<span className="text-light">Dropdown</span>}
-//                     // className="text-light"
-//                     // title="asdasd"
-//                     // id={`offcanvasNavbarDropdown-expand-${expand}`}
-//                   >
-//                     <NavDropdown.Item href="#action3" className="text-light">
-//                       Action
-//                     </NavDropdown.Item>
-//                     <NavDropdown.Item href="#action4" className="text-light">
-//                       Another action
-//                     </NavDropdown.Item>
-//                     <NavDropdown.Divider />
-//                     <NavDropdown.Item href="#action5">
-//                       Something else here
-//                     </NavDropdown.Item>
-//                   </NavDropdown>
-//                   <Nav.Link href="#action1" className="text-light">
-//                     Home
-//                   </Nav.Link>
-//                   <Nav.Link href="#action1" className="text-light">
-//                     Home
-//                   </Nav.Link>
-//                   <Nav.Link href="#action1" className="text-light">
-//                     Home
-//                   </Nav.Link>
-//                 </Nav>
-//               </Offcanvas.Body>
-//             </Navbar.Offcanvas>
-//           </Container>
-//         </Navbar>
-//       ))}
-//     </>
-//   );
-// }
-
-// export default NavBar;

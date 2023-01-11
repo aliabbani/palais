@@ -1,6 +1,8 @@
 import React from "react";
 // import { Slide } from "react-slideshow-image";
 // import "react-slideshow-image/dist/styles.css";
+import "tw-elements";
+
 const Slider = () => {
   // const images = [
   //   "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",

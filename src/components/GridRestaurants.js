@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function GridExample() {
+function GridRestaurants() {
   const images = [
     "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
     "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
@@ -21,18 +22,20 @@ function GridExample() {
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
-              Card title
+              Le Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <button
-              type="button"
-              className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
+            <Link to="/lepalais">
+              <button
+                type="button"
+                className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -48,18 +51,20 @@ function GridExample() {
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
-              Card title
+              Palais Snack
             </h5>
             <p className="text-gray-700 text-base mb-4">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <button
-              type="button"
-              className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
+            <Link to="/palaissnack">
+              <button
+                type="button"
+                className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -75,18 +80,20 @@ function GridExample() {
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
-              Card title
+              Circle De Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <button
-              type="button"
-              className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
+            <Link to="/circledepalais">
+              <button
+                type="button"
+                className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -102,18 +109,20 @@ function GridExample() {
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
-              Card title
+              Royal Burger
             </h5>
             <p className="text-gray-700 text-base mb-4">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <button
-              type="button"
-              className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Button
-            </button>
+            <Link to="/royalburger">
+              <button
+                type="button"
+                className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -121,4 +130,4 @@ function GridExample() {
   );
 }
 
-export default GridExample;
+export default GridRestaurants;
