@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
@@ -46,6 +47,10 @@ const PalaisSnack = () => {
             delivery menu
           </button>
         </Link>
+      </div>
+      {/* ///////// */}
+      <div className="flex justify-center items-center gap-2 ">
+        <Carousel />
       </div>
 
       {/* Maps & contact */}
