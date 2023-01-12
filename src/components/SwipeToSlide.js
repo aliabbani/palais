@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "../index.css";
 
 export default class SwipeToSlide extends Component {
   render() {
@@ -16,8 +17,8 @@ export default class SwipeToSlide extends Component {
       },
     };
     return (
-      <div>
-        <h2>menu</h2>
+      <div className="w-11/12 pl-10">
+        <h2>Swipe To Slide</h2>
         <Slider {...settings}>
           <div>
             <h3>1</h3>

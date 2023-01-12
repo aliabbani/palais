@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import SwipeToSlide from "../components/SwipeToSlide";
+import Resizable from "../components/SwipeToSlide";
 
 const PalaisSnack = () => {
   return (
@@ -50,7 +50,7 @@ const PalaisSnack = () => {
       </div>
       {/* ///////// */}
       <div className="bg-Slate-400">
-        <SwipeToSlide />
+        <Resizable />
       </div>
 
       {/* Maps & contact */}
