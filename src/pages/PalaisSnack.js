@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import SwipeToSlide from "../components/SwipeToSlide";
 
 const PalaisSnack = () => {
   return (
@@ -49,9 +50,7 @@ const PalaisSnack = () => {
         </Link>
       </div>
       {/* ///////// */}
-      <div className="flex justify-center items-center gap-2 ">
-        <Carousel />
-      </div>
+      <SwipeToSlide />
 
       {/* Maps & contact */}
       <div className="container my-24 px-6 mx-auto">
