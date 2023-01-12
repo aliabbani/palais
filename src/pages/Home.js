@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import GridRestaurants from "../components/GridRestaurants";
 import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
-import "./Home.css";
 
 const Home = () => {
   return (

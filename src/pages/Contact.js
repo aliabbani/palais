@@ -74,7 +74,7 @@ const Contact = () => {
           <div className="py-20">
             <button
               type="submit"
-              className="bg-black rounded-md border-none py-3 px-8 text-center no-underline text-base text-[#292929] outline-none w-auto min-w-117"
+              className="bg-[#ffbc0d] rounded-md border-none py-3 px-8 text-center no-underline text-base text-[#292929] outline-none w-auto min-w-117"
             >
               Submit
             </button>

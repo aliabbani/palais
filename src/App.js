@@ -7,9 +7,9 @@ import Lepalais from "./pages/Lepalais.js";
 import PalaisSnack from "./pages/PalaisSnack.js";
 import CircleDePalais from "./pages/CircleDePalais.js";
 import RoyalBurger from "./pages/RoyalBurger.js";
+import SwipeToSlide from "./components/SwipeToSlide.js";
+
 // Import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   // const user = true;
@@ -24,6 +24,7 @@ function App() {
         <Route path="/palaissnack" element={<PalaisSnack />} />
         <Route path="/circledepalais" element={<CircleDePalais />} />
         <Route path="/royalburger" element={<RoyalBurger />} />
+        <Route path="/swipe" element={<SwipeToSlide />} />
       </Routes>
     </BrowserRouter>
   );

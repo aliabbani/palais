@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import "./Brand.css";
+import "../index.css";
 
 const Brand = () => {
   const [story, setStory] = useState(true);

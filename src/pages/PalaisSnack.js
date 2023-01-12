@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import SwipeToSlide from "../components/SwipeToSlide";
@@ -50,7 +49,9 @@ const PalaisSnack = () => {
         </Link>
       </div>
       {/* ///////// */}
-      <SwipeToSlide />
+      <div className="bg-Slate-400">
+        <SwipeToSlide />
+      </div>
 
       {/* Maps & contact */}
       <div className="container my-24 px-6 mx-auto">

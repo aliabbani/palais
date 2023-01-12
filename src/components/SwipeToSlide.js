@@ -17,7 +17,7 @@ export default class SwipeToSlide extends Component {
     };
     return (
       <div>
-        <h2>Swipe To Slide</h2>
+        <h2>menu</h2>
         <Slider {...settings}>
           <div>
             <h3>1</h3>
