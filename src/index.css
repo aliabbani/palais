@@ -63,3 +63,14 @@ body {
 .slick-next:before {
   color: yellow !important;
 }
+
+/* multy-item-carousel */
+.appz {
+  text-align: center;
+}
+
+.carousel-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
