@@ -19,7 +19,6 @@ const Home = () => {
                 <div class="flex lg:py-12">
                   <img
                     src={Logo}
-                    // https://mdbootstrap.com/img/new/standard/people/058.jpg
                     className="w-full rounded-lg shadow-lg ml-0 md:ml-16 z-10"
                     id="cta-img-nml-50"
                     alt=""
