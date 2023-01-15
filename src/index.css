@@ -76,9 +76,22 @@ body {
 } */
 
 .carousel-container {
-  padding: 100px;
+  border: 1px solid black;
 }
 
 .carousel-item-padding-40-px {
-  padding: 0 70px;
+  border: 1px solid red;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.react-multiple-carousel__arrow--right {
+  right: calc(0% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(0% + 1px) !important;
+}
+
+.custom-dot-list-style {
+  border: 1px solid red;
 }
