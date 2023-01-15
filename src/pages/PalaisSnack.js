@@ -7,7 +7,7 @@ import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 import Trial from "../assets/images/image-trial.jpg";
 import Batonet from "../assets/images/batonet-mozerella.jpg";
-import { palaisSnackMenuAmuseBouche } from "../data";
+import { palaisSnackMenuAmuseBouche, palaisSnackSalades } from "../data";
 
 const PalaisSnack = () => {
   console.log("palaisSnackMenuAmuseBouche", palaisSnackMenuAmuseBouche);
@@ -223,7 +223,7 @@ const PalaisSnack = () => {
       {/* menu images items */}
       <div className="tab-content" id="tabs-tabContent">
         <div
-          className="tab-pane fade show active bg-neutral-800 py-16"
+          className="tab-pane fade show active bg-[#262527] py-16"
           id="tabs-amuse"
           role="tabpanel"
           aria-labelledby="tabs-amuse-tab"
@@ -289,12 +289,70 @@ const PalaisSnack = () => {
           </div>
         </div>
         <div
-          className="tab-pane fade"
+          className="tab-pane fade show active bg-[#262527] py-16"
           id="tabs-salades"
           role="tabpanel"
           aria-labelledby="tabs-salades-tab"
         >
-          Tab 2 content
+          <div className="mx-10">
+            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div>menu</div>
+              <div>
+                <Link to="https://menu.omegasoftware.ca/lepalais1">
+                  <button
+                    type="button"
+                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    delivery menu
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="">
+              <Carousel
+                responsive={responsive}
+                swipeable={false}
+                draggable={false}
+                ssr={true}
+                infinite={true}
+                // keyBoardControl={true}
+                containerclassName="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                // deviceType={this.props.deviceType}
+                dotListclassName="custom-dot-list-style"
+                itemclassName="carousel-item-padding-40-px"
+              >
+                {palaisSnackSalades.map((item, index) => {
+                  return (
+                    <div className="">
+                      <div
+                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                        style={{ "background-position": "50%" }}
+                      >
+                        <img
+                          src="https://i.ibb.co/k1V3Gnc/download-1.jpg"
+                          className="w-max-xs h-[300px] rounded"
+                        />
+                        <div
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          style={{ "background-color": "rgba(0,0,0,0.6)" }}
+                        >
+                          <div className="flex flex-col px-2 justify-center items-center h-full">
+                            <h2 className="text-white opacity-100">
+                              {item.name}
+                            </h2>
+                            <p className="text-white opacity-100">
+                              {item.ingredient}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </Carousel>
+            </div>
+          </div>
         </div>
         <div
           className="tab-pane fade"

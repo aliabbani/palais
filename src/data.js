@@ -38,3 +38,29 @@ export const palaisSnackMenuAmuseBouche = [
     image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
   },
 ];
+
+export const palaisSnackSalades = [
+  {
+    name: "Salade César",
+    ingredient: "Iceberg, crouton, poitrine de poulet, parmesan, sauce césar",
+    price: "13.00",
+    desc: "",
+    image: "https://i.ibb.co/k1V3Gnc/download-1.jpg",
+  },
+  {
+    name: "Salade Niçoise",
+    ingredient:
+      "Iceberg, tomate, thon, œufs, haricot vert, olives, sauce citron, concombre",
+    price: "14.00",
+    desc: "",
+    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+  },
+  {
+    name: "Salade Grecque",
+    ingredient:
+      "Iceberg, concombres, olives noire, fromage feta, tomate, origan, sauce citron",
+    price: "12.00",
+    desc: "",
+    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+  },
+];
