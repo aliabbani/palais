@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
+import "../index.css";
 
 const PalaisSnack = () => {
   const responsive = {
@@ -69,7 +70,8 @@ const PalaisSnack = () => {
           </button>
         </Link>
       </div>
-      {/* ///////// */}
+
+      {/* multy slide */}
       <div className="mx-10">
         <div>menu</div>
         <div className="">
@@ -80,11 +82,11 @@ const PalaisSnack = () => {
             ssr={true}
             infinite={true}
             // keyBoardControl={true}
-            containerClass="carousel-container"
+            containerclassName="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             // deviceType={this.props.deviceType}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px"
+            dotListclassName="custom-dot-list-style"
+            itemclassName="carousel-item-padding-40-px"
           >
             <div className="border border-black">Item 1</div>
             <div className="border border-yellow-500">Item 2</div>
