@@ -2,10 +2,31 @@ import React from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import "../index.css";
-import Carousel from "react-grid-carousel";
+// import Carousel from "react-grid-carousel";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 
 const Lepalais = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div>
       <NavBar />
@@ -38,12 +59,11 @@ const Lepalais = () => {
           </div>
         </div>
       </div>
-
-      <div className="appz">
+      {/* <div className="appz">
         <div className="app-header">
           <div>le palais page</div>
           <div>
-            <Carousel cols={4} rows={1} gap={10} loop>
+            <Carousel cols={4} rows={1} gap={0} loop>
               <Carousel.Item>
                 <img
                   className="carousel-image"
@@ -110,8 +130,32 @@ const Lepalais = () => {
             </Carousel>
           </div>
         </div>
-      </div>
-      {/* Maps & contact */}
+      </div> */}
+      <Carousel
+        responsive={responsive}
+        swipeable={false}
+        draggable={false}
+        ssr={true}
+        infinite={true}
+        // keyBoardControl={true}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        // deviceType={this.props.deviceType}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+      >
+        <div className="border border-black">Item 1</div>
+        <div className="border border-yellow-500">Item 2</div>
+        <div className="border border-red-200">Item 3</div>
+        <div className="border border-blue-300">Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+        <div>Item 10</div>
+      </Carousel>
+      ;{/* Maps & contact */}
       <div className="container my-24 px-6 mx-auto">
         <section className="mb-32 text-gray-800">
           <div className="block rounded-lg shadow-lg bg-white">

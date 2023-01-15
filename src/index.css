@@ -69,8 +69,16 @@ body {
   text-align: center;
 }
 
-.carousel-image {
+/* .carousel-image {
   width: 250px;
   height: 250px;
-  object-fit: cover;
+  /* object-fit: cover; 
+} */
+
+.carousel-container {
+  padding: 100px;
+}
+
+.carousel-item-padding-40-px {
+  padding: 0 70px;
 }
