@@ -68,7 +68,8 @@ body {
 
 .carousel-item-padding-40-px,
 .react-multi-carousel-item {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  /* background-color: #334155; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;

@@ -63,7 +63,7 @@ const PalaisSnack = () => {
         </div>
       </div>
       {/* <div>Palais Snack</div> */}
-      <div className="text-center pt-5">
+      <div className="text-center pt-5 md:pt-1">
         <Link to="https://menu.omegasoftware.ca/lepalais1">
           <button
             type="button"
@@ -223,13 +223,25 @@ const PalaisSnack = () => {
       {/* menu images items */}
       <div className="tab-content" id="tabs-tabContent">
         <div
-          className="tab-pane fade show active"
+          className="tab-pane fade show active bg-neutral-800 py-16"
           id="tabs-amuse"
           role="tabpanel"
           aria-labelledby="tabs-amuse-tab"
         >
           <div className="mx-10">
-            <div>menu</div>
+            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div>menu</div>
+              <div>
+                <Link to="https://menu.omegasoftware.ca/lepalais1">
+                  <button
+                    type="button"
+                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    delivery menu
+                  </button>
+                </Link>
+              </div>
+            </div>
             <div className="">
               <Carousel
                 responsive={responsive}
@@ -246,14 +258,14 @@ const PalaisSnack = () => {
               >
                 {palaisSnackMenuAmuseBouche.map((item, index) => {
                   return (
-                    <div className="border border-black">
+                    <div className="">
                       <div
                         className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
                         style={{ "background-position": "50%" }}
                       >
                         <img
                           src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
-                          className="w-max-xs h-[300px]"
+                          className="w-max-xs h-[300px] rounded"
                         />
                         <div
                           className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
