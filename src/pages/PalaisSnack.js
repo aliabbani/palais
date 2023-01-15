@@ -5,7 +5,6 @@ import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
-import "../index.css";
 
 const PalaisSnack = () => {
   const responsive = {
@@ -70,7 +69,236 @@ const PalaisSnack = () => {
           </button>
         </Link>
       </div>
-
+      {/* menu nav */}
+      <ul
+        className="nav nav-tabs flex flex-row flex-wrap list-none border-b-0 pl-0 mb-2 px-0 md:px-20"
+        id="tabs-tab"
+        role="tablist"
+      >
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-amuse"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
+            id="tabs-amuse-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-amuse"
+            role="tab"
+            aria-controls="tabs-amuse"
+            aria-selected="true"
+          >
+            AMUSE BOUCHE
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-salades"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-salades-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-salades"
+            role="tab"
+            aria-controls="tabs-salades"
+            aria-selected="false"
+          >
+            SALADES
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-sandwiches"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-sandwiches-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-sandwiches"
+            role="tab"
+            aria-controls="tabs-sandwiches"
+            aria-selected="false"
+          >
+            SANDWICHES
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-burgers"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-burgers-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-burgers"
+            role="tab"
+            aria-controls="tabs-burgers"
+            aria-selected="false"
+          >
+            BURGERS
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-mezzesFroids"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-mezzesFroids-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-mezzesFroids"
+            role="tab"
+            aria-controls="tabs-mezzesFroids"
+            aria-selected="false"
+          >
+            MEZZES FROIDS
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-mezzesFroids"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-mezzesChaux-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-mezzesChaux"
+            role="tab"
+            aria-controls="tabs-mezzesChaux"
+            aria-selected="false"
+          >
+            MEZZES CHAUX
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-shawarma"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-shawarma-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-shawarma"
+            role="tab"
+            aria-controls="tabs-shawarma"
+            aria-selected="false"
+          >
+            SHAWARMA
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-grillades"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-grillades-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-grillades"
+            role="tab"
+            aria-controls="tabs-grillades"
+            aria-selected="false"
+          >
+            GRILLADES
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-broastedEtCrispy"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-broastedEtCrispy-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-broastedEtCrispy"
+            role="tab"
+            aria-controls="tabs-broastedEtCrispy"
+            aria-selected="false"
+          >
+            BROASTED ET CRISPY
+          </a>
+        </li>
+        <li className="nav-item" role="presentation">
+          <a
+            href="#tabs-petitDejeuner"
+            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+            id="tabs-petitDejeuner-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#tabs-petitDejeuner"
+            role="tab"
+            aria-controls="tabs-petitDejeuner"
+            aria-selected="false"
+          >
+            PETIT DEJEUNER
+          </a>
+        </li>
+      </ul>
+      {/* menu images items */}
+      <div class="tab-content" id="tabs-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="tabs-amuse"
+          role="tabpanel"
+          aria-labelledby="tabs-amuse-tab"
+        >
+          Tab 1 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-salades"
+          role="tabpanel"
+          aria-labelledby="tabs-salades-tab"
+        >
+          Tab 2 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-sandwiches"
+          role="tabpanel"
+          aria-labelledby="tabs-sandwiches-tab"
+        >
+          Tab 3 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-burgers"
+          role="tabpanel"
+          aria-labelledby="tabs-burgers-tab"
+        >
+          Tab 4 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-mezzesFroids"
+          role="tabpanel"
+          aria-labelledby="tabs-mezzesFroids-tab"
+        >
+          Tab 5 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-mezzesChaux"
+          role="tabpanel"
+          aria-labelledby="tabs-mezzesChaux-tab"
+        >
+          Tab 6 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-shawarma"
+          role="tabpanel"
+          aria-labelledby="tabs-shawarma-tab"
+        >
+          Tab 7 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-grillades"
+          role="tabpanel"
+          aria-labelledby="tabs-grillades-tab"
+        >
+          Tab 8 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-broastedEtCrispy"
+          role="tabpanel"
+          aria-labelledby="tabs-broastedEtCrispy-tab"
+        >
+          Tab 9 content
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tabs-petitDejeuner"
+          role="tabpanel"
+          aria-labelledby="tabs-petitDejeuner-tab"
+        >
+          Tab 10 content
+        </div>
+      </div>
       {/* multy slide */}
       <div className="mx-10">
         <div>menu</div>
