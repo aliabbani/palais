@@ -71,7 +71,14 @@ body {
   border: 1px solid red;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
+
+/* .react-multi-carousel-track {
+  gap: 10px;
+} */
+
 .react-multiple-carousel__arrow--right {
   right: calc(0% + 1px) !important;
 }
