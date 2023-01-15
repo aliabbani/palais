@@ -2,10 +2,30 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import Resizable from "../components/SwipeToSlide";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 
 const PalaisSnack = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div>
       <NavBar />
@@ -50,8 +70,34 @@ const PalaisSnack = () => {
         </Link>
       </div>
       {/* ///////// */}
-      <div className="bg-Slate-400">
-        <Resizable />
+      <div className="mx-10">
+        <div>menu</div>
+        <div className="">
+          <Carousel
+            responsive={responsive}
+            swipeable={false}
+            draggable={false}
+            ssr={true}
+            infinite={true}
+            // keyBoardControl={true}
+            containerClass="carousel-container"
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            // deviceType={this.props.deviceType}
+            dotListClass="custom-dot-list-style"
+            itemClass="carousel-item-padding-40-px"
+          >
+            <div className="border border-black">Item 1</div>
+            <div className="border border-yellow-500">Item 2</div>
+            <div className="border border-red-200">Item 3</div>
+            <div className="border border-blue-300">Item 4</div>
+            <div className="border border-yellow-500">Item 5</div>
+            <div className="border border-blue-300">Item 6</div>
+            <div className="border border-red-200">Item 7</div>
+            <div className="border border-green-600">Item 8</div>
+            <div className="border border-black">Item 9</div>
+            <div className="border border-yellow-500">Item 10</div>
+          </Carousel>
+        </div>
       </div>
 
       {/* Maps & contact */}

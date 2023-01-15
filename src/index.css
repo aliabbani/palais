@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import "bootstrap/dist/css/bootstrap.min.css"; */
-
 /* @import "react-slideshow-image/dist/styles.css"; */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 /* @import "~slick-carousel/slick/slick.css";
@@ -59,20 +57,9 @@ body {
   background: #d3d3d3;
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before {
   color: yellow !important;
-}
-
-/* multy-item-carousel */
-.appz {
-  text-align: center;
-}
-
-/* .carousel-image {
-  width: 250px;
-  height: 250px;
-  /* object-fit: cover; 
 } */
 
 .carousel-container {
