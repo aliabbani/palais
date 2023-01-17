@@ -10,6 +10,13 @@ import {
   palaisSnackMenuAmuseBouche,
   palaisSnackSalades,
   palaisSandwiches,
+  palaisSnackBurgers,
+  palaisSnackMezzesFroids,
+  palaisSnackMezzesChauds,
+  palaisSnackShawarma,
+  palaisSnackGrillades,
+  palaisSnackBroasted,
+  palaisSnackPetitDejeuner,
 } from "../data";
 
 const PalaisSnack = () => {
