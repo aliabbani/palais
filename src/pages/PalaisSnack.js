@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
@@ -18,6 +17,7 @@ import {
   palaisSnackBroasted,
   palaisSnackPetitDejeuner,
 } from "../data";
+import RestaurantsSlider from "../components/RestaurantsSlider";
 
 const PalaisSnack = () => {
   const [nav, setNav] = useState(1);
@@ -45,35 +45,11 @@ const PalaisSnack = () => {
   return (
     <div>
       <NavBar />
-      <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide relative"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner relative w-full overflow-hidden">
-          <div className="carousel-item active relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-              className="block w-full"
-              alt="Wild Landscape"
-            />
-          </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-              className="block w-full"
-              alt="Camera"
-            />
-          </div>
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-              className="block w-full"
-              alt="Exotic Fruits"
-            />
-          </div>
-        </div>
-      </div>
+      <RestaurantsSlider 
+        src1="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        src2="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+        src3="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      />
 
       <div className="text-center pt-5 md:pt-1">
         <a href="https://menu.omegasoftware.ca/lepalais1" target="_blank">
