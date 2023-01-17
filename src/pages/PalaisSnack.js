@@ -76,14 +76,15 @@ const PalaisSnack = () => {
       </div>
 
       <div className="text-center pt-5 md:pt-1">
-        <Link to="https://menu.omegasoftware.ca/lepalais1">
+        <a href="https://menu.omegasoftware.ca/lepalais1" target="_blank">
           <button
+            href="https://menu.omegasoftware.ca/lepalais1"
             type="button"
             className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
           >
             delivery menu
           </button>
-        </Link>
+        </a>
       </div>
 
       {/* menu nav */}
@@ -201,14 +202,17 @@ const PalaisSnack = () => {
                     Amuse Bouche
                   </h2>
                   <div>
-                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <a
+                      href="https://menu.omegasoftware.ca/lepalais1"
+                      target="_blank"
+                    >
                       <button
                         type="button"
                         className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                       >
                         delivery menu
                       </button>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div>
@@ -278,14 +282,17 @@ const PalaisSnack = () => {
                     Salades
                   </h2>
                   <div>
-                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <a
+                      href="https://menu.omegasoftware.ca/lepalais1"
+                      target="_blank"
+                    >
                       <button
                         type="button"
                         className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                       >
                         delivery menu
                       </button>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div>
@@ -355,14 +362,17 @@ const PalaisSnack = () => {
                     Sandwiches
                   </h2>
                   <div>
-                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <a
+                      href="https://menu.omegasoftware.ca/lepalais1"
+                      target="_blank"
+                    >
                       <button
                         type="button"
                         className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                       >
                         delivery menu
                       </button>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div>
@@ -432,14 +442,17 @@ const PalaisSnack = () => {
                     Burgers
                   </h2>
                   <div>
-                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <a
+                      href="https://menu.omegasoftware.ca/lepalais1"
+                      target="_blank"
+                    >
                       <button
                         type="button"
                         className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                       >
                         delivery menu
                       </button>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div>
