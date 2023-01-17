@@ -16,7 +16,7 @@ const Loyality = () => {
         <div className="uppercase text-xl md:text-4xl font-black capitalize pb-6 pb-10">
           vous garder une place
         </div>
-        <div class="paragraph mb-10">
+        <div className="paragraph mb-10">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

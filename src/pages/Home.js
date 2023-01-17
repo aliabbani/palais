@@ -12,11 +12,11 @@ const Home = () => {
       <Slider />
 
       <div className="pt-10">
-        <div class="container my-24 px-6 mx-auto">
-          <section class="mb-32">
-            <div class="flex flex-wrap">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
-                <div class="flex lg:py-12">
+        <div className="container my-24 px-6 mx-auto">
+          <section className="mb-32">
+            <div className="flex flex-wrap">
+              <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
+                <div className="flex lg:py-12">
                   <img
                     src={Logo}
                     className="w-full rounded-lg shadow-lg ml-0 md:ml-16 z-10"
@@ -26,23 +26,23 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
-                <div class="bg-yellow-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
-                  <div class="lg:pl-12">
-                    <h2 class="text-3xl font-bold mb-6">Let it surprise you</h2>
-                    <p class="mb-6 pb-2 lg:pb-0">
+              <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+                <div className="bg-yellow-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
+                  <div className="lg:pl-12">
+                    <h2 className="text-3xl font-bold mb-6">Let it surprise you</h2>
+                    <p className="mb-6 pb-2 lg:pb-0">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Maxime, sint, repellat vel quo quisquam accusamus in qui
                       at ipsa enim quibusdam illo laboriosam omnis. Labore
                       itaque illum distinctio eum neque!
                     </p>
 
-                    <div class="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
-                      <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                    <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
+                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
-                          class="w-4 h-4 mr-2"
+                          className="w-4 h-4 mr-2"
                         >
                           <path
                             fill="currentColor"
@@ -52,11 +52,11 @@ const Home = () => {
                         Best team
                       </p>
 
-                      <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
-                          class="w-4 h-4 mr-2"
+                          className="w-4 h-4 mr-2"
                         >
                           <path
                             fill="currentColor"
@@ -66,11 +66,11 @@ const Home = () => {
                         Best quality
                       </p>
 
-                      <p class="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
+                      <p className="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
-                          class="w-4 h-4 mr-2"
+                          className="w-4 h-4 mr-2"
                         >
                           <path
                             fill="currentColor"

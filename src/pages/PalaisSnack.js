@@ -5,8 +5,6 @@ import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
-import Trial from "../assets/images/image-trial.jpg";
-import Batonet from "../assets/images/batonet-mozerella.jpg";
 import {
   palaisSnackMenuAmuseBouche,
   palaisSnackSalades,
@@ -14,8 +12,64 @@ import {
 } from "../data";
 
 const PalaisSnack = () => {
-  console.log("palaisSnackMenuAmuseBouche", palaisSnackMenuAmuseBouche);
-  const responsive = {
+  const responsive1 = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+  const responsive2 = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+  const responsive3 = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+  const responsive4 = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -66,7 +120,7 @@ const PalaisSnack = () => {
           </div>
         </div>
       </div>
-      {/* <div>Palais Snack</div> */}
+
       <div className="text-center pt-5 md:pt-1">
         <Link to="https://menu.omegasoftware.ca/lepalais1">
           <button
@@ -77,6 +131,7 @@ const PalaisSnack = () => {
           </button>
         </Link>
       </div>
+
       {/* menu nav */}
       <ul
         className="nav nav-tabs flex flex-row flex-wrap list-none border-b-0 pl-0 mb-2 px-0 md:px-20"
@@ -234,7 +289,7 @@ const PalaisSnack = () => {
         >
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>menu</div>
+              <div>Amuse Bouche</div>
               <div>
                 <Link to="https://menu.omegasoftware.ca/lepalais1">
                   <button
@@ -248,7 +303,7 @@ const PalaisSnack = () => {
             </div>
             <div className="">
               <Carousel
-                responsive={responsive}
+                responsive={responsive1}
                 swipeable={false}
                 draggable={false}
                 ssr={true}
@@ -262,18 +317,19 @@ const PalaisSnack = () => {
               >
                 {palaisSnackMenuAmuseBouche.map((item, index) => {
                   return (
-                    <div className="">
+                    <div className="" key={index}>
                       <div
                         className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ "background-position": "50%" }}
+                        style={{ backgroundPosition: "50%" }}
                       >
                         <img
                           src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
+                          alt=""
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
                           className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ "background-color": "rgba(0,0,0,0.6)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
                             <h2 className="text-white opacity-100">
@@ -293,14 +349,14 @@ const PalaisSnack = () => {
           </div>
         </div>
         <div
-          className="tab-pane fade show active bg-[#262527] py-16"
+          className="tab-pane fade bg-[#262527] py-16"
           id="tabs-salades"
           role="tabpanel"
           aria-labelledby="tabs-salades-tab"
         >
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>menu</div>
+              <div>Salades</div>
               <div>
                 <Link to="https://menu.omegasoftware.ca/lepalais1">
                   <button
@@ -314,7 +370,7 @@ const PalaisSnack = () => {
             </div>
             <div className="">
               <Carousel
-                responsive={responsive}
+                responsive={responsive2}
                 swipeable={false}
                 draggable={false}
                 ssr={true}
@@ -328,18 +384,19 @@ const PalaisSnack = () => {
               >
                 {palaisSnackSalades.map((item, index) => {
                   return (
-                    <div className="">
+                    <div className="" key={index}>
                       <div
                         className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ "background-position": "50%" }}
+                        style={{ backgroundPosition: "50%" }}
                       >
                         <img
                           src="https://i.ibb.co/k1V3Gnc/download-1.jpg"
+                          alt=""
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
                           className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ "background-color": "rgba(0,0,0,0.6)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
                             <h2 className="text-white opacity-100">
@@ -359,14 +416,14 @@ const PalaisSnack = () => {
           </div>
         </div>
         <div
-          className="tab-pane fade show active bg-[#262527] py-16"
+          className="tab-pane fade bg-[#262527] py-16"
           id="tabs-sandwiches"
           role="tabpanel"
           aria-labelledby="tabs-sandwiches-tab"
         >
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>menu</div>
+              <div>Sandwiches</div>
               <div>
                 <Link to="https://menu.omegasoftware.ca/lepalais1">
                   <button
@@ -380,7 +437,7 @@ const PalaisSnack = () => {
             </div>
             <div className="">
               <Carousel
-                responsive={responsive}
+                responsive={responsive3}
                 swipeable={false}
                 draggable={false}
                 ssr={true}
@@ -394,18 +451,19 @@ const PalaisSnack = () => {
               >
                 {palaisSandwiches.map((item, index) => {
                   return (
-                    <div className="">
+                    <div className="" key={index}>
                       <div
                         className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ "background-position": "50%" }}
+                        style={{ backgroundPosition: "50%" }}
                       >
                         <img
                           src="https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg"
+                          alt=""
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
                           className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ "background-color": "rgba(0,0,0,0.6)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
                             <h2 className="text-white opacity-100">
@@ -430,7 +488,60 @@ const PalaisSnack = () => {
           role="tabpanel"
           aria-labelledby="tabs-burgers-tab"
         >
-          Tab 4 content
+          <div className="mx-10">
+            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div>Burgers</div>
+              <div>
+                <Link to="https://menu.omegasoftware.ca/lepalais1">
+                  <button
+                    type="button"
+                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    delivery menu
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="">
+              <Carousel
+                responsive={responsive4}
+                swipeable={false}
+                draggable={false}
+                ssr={true}
+                infinite={true}
+                // keyBoardControl={true}
+                containerclassName="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                // deviceType={this.props.deviceType}
+                dotListclassName="custom-dot-list-style"
+                itemclassName="carousel-item-padding-40-px"
+              >
+                <div className="">
+                  <div
+                    className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                    style={{ backgroundPosition: "50%" }}
+                  >
+                    <img
+                      src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
+                      alt=""
+                      className="w-max-xs h-[300px] rounded"
+                    />
+                    <div
+                      className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                      style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                    >
+                      <div className="flex flex-col px-2 justify-center items-center h-full">
+                        <h2 className="text-white opacity-100">item.name</h2>
+                        <p className="text-white opacity-100">
+                          item.ingredient
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Carousel>
+            </div>
+          </div>
         </div>
         <div
           className="tab-pane fade"
@@ -491,10 +602,12 @@ const PalaisSnack = () => {
                 <div className="map-container-2 h-[500px] w-full">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
-                    allowfullscreen
+                    allowFullScreen
                     className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    alt=""
+                    title="title"
                   ></iframe>
                 </div>
               </div>
@@ -544,74 +657,3 @@ const PalaisSnack = () => {
 };
 
 export default PalaisSnack;
-
-{
-  /* multy slide */
-}
-{
-  /* <div className="mx-10">
-  <div>menu</div>
-  <div className="">
-    <Carousel
-      responsive={responsive}
-      swipeable={false}
-      draggable={false}
-      ssr={true}
-      infinite={true}
-      // keyBoardControl={true}
-      containerclassName="carousel-container"
-      removeArrowOnDeviceType={["tablet", "mobile"]}
-      // deviceType={this.props.deviceType}
-      dotListclassName="custom-dot-list-style"
-      itemclassName="carousel-item-padding-40-px"
-    >
-      <div className="border border-black">
-        <div
-          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-          style={{ "background-position": "50%" }}
-        >
-          <img src={Trial} className="w-max-xs h-[300px]" />
-          <div
-            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-            style={{ "background-color": "rgba(0,0,0,0.6)" }}
-          >
-            <div className="flex flex-col px-2 justify-center items-center h-full">
-              <h2 className="text-white opacity-100">Can you see me?</h2>
-              <p className="text-white opacity-100">
-                pomme de terre, crème aigre doux, bbq sauce, sauce cocktail
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="border border-yellow-500">Item 2</div>
-      <div className="border border-black">
-        <div
-          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-          style={{ "background-position": "50%" }}
-        >
-          <img src={Batonet} className="w-max-xs h-[300px]" />
-          <div
-            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-            style={{ "background-color": "rgba(0,0,0,0.6)" }}
-          >
-            <div className="flex flex-col px-2 justify-center items-center h-full">
-              <h2 className="text-white opacity-100">Batonnet De Mozzarella</h2>
-              <p className="text-white opacity-100">
-                5 pièces mozzarella pané, sauce cocktail
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="border border-blue-300">Item 4</div>
-      <div className="border border-yellow-500">Item 5</div>
-      <div className="border border-blue-300">Item 6</div>
-      <div className="border border-red-200">Item 7</div>
-      <div className="border border-green-600">Item 8</div>
-      <div className="border border-black">Item 9</div>
-      <div className="border border-yellow-500">Item 10</div>
-    </Carousel>
-  </div>
-</div>; */
-}

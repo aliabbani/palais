@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import "../index.css";
-// import Carousel from "react-grid-carousel";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
@@ -101,6 +100,7 @@ const Lepalais = () => {
                     className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
+                    title="title"
                   ></iframe>
                 </div>
               </div>

@@ -70,7 +70,7 @@ const Slider = () => {
             alt="Camera"
           />
         </div>
-        <div class="carousel-item float-left w-full">
+        <div className="carousel-item float-left w-full">
           <img
             src="https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
             className="block w-full"

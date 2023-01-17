@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.js";
 import Loyality from "./pages/Loyality.js";
 import Brand from "./pages/Brand.js";
@@ -7,7 +7,7 @@ import Lepalais from "./pages/Lepalais.js";
 import PalaisSnack from "./pages/PalaisSnack.js";
 import CircleDePalais from "./pages/CircleDePalais.js";
 import RoyalBurger from "./pages/RoyalBurger.js";
-import SwipeToSlide from "./components/SwipeToSlide.js";
+// import SwipeToSlide from "./components/SwipeToSlide.js";
 
 // Import css files
 
@@ -24,7 +24,6 @@ function App() {
         <Route path="/palaissnack" element={<PalaisSnack />} />
         <Route path="/circledepalais" element={<CircleDePalais />} />
         <Route path="/royalburger" element={<RoyalBurger />} />
-        <Route path="/swipe" element={<SwipeToSlide />} />
       </Routes>
     </BrowserRouter>
   );
