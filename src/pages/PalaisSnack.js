@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
@@ -12,6 +13,8 @@ import {
 } from "../data";
 
 const PalaisSnack = () => {
+  const [nav, setNav] = useState(1);
+  console.log("nav", nav);
   const responsive1 = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -133,464 +136,280 @@ const PalaisSnack = () => {
       </div>
 
       {/* menu nav */}
-      <ul
-        className="nav nav-tabs flex flex-row flex-wrap list-none border-b-0 pl-0 mb-2 px-0 md:px-20"
-        id="tabs-tab"
-        role="tablist"
-      >
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-amuse"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
-            id="tabs-amuse-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-amuse"
-            role="tab"
-            aria-controls="tabs-amuse"
-            aria-selected="true"
-          >
-            AMUSE BOUCHE
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-salades"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-salades-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-salades"
-            role="tab"
-            aria-controls="tabs-salades"
-            aria-selected="false"
-          >
-            SALADES
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-sandwiches"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-sandwiches-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-sandwiches"
-            role="tab"
-            aria-controls="tabs-sandwiches"
-            aria-selected="false"
-          >
-            SANDWICHES
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-burgers"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-burgers-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-burgers"
-            role="tab"
-            aria-controls="tabs-burgers"
-            aria-selected="false"
-          >
-            BURGERS
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-mezzesFroids"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-mezzesFroids-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-mezzesFroids"
-            role="tab"
-            aria-controls="tabs-mezzesFroids"
-            aria-selected="false"
-          >
-            MEZZES FROIDS
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-mezzesFroids"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-mezzesChaux-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-mezzesChaux"
-            role="tab"
-            aria-controls="tabs-mezzesChaux"
-            aria-selected="false"
-          >
-            MEZZES CHAUX
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-shawarma"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-shawarma-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-shawarma"
-            role="tab"
-            aria-controls="tabs-shawarma"
-            aria-selected="false"
-          >
-            SHAWARMA
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-grillades"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-grillades-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-grillades"
-            role="tab"
-            aria-controls="tabs-grillades"
-            aria-selected="false"
-          >
-            GRILLADES
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-broastedEtCrispy"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-broastedEtCrispy-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-broastedEtCrispy"
-            role="tab"
-            aria-controls="tabs-broastedEtCrispy"
-            aria-selected="false"
-          >
-            BROASTED ET CRISPY
-          </a>
-        </li>
-        <li className="nav-item" role="presentation">
-          <a
-            href="#tabs-petitDejeuner"
-            className="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-2 border-b-2 border-transparent px-1 md:px-3 py-2 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-            id="tabs-petitDejeuner-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#tabs-petitDejeuner"
-            role="tab"
-            aria-controls="tabs-petitDejeuner"
-            aria-selected="false"
-          >
-            PETIT DEJEUNER
-          </a>
-        </li>
-      </ul>
+      <nav className="flex flex-row gap-5">
+        <button onClick={() => setNav(1)}>AMUSE BOUCHE</button>
+        <button onClick={() => setNav(2)}>SALADES</button>
+        <button onClick={() => setNav(3)}>SANDWICHES</button>
+        <button onClick={() => setNav(4)}>BURGERS</button>
+        <button onClick={() => setNav(5)}>MEZZES FROIDS</button>
+        <button onClick={() => setNav(6)}>MEZZES CHAUDS</button>
+        <button onClick={() => setNav(7)}>SHAWARMA</button>
+        <button onClick={() => setNav(8)}>GRILLADES</button>
+        <button onClick={() => setNav(9)}>BROASTED ET CRISPY</button>
+        <button onClick={() => setNav(10)}>PETIT DEJEUNER</button>
+      </nav>
       {/* menu images items */}
-      <div className="tab-content" id="tabs-tabContent">
-        <div
-          className="tab-pane fade show active bg-[#262527] py-16"
-          id="tabs-amuse"
-          role="tabpanel"
-          aria-labelledby="tabs-amuse-tab"
-        >
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>Amuse Bouche</div>
-              <div>
-                <Link to="https://menu.omegasoftware.ca/lepalais1">
-                  <button
-                    type="button"
-                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    delivery menu
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="">
-              <Carousel
-                responsive={responsive1}
-                swipeable={false}
-                draggable={false}
-                ssr={true}
-                infinite={true}
-                // keyBoardControl={true}
-                containerclassName="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
-                // deviceType={this.props.deviceType}
-                dotListclassName="custom-dot-list-style"
-                itemclassName="carousel-item-padding-40-px"
-              >
-                {palaisSnackMenuAmuseBouche.map((item, index) => {
-                  return (
-                    <div className="" key={index}>
-                      <div
-                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ backgroundPosition: "50%" }}
-                      >
-                        <img
-                          src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
-                          alt=""
-                          className="w-max-xs h-[300px] rounded"
-                        />
-                        <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
-                        >
-                          <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
-                              {item.name}
-                            </h2>
-                            <p className="text-white opacity-100">
-                              {item.ingredient}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-        <div
-          className="tab-pane fade bg-[#262527] py-16"
-          id="tabs-salades"
-          role="tabpanel"
-          aria-labelledby="tabs-salades-tab"
-        >
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>Salades</div>
-              <div>
-                <Link to="https://menu.omegasoftware.ca/lepalais1">
-                  <button
-                    type="button"
-                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    delivery menu
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="">
-              <Carousel
-                responsive={responsive2}
-                swipeable={false}
-                draggable={false}
-                ssr={true}
-                infinite={true}
-                // keyBoardControl={true}
-                containerclassName="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
-                // deviceType={this.props.deviceType}
-                dotListclassName="custom-dot-list-style"
-                itemclassName="carousel-item-padding-40-px"
-              >
-                {palaisSnackSalades.map((item, index) => {
-                  return (
-                    <div className="" key={index}>
-                      <div
-                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ backgroundPosition: "50%" }}
-                      >
-                        <img
-                          src="https://i.ibb.co/k1V3Gnc/download-1.jpg"
-                          alt=""
-                          className="w-max-xs h-[300px] rounded"
-                        />
-                        <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
-                        >
-                          <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
-                              {item.name}
-                            </h2>
-                            <p className="text-white opacity-100">
-                              {item.ingredient}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-        <div
-          className="tab-pane fade bg-[#262527] py-16"
-          id="tabs-sandwiches"
-          role="tabpanel"
-          aria-labelledby="tabs-sandwiches-tab"
-        >
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>Sandwiches</div>
-              <div>
-                <Link to="https://menu.omegasoftware.ca/lepalais1">
-                  <button
-                    type="button"
-                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    delivery menu
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="">
-              <Carousel
-                responsive={responsive3}
-                swipeable={false}
-                draggable={false}
-                ssr={true}
-                infinite={true}
-                // keyBoardControl={true}
-                containerclassName="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
-                // deviceType={this.props.deviceType}
-                dotListclassName="custom-dot-list-style"
-                itemclassName="carousel-item-padding-40-px"
-              >
-                {palaisSandwiches.map((item, index) => {
-                  return (
-                    <div className="" key={index}>
-                      <div
-                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ backgroundPosition: "50%" }}
-                      >
-                        <img
-                          src="https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg"
-                          alt=""
-                          className="w-max-xs h-[300px] rounded"
-                        />
-                        <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
-                        >
-                          <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
-                              {item.name}
-                            </h2>
-                            <p className="text-white opacity-100">
-                              {item.ingredient}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-burgers"
-          role="tabpanel"
-          aria-labelledby="tabs-burgers-tab"
-        >
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-              <div>Burgers</div>
-              <div>
-                <Link to="https://menu.omegasoftware.ca/lepalais1">
-                  <button
-                    type="button"
-                    className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    delivery menu
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="">
-              <Carousel
-                responsive={responsive4}
-                swipeable={false}
-                draggable={false}
-                ssr={true}
-                infinite={true}
-                // keyBoardControl={true}
-                containerclassName="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
-                // deviceType={this.props.deviceType}
-                dotListclassName="custom-dot-list-style"
-                itemclassName="carousel-item-padding-40-px"
-              >
-                <div className="">
-                  <div
-                    className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                    style={{ backgroundPosition: "50%" }}
-                  >
-                    <img
-                      src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
-                      alt=""
-                      className="w-max-xs h-[300px] rounded"
-                    />
-                    <div
-                      className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                      style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+      <div className="">
+        {/* amouse bouche carousel */}
+        {nav == 1 ? (
+          <div className=" bg-[#262527] py-16">
+            <div className="mx-10">
+              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+                <div>Amuse Bouche</div>
+                <div>
+                  <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <button
+                      type="button"
+                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                     >
-                      <div className="flex flex-col px-2 justify-center items-center h-full">
-                        <h2 className="text-white opacity-100">item.name</h2>
-                        <p className="text-white opacity-100">
-                          item.ingredient
-                        </p>
+                      delivery menu
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="">
+                <Carousel
+                  responsive={responsive1}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSnackMenuAmuseBouche.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        ) : nav == 2 ? (
+          <div className="bg-[#262527] py-16">
+            <div className="mx-10">
+              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+                <div>Salades</div>
+                <div>
+                  <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <button
+                      type="button"
+                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      delivery menu
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="">
+                <Carousel
+                  responsive={responsive2}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSnackSalades.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src="https://i.ibb.co/k1V3Gnc/download-1.jpg"
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        ) : nav == 3 ? (
+          <div className="bg-[#262527] py-16">
+            <div className="mx-10">
+              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+                <div>Sandwiches</div>
+                <div>
+                  <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <button
+                      type="button"
+                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      delivery menu
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="">
+                <Carousel
+                  responsive={responsive3}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSandwiches.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src="https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg"
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        ) : nav == 4 ? (
+          <div className="bg-[#262527] py-16">
+            <div className="mx-10">
+              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+                <div>Burgers</div>
+                <div>
+                  <Link to="https://menu.omegasoftware.ca/lepalais1">
+                    <button
+                      type="button"
+                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      delivery menu
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="">
+                <Carousel
+                  responsive={responsive4}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  <div className="">
+                    <div
+                      className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                      style={{ backgroundPosition: "50%" }}
+                    >
+                      <img
+                        src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
+                        alt=""
+                        className="w-max-xs h-[300px] rounded"
+                      />
+                      <div
+                        className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                        style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                      >
+                        <div className="flex flex-col px-2 justify-center items-center h-full">
+                          <h2 className="text-white opacity-100">item.name</h2>
+                          <p className="text-white opacity-100">
+                            item.ingredient
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </Carousel>
+                </Carousel>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-mezzesFroids"
-          role="tabpanel"
-          aria-labelledby="tabs-mezzesFroids-tab"
-        >
-          Tab 5 content
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-mezzesChaux"
-          role="tabpanel"
-          aria-labelledby="tabs-mezzesChaux-tab"
-        >
-          Tab 6 content
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-shawarma"
-          role="tabpanel"
-          aria-labelledby="tabs-shawarma-tab"
-        >
-          Tab 7 content
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-grillades"
-          role="tabpanel"
-          aria-labelledby="tabs-grillades-tab"
-        >
-          Tab 8 content
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-broastedEtCrispy"
-          role="tabpanel"
-          aria-labelledby="tabs-broastedEtCrispy-tab"
-        >
-          Tab 9 content
-        </div>
-        <div
-          className="tab-pane fade"
-          id="tabs-petitDejeuner"
-          role="tabpanel"
-          aria-labelledby="tabs-petitDejeuner-tab"
-        >
-          Tab 10 content
-        </div>
+        ) : nav == 5 ? (
+          <div className="">Tab 5 content</div>
+        ) : nav == 6 ? (
+          <div className="">Tab 6 content</div>
+        ) : nav == 7 ? (
+          <div className="">Tab 7 content</div>
+        ) : nav == 8 ? (
+          <div className="">Tab 8 content</div>
+        ) : nav == 9 ? (
+          <div className="">Tab 9 content</div>
+        ) : (
+          nav == 10(<div className="">Tab 10 content</div>)
+        )}
       </div>
 
       {/* Maps & contact */}
