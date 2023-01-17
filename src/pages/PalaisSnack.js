@@ -272,17 +272,31 @@ const PalaisSnack = () => {
         ) : nav == 2 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-                <div className="uppercase">fresh salades</div>
+              <div className="mx-2 pb-10 text-white">
+                <div className="flex flex-row justify-between align-center items-center">
+                  <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
+                    Salades
+                  </h2>
+                  <div>
+                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                      <button
+                        type="button"
+                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      >
+                        delivery menu
+                      </button>
+                    </Link>
+                  </div>
+                </div>
                 <div>
-                  <Link to="https://menu.omegasoftware.ca/lepalais1">
-                    <button
-                      type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                    >
-                      delivery menu
-                    </button>
-                  </Link>
+                  <div className="text-xs pr-0 md:pr-60 pt-5">
+                    Market fresh salads made with only the best vegetables of
+                    the bunch, carefully selected every day.<br></br>
+                    Mix and match as you like from our list of homemade
+                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
+                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
+                    Mustard lemon • Cuban • Caesar • Light vinegar
+                  </div>
                 </div>
               </div>
               <div className="">
@@ -335,17 +349,31 @@ const PalaisSnack = () => {
         ) : nav == 3 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-                <div>Sandwiches</div>
+              <div className="mx-2 pb-10 text-white">
+                <div className="flex flex-row justify-between align-center items-center">
+                  <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
+                    Sandwiches
+                  </h2>
+                  <div>
+                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                      <button
+                        type="button"
+                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      >
+                        delivery menu
+                      </button>
+                    </Link>
+                  </div>
+                </div>
                 <div>
-                  <Link to="https://menu.omegasoftware.ca/lepalais1">
-                    <button
-                      type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                    >
-                      delivery menu
-                    </button>
-                  </Link>
+                  <div className="text-xs pr-0 md:pr-60 pt-5">
+                    Market fresh salads made with only the best vegetables of
+                    the bunch, carefully selected every day.<br></br>
+                    Mix and match as you like from our list of homemade
+                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
+                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
+                    Mustard lemon • Cuban • Caesar • Light vinegar
+                  </div>
                 </div>
               </div>
               <div className="">
@@ -398,17 +426,31 @@ const PalaisSnack = () => {
         ) : nav == 4 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
-                <div>Burgers</div>
+              <div className="mx-2 pb-10 text-white">
+                <div className="flex flex-row justify-between align-center items-center">
+                  <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
+                    Burgers
+                  </h2>
+                  <div>
+                    <Link to="https://menu.omegasoftware.ca/lepalais1">
+                      <button
+                        type="button"
+                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      >
+                        delivery menu
+                      </button>
+                    </Link>
+                  </div>
+                </div>
                 <div>
-                  <Link to="https://menu.omegasoftware.ca/lepalais1">
-                    <button
-                      type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                    >
-                      delivery menu
-                    </button>
-                  </Link>
+                  <div className="text-xs pr-0 md:pr-60 pt-5">
+                    Market fresh salads made with only the best vegetables of
+                    the bunch, carefully selected every day.<br></br>
+                    Mix and match as you like from our list of homemade
+                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
+                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
+                    Mustard lemon • Cuban • Caesar • Light vinegar
+                  </div>
                 </div>
               </div>
               <div className="">
