@@ -420,3 +420,298 @@ export const palaisSnackMezzesChauds = [
     image: "",
   },
 ];
+
+export const palaisSnackShawarma = [
+  {
+    name: "Shawarma Viande Sand",
+    ingredient: "viande marinée et grillée, Salade biwaz, tomate, sauce sésame",
+    price: "4.5",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Viande Plat",
+    ingredient: "viande marinée et grillée, Salade biwaz, tomate, sauce sésame",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Poulet Sand",
+    ingredient: "Poulet mariné et grillé, cornichon, ail, frites",
+    price: "4.5",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Poulet Plat",
+    ingredient: "Poulet mariné et grillé, cornichon, ail, frites",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Poulet A La Congolaise Sand",
+    ingredient: "Poulet mariné et grillé, choux mayonnaise, frites kechup",
+    price: "4.5",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Poulet A La Congolaise Plat",
+    ingredient: "Poulet mariné et grillé, choux mayonnaise, frites kechup",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Viande A La Congolaise Sand",
+    ingredient: "Viande marinée et grillé, choux mayonnaise, frites kechup",
+    price: "4.5",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Viande A La Congolaise Plat",
+    ingredient: "Viande marinée et grillé, choux mayonnaise, frites kechup",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Saj Sand",
+    ingredient: "Viande ou poulet, pain saj libanais traditionel",
+    price: "7.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Saj Plat",
+    ingredient: "Viande ou poulet, pain saj libanais traditionel, frite",
+    price: "15.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Le Palais Sand",
+    ingredient:
+      "Shawarma viande marinée avec sauce grenadine, salade biwaz tomate, sauce sésame",
+    price: "6.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Shawarma Le Palais Plat",
+    ingredient:
+      "Shawarma viande marinée avec sauce grenadine, salade biwaz tomate, sauce sésame",
+    price: "15.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Hommos Chawarma",
+    ingredient: "chawarma viande sur un lit de hommos nature",
+    price: "8.00",
+    desc: "",
+    image: "",
+  },
+];
+
+export const palaisSnackGrillades = [
+  {
+    name: "Taouk Sandwich",
+    ingredient:
+      "Brochettes de poulet marinée, sauce à l’ail, cornichon, frites",
+    price: "6.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Taouk Plat",
+    ingredient:
+      "Brochettes de poulet marinée, sauce à l’ail, cornichon, frites",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kabab Ourfali Sandwich",
+    ingredient:
+      "Viande émincée grillée, aubergine, tomate, oignon, poivron vert",
+    price: "6.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kabab Ourfali Plat",
+    ingredient:
+      "Viande émincée grillée, aubergine, tomate, oignon, poivron vert, frite",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "PLAT AILES DE POULET",
+    ingredient:
+      "Ailes de poulet a la provençale, persil, ail, oignon,cornichon, frite, choux mayonaise",
+    price: "11.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kafta Sandwich",
+    ingredient:
+      "Viande émincée et moulue avec persil et oignon grillé servie avec divers condiments",
+    price: "6.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kafta Plat",
+    ingredient:
+      "Viande émincée et moulue avec persil et oignon grillé servie avec divers condiments, frites",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "MAKANIK PLAT",
+    ingredient:
+      "Saucisse libanaise poêlées, sauce citron, sauce ail, frite, hommos, tomate, cornichons",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kabab Halabi Sandwich",
+    ingredient:
+      "Viande émincée et moulue avec sauce piment, servie avec divers condiments",
+    price: "6.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "SOUJOUK PLAT",
+    ingredient:
+      "Saucisse libanaise poêlées, sauce piquante, saiuce ail, frite, hommos, tomate, cornichon",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Kabab Halabi Plat",
+    ingredient:
+      "Viande émincée et moulue avec sauce piment, servie avec divers condiments, frite",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Brochettes De Viande Sand",
+    ingredient:
+      "Brochettes de viande marinée et grillée, servie avec divers condiments",
+    price: "7.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Brochettes De Viande Plat",
+    ingredient:
+      "2 Brochettes kafta, 1 brochette viande, 1 brochette taouk, frittes, hommos, sauce a l’ail, frite",
+    price: "14.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Grillade Mixte",
+    ingredient:
+      "2 Brochettes kafta, 1 brochette viande, 1 brochette taouk, frittes, hommos, sauce a l’ail",
+    price: "15.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Poulet Entier Désossé Grillé",
+    ingredient:
+      "Poulet mariné et grillé, servie avec cornichon sauce à l’ail et frites",
+    price: "21.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Demi Poulet Entier Désossé Grillé",
+    ingredient:
+      "Poulet mariné et grillé, servie avec cornichon sauce à l’ail et frites",
+    price: "13.00",
+    desc: "",
+    image: "",
+  },
+];
+
+export const palaisSnackBroasted = [
+  {
+    name: "Broasted Poulet 5 Pieces",
+    ingredient:
+      "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, honey mustard sauce",
+    price: "10.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Broasted Poulet 10 Pieces",
+    ingredient:
+      "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, honey mustard sauce",
+    price: "19.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Broasted Poulet Piquante 5 Pieces",
+    ingredient:
+      "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, sauce piquante, honey mustard sauce",
+    price: "10.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Broasted Poulet Piquante 10 Pieces",
+    ingredient:
+      "5 pièces crispy, choux de mayonnaise, honey mustard sauce, frite, ketchup, cornichons, honey mustard sauce",
+    price: "19.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Crispy Au Poulet",
+    ingredient:
+      "5 pièces crispy, choux de mayonnaise, honey mustard sauce, frite, ketchup, cornichons, ail, fromage cheddar",
+    price: "9.5",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "Crispy Au Poulet Piquante",
+    ingredient:
+      "5 pièces crispy, choux de mayonnaise, honey mustard sauce, frite, ketchup, cornichons, sauce piquante,  ail, fromage cheddar",
+    price: "10.00",
+    desc: "",
+    image: "",
+  },
+];
+
+export const palaisSnackPetitDejeuner = [
+  {
+    name: "Petit Déjeuner Continental",
+    ingredient: "",
+    price: "20.00",
+    desc: "",
+    image: "",
+  },
+  {
+    name: "PETIT DEJEUNER ORIENTALE",
+    ingredient: "",
+    price: "15.00",
+    desc: "",
+    image: "",
+  },
+];
