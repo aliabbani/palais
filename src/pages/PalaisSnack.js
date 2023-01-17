@@ -22,7 +22,7 @@ import {
 const PalaisSnack = () => {
   const [nav, setNav] = useState(1);
   console.log("nav", nav);
-  const responsive1 = {
+  const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -41,63 +41,7 @@ const PalaisSnack = () => {
       items: 1,
     },
   };
-  const responsive2 = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-  const responsive3 = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-  const responsive4 = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+
   return (
     <div>
       <NavBar />
@@ -143,17 +87,107 @@ const PalaisSnack = () => {
       </div>
 
       {/* menu nav */}
-      <nav className="flex flex-row gap-5">
-        <button onClick={() => setNav(1)}>AMUSE BOUCHE</button>
-        <button onClick={() => setNav(2)}>SALADES</button>
-        <button onClick={() => setNav(3)}>SANDWICHES</button>
-        <button onClick={() => setNav(4)}>BURGERS</button>
-        <button onClick={() => setNav(5)}>MEZZES FROIDS</button>
-        <button onClick={() => setNav(6)}>MEZZES CHAUDS</button>
-        <button onClick={() => setNav(7)}>SHAWARMA</button>
-        <button onClick={() => setNav(8)}>GRILLADES</button>
-        <button onClick={() => setNav(9)}>BROASTED ET CRISPY</button>
-        <button onClick={() => setNav(10)}>PETIT DEJEUNER</button>
+      <nav className="flex flex-row flex-wrap md:justify-center align-center gap-2 md:gap-5 px-2 md:px-10 text-center text-xs md:text-sm py-5">
+        <button
+          onClick={() => setNav(1)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 1
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          AMUSE BOUCHE
+        </button>
+        <button
+          onClick={() => setNav(2)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 2
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          SALADES
+        </button>
+        <button
+          onClick={() => setNav(3)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 3
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          SANDWICHES
+        </button>
+        <button
+          onClick={() => setNav(4)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 4
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          BURGERS
+        </button>
+        <button
+          onClick={() => setNav(5)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 5
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          MEZZES FROIDS
+        </button>
+        <button
+          onClick={() => setNav(6)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 6
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          MEZZES CHAUDS
+        </button>
+        <button
+          onClick={() => setNav(7)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 7
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          SHAWARMA
+        </button>
+        <button
+          onClick={() => setNav(8)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 8
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          GRILLADES
+        </button>
+        <button
+          onClick={() => setNav(9)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 9
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          BROASTED ET CRISPY
+        </button>
+        <button
+          onClick={() => setNav(10)}
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav == 10
+              ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+              : "border-none"
+          }`}
+        >
+          PETIT DEJEUNER
+        </button>
       </nav>
       {/* menu images items */}
       <div className="">
@@ -161,13 +195,13 @@ const PalaisSnack = () => {
         {nav == 1 ? (
           <div className=" bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
                 <div>Amuse Bouche</div>
                 <div>
                   <Link to="https://menu.omegasoftware.ca/lepalais1">
                     <button
                       type="button"
-                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -176,7 +210,7 @@ const PalaisSnack = () => {
               </div>
               <div className="">
                 <Carousel
-                  responsive={responsive1}
+                  responsive={responsive}
                   swipeable={false}
                   draggable={false}
                   ssr={true}
@@ -224,13 +258,13 @@ const PalaisSnack = () => {
         ) : nav == 2 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
                 <div>Salades</div>
                 <div>
                   <Link to="https://menu.omegasoftware.ca/lepalais1">
                     <button
                       type="button"
-                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -239,7 +273,7 @@ const PalaisSnack = () => {
               </div>
               <div className="">
                 <Carousel
-                  responsive={responsive2}
+                  responsive={responsive}
                   swipeable={false}
                   draggable={false}
                   ssr={true}
@@ -287,13 +321,13 @@ const PalaisSnack = () => {
         ) : nav == 3 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
                 <div>Sandwiches</div>
                 <div>
                   <Link to="https://menu.omegasoftware.ca/lepalais1">
                     <button
                       type="button"
-                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -302,7 +336,7 @@ const PalaisSnack = () => {
               </div>
               <div className="">
                 <Carousel
-                  responsive={responsive3}
+                  responsive={responsive}
                   swipeable={false}
                   draggable={false}
                   ssr={true}
@@ -350,13 +384,13 @@ const PalaisSnack = () => {
         ) : nav == 4 ? (
           <div className="bg-[#262527] py-16">
             <div className="mx-10">
-              <div className="mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
+              <div className="capitalize mx-2 pb-10 text-white flex flex-row justify-between align-center items-center">
                 <div>Burgers</div>
                 <div>
                   <Link to="https://menu.omegasoftware.ca/lepalais1">
                     <button
                       type="button"
-                      className="inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -365,7 +399,7 @@ const PalaisSnack = () => {
               </div>
               <div className="">
                 <Carousel
-                  responsive={responsive4}
+                  responsive={responsive}
                   swipeable={false}
                   draggable={false}
                   ssr={true}
@@ -377,29 +411,35 @@ const PalaisSnack = () => {
                   dotListclassName="custom-dot-list-style"
                   itemclassName="carousel-item-padding-40-px"
                 >
-                  <div className="">
-                    <div
-                      className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                      style={{ backgroundPosition: "50%" }}
-                    >
-                      <img
-                        src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
-                        alt=""
-                        className="w-max-xs h-[300px] rounded"
-                      />
-                      <div
-                        className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                        style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
-                      >
-                        <div className="flex flex-col px-2 justify-center items-center h-full">
-                          <h2 className="text-white opacity-100">item.name</h2>
-                          <p className="text-white opacity-100">
-                            item.ingredient
-                          </p>
+                  {palaisSnackBurgers.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src="https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg"
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                    );
+                  })}
                 </Carousel>
               </div>
             </div>
@@ -414,8 +454,10 @@ const PalaisSnack = () => {
           <div className="">Tab 8 content</div>
         ) : nav == 9 ? (
           <div className="">Tab 9 content</div>
+        ) : nav == 10 ? (
+          <div className="">Tab 10 content</div>
         ) : (
-          nav == 10(<div className="">Tab 10 content</div>)
+          <div></div>
         )}
       </div>
 
