@@ -457,12 +457,8 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    You’re in for a divine experience with our premium
+                    cooked-to-order burgers.
                   </div>
                 </div>
               </div>

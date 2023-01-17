@@ -1,33 +1,8 @@
 import React from "react";
-// import { Slide } from "react-slideshow-image";
-// import "react-slideshow-image/dist/styles.css";
 import "tw-elements";
 
 const Slider = () => {
-  // const images = [
-  //   "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  //   "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-  //   "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  // ];
-
   return (
-    // <Slide>
-    //   <div className="each-slide-effect">
-    //     <div style={{ backgroundImage: `url(${images[0]})` }}>
-    //       {/* <span>Slide 1</span> */}
-    //     </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //     <div style={{ backgroundImage: `url(${images[1]})` }}>
-    //       {/* <span>Slide 2</span> */}
-    //     </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //     <div style={{ backgroundImage: `url(${images[2]})` }}>
-    //       {/* <span>Slide 3</span> */}
-    //     </div>
-    //   </div>
-    // </Slide>
     <div
       id="carouselExampleIndicators"
       className="carousel slide relative"
@@ -54,27 +29,40 @@ const Slider = () => {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
-        <div className="carousel-item active float-left w-full">
+        <div className="carousel-item active float-left w-full ">
           <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-            className="block w-full"
+            src="https://i.ibb.co/89XVWtw/pexels-photo-1307698-1.jpg"
+            className="block w-full md:h-[550px]"
             alt="Wild Landscape"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-            className="block w-full"
+            src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="block w-full md:h-[550px]"
             alt="Camera"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-            className="block w-full"
+            src="https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="block w-full md:h-[550px]"
             alt="Exotic Fruits"
+          />
+        </div>
+        <div className="carousel-item float-left w-full">
+          <img
+            src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="block w-full md:h-[550px]"
+            alt="xxxx"
           />
         </div>
       </div>

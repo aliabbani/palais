@@ -33,7 +33,7 @@ const NavBar = () => {
               </Link>
               <div>restaurants</div>
               <Link to="/loyality">
-                <div>loyality card</div>
+                <div>Palais club card</div>
               </Link>
               <div>careers</div>
               <Link to="/contact">
@@ -53,13 +53,13 @@ const NavBar = () => {
                 <div>brand</div>
               </Link>
               <Link to="/loyality">
-                <div>loyality card</div>
+                <div>Palais club card</div>
               </Link>
               <div>careers</div>
               <Link to="/contact">
                 <div>contact</div>
               </Link>
-              <a href="https://menu.omegasoftware.ca/lepalais1">Menu</a>
+              <div>Palais for business</div>
               <div className="text-yellow-700">+243 999</div>
             </div>
           </div>
