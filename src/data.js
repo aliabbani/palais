@@ -21,21 +21,21 @@ export const palaisSnackMenuAmuseBouche = [
     ingredient: "pomme de terre, crème aigre doux, bbq sauce, sauce cocktail",
     price: "7.5",
     desc: "",
-    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+    image: "https://i.ibb.co/k1V3Gnc/download-1.jpg",
   },
   {
     name: "Batonnet De Mozzarella",
     ingredient: "5 pièces mozzarella pané, sauce cocktail",
     price: "8",
     desc: "",
-    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+    image: "https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg",
   },
   {
     name: "Fish Finger",
     ingredient: "5 pièces de poisson pané, sauce tartare",
     price: "10",
     desc: "",
-    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+    image: "",
   },
 ];
 
