@@ -6,7 +6,13 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        navColor: {
+          DEFAULT: "#f5f6f6",
+        },
+      },
+    },
   },
   plugins: [require("tw-elements/dist/plugin")],
 };

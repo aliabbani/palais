@@ -52,7 +52,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(1)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 1
+            nav === 1
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -62,7 +62,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(2)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 2
+            nav === 2
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -72,7 +72,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(3)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 3
+            nav === 3
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -82,7 +82,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(4)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 4
+            nav === 4
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -92,7 +92,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(5)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 5
+            nav === 5
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -102,7 +102,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(6)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 6
+            nav === 6
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -112,7 +112,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(7)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 7
+            nav === 7
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -122,7 +122,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(8)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 8
+            nav === 8
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -132,7 +132,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(9)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 9
+            nav === 9
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -142,7 +142,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(10)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 10
+            nav === 10
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -150,7 +150,7 @@ const Lepalais = () => {
           PETIT DEJEUNER
         </button>
       </nav>
-      {nav == 1 ? (
+      {nav === 1 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -230,23 +230,23 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 2 ? (
+      ) : nav === 2 ? (
         <div className="border border-yellow-500">Item 2</div>
-      ) : nav == 3 ? (
+      ) : nav === 3 ? (
         <div className="border border-red-200">Item 3</div>
-      ) : nav == 4 ? (
+      ) : nav === 4 ? (
         <div className="border border-blue-300">Item 4</div>
-      ) : nav == 5 ? (
+      ) : nav === 5 ? (
         <div className="border border-yellow-500">Item 5</div>
-      ) : nav == 6 ? (
+      ) : nav === 6 ? (
         <div className="border border-blue-300">Item 6</div>
-      ) : nav == 7 ? (
+      ) : nav === 7 ? (
         <div className="border border-red-200">Item 7</div>
-      ) : nav == 8 ? (
+      ) : nav === 8 ? (
         <div className="border border-green-600">Item 8</div>
-      ) : nav == 9 ? (
+      ) : nav === 9 ? (
         <div className="border border-black">Item 9</div>
-      ) : nav == 10 ? (
+      ) : nav === 10 ? (
         <div className="border border-yellow-500">Item 10</div>
       ) : (
         <div></div>
