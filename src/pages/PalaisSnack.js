@@ -180,6 +180,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -260,6 +261,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -340,6 +342,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -420,6 +423,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -496,6 +500,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -576,6 +581,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -656,6 +662,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -736,6 +743,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -816,6 +824,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -896,6 +905,7 @@ const PalaisSnack = () => {
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
