@@ -91,3 +91,9 @@ body {
 .custom-dot-list-style {
   border: 1px solid red;
 }
+
+@media (min-width: 992px) {
+  .rotate-lg-6 {
+    transform: rotate(6deg);
+  }
+}

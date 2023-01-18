@@ -17,6 +17,7 @@ import {
 } from "../data";
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import RestaurantsMaps from "../components/RestaurantsMaps";
+import PalaisSnackOffer from "../components/PalaisSnackOffer";
 
 const PalaisSnack = () => {
   const [nav, setNav] = useState(1);
@@ -967,7 +968,8 @@ const PalaisSnack = () => {
           <div></div>
         )}
       </div>
-
+      {/* latest offers */}
+      <PalaisSnackOffer />
       {/* Maps & contact */}
       <RestaurantsMaps
         src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
