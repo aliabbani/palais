@@ -1,10 +1,8 @@
-import React from "react";
-import { useState } from "react";
+import React,{ useState } from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 import {
   palaisSnackMenuAmuseBouche,
   palaisSnackSalades,
@@ -18,10 +16,10 @@ import {
   palaisSnackPetitDejeuner,
 } from "../data";
 import RestaurantsSlider from "../components/RestaurantsSlider";
+import RestaurantsMaps from "../components/RestaurantsMaps";
 
 const PalaisSnack = () => {
   const [nav, setNav] = useState(1);
-  console.log("nav", nav);
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -45,10 +43,10 @@ const PalaisSnack = () => {
   return (
     <div>
       <NavBar />
-      <RestaurantsSlider 
+      <RestaurantsSlider
         src1="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
         src2="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        src3="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        src3="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80"
       />
 
       <div className="text-center pt-5 md:pt-1">
@@ -503,63 +501,13 @@ const PalaisSnack = () => {
       </div>
 
       {/* Maps & contact */}
-      <div className="container my-24 px-6 mx-auto">
-        <section className="mb-32 text-gray-800">
-          <div className="block rounded-lg shadow-lg bg-white">
-            <div className="flex flex-wrap items-center">
-              <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
-                <div className="map-container-2 h-[500px] w-full">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
-                    allowFullScreen
-                    className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    alt=""
-                    title="title"
-                  ></iframe>
-                </div>
-              </div>
-              <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-                <div className="flex flex-wrap pt-12 lg:pt-0">
-                  <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                    <div className="flex items-start">
-                      <div className="shrink-0">
-                        <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center text-white text-4xl">
-                          <MdWifiCalling />
-                        </div>
-                      </div>
-                      <div className="grow ml-6">
-                        <p className="font-bold mb-1">
-                          Reservation & Enquiries
-                        </p>
-                        <p className="text-gray-500">
-                          lepalais1restaurant@gmail.com
-                        </p>
-                        <p className="text-gray-500">+243-907-626-431</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
-                    <div className="flex items-start">
-                      <div className="shrink-0">
-                        <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center text-white text-4xl">
-                          <MdOutlineDeliveryDining />
-                        </div>
-                      </div>
-                      <div className="grow ml-6">
-                        <p className="font-bold mb-1">Delivery Order</p>
-                        <p className="text-gray-500">+234-999-444-333</p>
-                        <p className="text-gray-500">+234-999-555-333</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+      <RestaurantsMaps
+        src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
+        email="lepalais1restaurant@gmail.com"
+        phone1="+243-907-626-431"
+        phone2="+234-999-444-333"
+        phone3="+234-999-555-333"
+      />
       <Footer />
     </div>
   );
