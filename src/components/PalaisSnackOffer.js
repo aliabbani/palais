@@ -2,7 +2,7 @@ import React from "react";
 
 const PalaisSnackOffer = () => {
   return (
-    <div className="container my-24 px-6 mx-auto">
+    <div className="container my-10 px-6 mx-auto">
       <section className="sectionPalaisSnackOffer mb-32 text-gray-800 text-center lg:text-left">
         <div className="md:px-6 py-12 md:px-12">
           <div className="container mx-auto xl:px-32">

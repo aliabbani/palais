@@ -29,7 +29,9 @@ const Home = () => {
               <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
                 <div className="bg-yellow-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
                   <div className="lg:pl-12">
-                    <h2 className="text-3xl font-bold mb-6">Let it surprise you</h2>
+                    <h2 className="text-3xl font-bold mb-6">
+                      Let it surprise you
+                    </h2>
                     <p className="mb-6 pb-2 lg:pb-0">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Maxime, sint, repellat vel quo quisquam accusamus in qui
@@ -102,7 +104,7 @@ const Home = () => {
           </section>
         </div>
       </div>
-      <h2 className="text-2xl font-black text-center pt-4">
+      <h2 className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight pt-4">
         Palais restaurants
       </h2>
       <GridRestaurants />
