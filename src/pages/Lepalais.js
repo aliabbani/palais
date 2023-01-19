@@ -184,7 +184,7 @@ const Lepalais = () => {
               : "border-none"
           }`}
         >
-          MANAKISH ET kAAK
+          Manakish Et kaak
         </button>
         <button
           onClick={() => setNav(13)}
@@ -194,7 +194,7 @@ const Lepalais = () => {
               : "border-none"
           }`}
         >
-          SUSHI
+          Sushi
         </button>
         <button
           onClick={() => setNav(14)}
@@ -204,7 +204,7 @@ const Lepalais = () => {
               : "border-none"
           }`}
         >
-          DESSERTS
+          Desserts
         </button>
       </nav>
       {nav == 1 ? (
@@ -288,84 +288,82 @@ const Lepalais = () => {
           </div>
         </div>
       ) : nav == 2 ? (
-        <div className="border border-yellow-500">
-          <div className="bg-[#262527] py-16">
-            <div className="mx-10">
-              <div className="mx-2 pb-10 text-white">
-                <div className="flex flex-row justify-between align-center items-center">
-                  <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
-                    Salades
-                  </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
-                </div>
+        <div className="bg-[#262527] py-16">
+          <div className="mx-10">
+            <div className="mx-2 pb-10 text-white">
+              <div className="flex flex-row justify-between align-center items-center">
+                <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
+                  Salades
+                </h2>
                 <div>
-                  <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
-                  </div>
+                  <a
+                    href="https://menu.omegasoftware.ca/lepalais1"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      delivery menu
+                    </button>
+                  </a>
                 </div>
               </div>
-              <div className="">
-                <Carousel
-                  responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
-                  ssr={true}
-                  infinite={true}
-                  // keyBoardControl={true}
-                  containerclassName="carousel-container"
-                  removeArrowOnDeviceType={["tablet", "mobile"]}
-                  // deviceType={this.props.deviceType}
-                  dotListclassName="custom-dot-list-style"
-                  itemclassName="carousel-item-padding-40-px"
-                >
-                  {palaisSalades.map((item, index) => {
-                    return (
-                      <div className="" key={index}>
+              <div>
+                <div className="text-xs pr-0 md:pr-60 pt-5">
+                  Market fresh salads made with only the best vegetables of the
+                  bunch, carefully selected every day.<br></br>
+                  Mix and match as you like from our list of homemade dressings:
+                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
+                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
+                  lemon • Cuban • Caesar • Light vinegar
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <Carousel
+                responsive={responsive}
+                swipeable={false}
+                draggable={false}
+                ssr={true}
+                infinite={true}
+                // keyBoardControl={true}
+                containerclassName="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                // deviceType={this.props.deviceType}
+                dotListclassName="custom-dot-list-style"
+                itemclassName="carousel-item-padding-40-px"
+              >
+                {palaisSalades.map((item, index) => {
+                  return (
+                    <div className="" key={index}>
+                      <div
+                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                        style={{ backgroundPosition: "50%" }}
+                      >
+                        <img
+                          src={item.image}
+                          alt=""
+                          className="w-max-xs h-[300px] rounded"
+                        />
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                          style={{ backgroundPosition: "50%" }}
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
-                          <img
-                            src={item.image}
-                            alt=""
-                            className="w-max-xs h-[300px] rounded"
-                          />
-                          <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
-                          >
-                            <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
-                                {item.name}
-                              </h2>
-                              <p className="text-white opacity-100">
-                                {item.ingredient}
-                              </p>
-                            </div>
+                          <div className="flex flex-col px-2 justify-center items-center h-full">
+                            <h2 className="text-white opacity-100">
+                              {item.name}
+                            </h2>
+                            <p className="text-white opacity-100">
+                              {item.ingredient}
+                            </p>
                           </div>
                         </div>
                       </div>
-                    );
-                  })}
-                </Carousel>
-              </div>
+                    </div>
+                  );
+                })}
+              </Carousel>
             </div>
           </div>
         </div>

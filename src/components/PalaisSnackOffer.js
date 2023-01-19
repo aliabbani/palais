@@ -12,16 +12,12 @@ const PalaisSnackOffer = (props) => {
                   className="relative block rounded-lg shadow-lg px-6 pt-12 pb-6 md:px-12 lg:-mr-14"
                   style={{
                     background: "hsla(0, 0%, 100%, 0.55)",
-                    "backdrop-filter": "blur(30px)",
-                    "z-index": "1",
+                    backdropFilter: "blur(30px)",
+                    zIndex: "1",
                   }}
                 >
-                  <h2 className="text-3xl font-bold mb-6">
-                    {props.title}
-                  </h2>
-                  <p className="text-gray-500 mb-6">
-                    {props.description}
-                  </p>
+                  <h2 className="text-3xl font-bold mb-6">{props.title}</h2>
+                  <p className="text-gray-500 mb-6">{props.description}</p>
 
                   <div className="grid md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-2">
                     <div className="mb-6">
