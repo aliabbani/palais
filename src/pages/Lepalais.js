@@ -6,6 +6,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import RestaurantsMaps from "../components/RestaurantsMaps";
+import PalaisSnackOffer from "../components/PalaisSnackOffer";
 import {
   palaisMenuAmuseBouche,
   palaisSalades,
@@ -1336,15 +1337,26 @@ const Lepalais = () => {
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
           Latest Offers
         </div>
-        {/* <PalaisSnackOffer /> */}
+        <PalaisSnackOffer
+          title="Why is it so great?"
+          description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
+                    neque iaculis malesuada. Aenean gravida magna orci, non
+                    efficitur est porta id. Donec magna diam."
+          src1="https://i.ibb.co/QQzmZff/15-discount.jpg"
+        />
       </div>
-      <RestaurantsMaps
-        src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15913.734604197723!2d15.2733285!3d-4.329369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbdb935e1cc4340f!2sLe%20Palais!5e0!3m2!1sen!2scd!4v1673626795800!5m2!1sen!2scd"
-        email="lepalaisrestaurant@gmail.com"
-        phone1="+243-999-999-999"
-        phone2="+243-999-999-999"
-        phone3="+243-999-999-999"
-      />
+      <div className="">
+        <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
+          Our Contact
+        </div>
+        <RestaurantsMaps
+          src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15913.734604197723!2d15.2733285!3d-4.329369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbdb935e1cc4340f!2sLe%20Palais!5e0!3m2!1sen!2scd!4v1673626795800!5m2!1sen!2scd"
+          email="lepalaisrestaurant@gmail.com"
+          phone1="+243-999-999-999"
+          phone2="+243-999-999-999"
+          phone3="+243-999-999-999"
+        />
+      </div>
       <Footer />
     </div>
   );

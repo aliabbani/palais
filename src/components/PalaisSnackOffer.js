@@ -1,6 +1,6 @@
 import React from "react";
 
-const PalaisSnackOffer = () => {
+const PalaisSnackOffer = (props) => {
   return (
     <div className="container my-10 px-6 mx-auto">
       <section className="sectionPalaisSnackOffer mb-32 text-gray-800 text-center lg:text-left">
@@ -17,12 +17,10 @@ const PalaisSnackOffer = () => {
                   }}
                 >
                   <h2 className="text-3xl font-bold mb-6">
-                    Why is it so great?
+                    {props.title}
                   </h2>
                   <p className="text-gray-500 mb-6">
-                    Nunc tincidunt vulputate elit. Mauris varius purus malesuada
-                    neque iaculis malesuada. Aenean gravida magna orci, non
-                    efficitur est porta id. Donec magna diam.
+                    {props.description}
                   </p>
 
                   <div className="grid md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-2">
@@ -78,7 +76,7 @@ const PalaisSnackOffer = () => {
               </div>
               <div className="md:mb-12 lg:mb-0">
                 <img
-                  src="https://i.ibb.co/QQzmZff/15-discount.jpg"
+                  src={props.src1}
                   className="w-full rounded-lg shadow-lg rotate-lg-6"
                   alt=""
                 />

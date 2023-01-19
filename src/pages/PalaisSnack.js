@@ -983,7 +983,13 @@ const PalaisSnack = () => {
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
           Latest Offers
         </div>
-        <PalaisSnackOffer />
+        <PalaisSnackOffer
+          title="Why is it so great?"
+          description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
+                    neque iaculis malesuada. Aenean gravida magna orci, non
+                    efficitur est porta id. Donec magna diam."
+          src1="https://i.ibb.co/QQzmZff/15-discount.jpg"
+        />
       </div>
       {/* Maps & contact */}
       <div className="">
