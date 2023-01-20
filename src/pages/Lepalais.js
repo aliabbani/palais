@@ -22,6 +22,12 @@ import {
   palaisManakishEtKaak,
   palaisDesserts,
   palaisSushiNegiri,
+  palaisSushiEntreesEtSalades,
+  palaisSushiMakiRolls,
+  palaisSushiLePalaisRolls,
+  palaisSushiSashimi,
+  palaisSushiChefSignaturesRolls,
+  palaisSushiLesPlateaux,
 } from "../data1";
 
 const Lepalais = () => {
@@ -1282,51 +1288,329 @@ const Lepalais = () => {
                 </nav>
               </div>
             </div>
-            <div className="">
-              <Carousel
-                responsive={responsive}
-                swipeable={false}
-                draggable={false}
-                ssr={true}
-                infinite={true}
-                // keyBoardControl={true}
-                containerclassName="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
-                // deviceType={this.props.deviceType}
-                dotListclassName="custom-dot-list-style"
-                itemclassName="carousel-item-padding-40-px"
-              >
-                {palaisSushiNegiri.map((item, index) => {
-                  return (
-                    <div className="" key={index}>
-                      <div
-                        className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
-                        style={{ backgroundPosition: "50%" }}
-                      >
-                        <img
-                          src={item.image}
-                          alt=""
-                          className="w-max-xs h-[300px] rounded"
-                        />
+            {sushiNav === 1 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiNegiri.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                          style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
                         >
-                          <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
-                              {item.name}
-                            </h2>
-                            <p className="text-white opacity-100">
-                              {item.ingredient}
-                            </p>
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 2 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiEntreesEtSalades.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 3 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiMakiRolls.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 4 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiLePalaisRolls.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 5 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiSashimi.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 6 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiChefSignaturesRolls.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : sushiNav === 7 ? (
+              <div className="">
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                  ssr={true}
+                  infinite={true}
+                  // keyBoardControl={true}
+                  containerclassName="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  // deviceType={this.props.deviceType}
+                  dotListclassName="custom-dot-list-style"
+                  itemclassName="carousel-item-padding-40-px"
+                >
+                  {palaisSushiLesPlateaux.map((item, index) => {
+                    return (
+                      <div className="" key={index}>
+                        <div
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          style={{ backgroundPosition: "50%" }}
+                        >
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="w-max-xs h-[300px] rounded"
+                          />
+                          <div
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                          >
+                            <div className="flex flex-col px-2 justify-center items-center h-full">
+                              <h2 className="text-white opacity-100">
+                                {item.name}
+                              </h2>
+                              <p className="text-white opacity-100">
+                                {item.ingredient}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Carousel>
+              </div>
+            ) : null}
           </div>
         </div>
       ) : nav === 14 ? (
