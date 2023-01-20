@@ -51,7 +51,11 @@ const PalaisSnack = () => {
       />
 
       <div className="text-center pt-5 md:pt-1">
-        <a href="https://menu.omegasoftware.ca/lepalais1" target="_blank">
+        <a
+          href="https://menu.omegasoftware.ca/lepalais1"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             href="https://menu.omegasoftware.ca/lepalais1"
             type="button"

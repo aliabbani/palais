@@ -55,7 +55,11 @@ const Lepalais = () => {
         src3="https://images.unsplash.com/photo-1567667778211-b19f5a4e1efe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       />
       <div className="text-center pt-5 md:pt-1">
-        <a href="https://menu.omegasoftware.ca/lepalais1" target="_blank">
+        <a
+          href="https://menu.omegasoftware.ca/lepalais1"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             href="https://menu.omegasoftware.ca/lepalais1"
             type="button"
@@ -69,7 +73,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(1)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 1
+            nav === 1
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -79,7 +83,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(2)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 2
+            nav === 2
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -89,7 +93,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(3)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 3
+            nav === 3
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -99,7 +103,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(4)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 4
+            nav === 4
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -109,7 +113,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(5)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 5
+            nav === 5
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -119,7 +123,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(6)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 6
+            nav === 6
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -129,7 +133,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(7)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 7
+            nav === 7
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -138,18 +142,17 @@ const Lepalais = () => {
         </button>
         <button
           onClick={() => setNav(8)}
-          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 8
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${(nav ===
+            8
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
-              : "border-none"
-          }`}
+              : "border-none")}`}
         >
           MEZZES CHAUDS
         </button>
         <button
           onClick={() => setNav(9)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 9
+            nav === 9
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -159,7 +162,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(10)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 10
+            nav === 10
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -169,7 +172,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(11)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 11
+            nav === 11
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -179,7 +182,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(12)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 12
+            nav === 12
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -189,7 +192,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(13)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 13
+            nav === 13
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -199,7 +202,7 @@ const Lepalais = () => {
         <button
           onClick={() => setNav(14)}
           className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
-            nav == 14
+            nav === 14
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
               : "border-none"
           }`}
@@ -207,7 +210,7 @@ const Lepalais = () => {
           Desserts
         </button>
       </nav>
-      {nav == 1 ? (
+      {nav === 1 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -288,7 +291,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 2 ? (
+      ) : nav === 2 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -369,7 +372,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 3 ? (
+      ) : nav === 3 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -450,7 +453,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 4 ? (
+      ) : nav === 4 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -531,7 +534,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 5 ? (
+      ) : nav === 5 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -612,7 +615,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 6 ? (
+      ) : nav === 6 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -693,7 +696,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 7 ? (
+      ) : nav === 7 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -774,7 +777,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 8 ? (
+      ) : nav === 8 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -855,7 +858,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 9 ? (
+      ) : nav === 9 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -936,7 +939,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 10 ? (
+      ) : nav === 10 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -1017,7 +1020,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 11 ? (
+      ) : nav === 11 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -1098,7 +1101,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 12 ? (
+      ) : nav === 12 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -1179,7 +1182,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 13 ? (
+      ) : nav === 13 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
@@ -1260,7 +1263,7 @@ const Lepalais = () => {
             </div>
           </div>
         </div>
-      ) : nav == 14 ? (
+      ) : nav === 14 ? (
         <div className="bg-[#262527] py-16">
           <div className="mx-10">
             <div className="mx-2 pb-10 text-white">
