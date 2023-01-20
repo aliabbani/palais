@@ -21,7 +21,7 @@ import {
   palaisPlats,
   palaisManakishEtKaak,
   palaisDesserts,
-  palaisSushi,
+  palaisSushiNegiri,
 } from "../data1";
 
 const Lepalais = () => {
@@ -219,6 +219,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -299,6 +300,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -379,6 +381,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -459,6 +462,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -539,6 +543,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -619,6 +624,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -699,6 +705,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -779,6 +786,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -859,6 +867,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -939,6 +948,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -1019,6 +1029,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -1099,6 +1110,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -1179,6 +1191,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
@@ -1214,7 +1227,7 @@ const Lepalais = () => {
                 dotListclassName="custom-dot-list-style"
                 itemclassName="carousel-item-padding-40-px"
               >
-                {palaisSushi.map((item, index) => {
+                {palaisSushiNegiri.map((item, index) => {
                   return (
                     <div className="" key={index}>
                       <div
@@ -1259,6 +1272,7 @@ const Lepalais = () => {
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button
                       type="button"
