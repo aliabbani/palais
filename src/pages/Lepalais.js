@@ -26,6 +26,7 @@ import {
 
 const Lepalais = () => {
   const [nav, setNav] = useState(1);
+  const [sushiNav, setSushiNav] = useState(1);
 
   const responsive = {
     superLargeDesktop: {
@@ -142,10 +143,11 @@ const Lepalais = () => {
         </button>
         <button
           onClick={() => setNav(8)}
-          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${(nav ===
-            8
+          className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-100 ${
+            nav === 8
               ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
-              : "border-none")}`}
+              : "border-none"
+          }`}
         >
           MEZZES CHAUDS
         </button>
@@ -1206,14 +1208,78 @@ const Lepalais = () => {
                 </div>
               </div>
               <div>
-                <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
-                </div>
+                <nav className="mx-0 px-0 flex flex-row flex-wrap md:justify-center align-center gap-2 md:gap-3 px-2 md:px-5 text-center text-xs md:text-XS py-5">
+                  <button
+                    onClick={() => setSushiNav(1)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 1
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Negiri
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(2)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 2
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Entrees Et Salades
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(3)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 3
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Maki Rolls
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(4)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 4
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Le Palais Rolls
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(5)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 5
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Sashimi
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(6)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 6
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Chef Signatures Rolls
+                  </button>
+                  <button
+                    onClick={() => setSushiNav(7)}
+                    className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                      sushiNav === 7
+                        ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                        : "border-none"
+                    }`}
+                  >
+                    Les Plateaux
+                  </button>
+                </nav>
               </div>
             </div>
             <div className="">
