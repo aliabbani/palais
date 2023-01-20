@@ -1286,7 +1286,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/5B5Dm9P/Ebi-Shrimp.jpg",
   },
   {
     name: "Green Masago",
@@ -1368,7 +1368,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/z8fHRnW/edamam.jpg",
   },
   {
     name: "Green Vegetables (V)",
@@ -1445,7 +1445,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/d4dSqYB/download-5.jpg",
   },
   {
     name: "Cucumbrer (V)",
@@ -1548,7 +1548,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/0YtRNQM/fantastic.jpg",
   },
   {
     name: "Hokkaido Crunchy Shrimp",
@@ -1768,7 +1768,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/5B5Dm9P/Ebi-Shrimp.jpg",
   },
   {
     name: "Hamachi",
@@ -1841,7 +1841,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/0sy9kF8/Alaskan-Salmon.jpg",
   },
   {
     name: "Angry Crab",
@@ -1958,7 +1958,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "16 pieces",
     price: "40",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MnCdD6Q/Chori-1.jpg",
   },
   {
     name: "Fuji Mountain",

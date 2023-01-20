@@ -1196,7 +1196,7 @@ const Lepalais = () => {
             <div className="mx-2 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
-                  palaisSushi
+                  Sushi
                 </h2>
                 <div>
                   <a
