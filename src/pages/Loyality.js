@@ -9,7 +9,7 @@ const Loyality = () => {
   return (
     <div>
       <NavBar />
-      <div className="main flex flex-col justify-around pb-10 px-2 md:px-72">
+      <div className="main flex flex-col justify-around pb-10 px-2 md:px-20 lg:px-40">
         <div>
           <div className="uppercase text-2xl md:text-6xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
             carte de fidélité

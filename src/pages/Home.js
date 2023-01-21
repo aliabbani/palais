@@ -11,9 +11,9 @@ const Home = () => {
       <NavBar />
       <Slider />
 
-      <div className="pt-10">
+      <div className="">
         <div className="container my-24 px-6 mx-auto">
-          <section className="mb-32">
+          <section className="mb-20">
             <div className="flex flex-wrap">
               <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
                 <div className="flex lg:py-12">

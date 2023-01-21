@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function GridRestaurants() {
   return (
-    <div className="main px-2 md:px-2 py-10 md:py-10 justify-evenly flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8">
+    <div className="mb-10 main px-2 md:px-2 py-10 md:py-10 justify-evenly flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8">
       {/* first */}
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-lg">

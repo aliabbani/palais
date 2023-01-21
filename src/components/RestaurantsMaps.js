@@ -3,7 +3,7 @@ import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 
 const RestaurantsMaps = (props) => {
   return (
-    <div className="container my-24 px-6 mx-auto">
+    <div className="container my-12 px-6 mx-auto">
       <section className="mb-32 text-gray-800">
         <div className="block rounded-lg shadow-lg bg-white">
           <div className="flex flex-wrap items-center">

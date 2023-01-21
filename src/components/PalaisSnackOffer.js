@@ -4,7 +4,7 @@ const PalaisSnackOffer = (props) => {
   return (
     <div className="container my-10 px-6 mx-auto">
       <section className="sectionPalaisSnackOffer mb-32 text-gray-800 text-center lg:text-left">
-        <div className="md:px-6 py-12 md:px-12">
+        <div className="md:px-6 md:py-12 md:px-12">
           <div className="container mx-auto xl:px-32">
             <div className="grid lg:grid-cols-2 flex items-center">
               <div className="md:mt-12 lg:mt-0 mb-12 lg:mb-0">
