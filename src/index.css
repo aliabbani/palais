@@ -66,6 +66,9 @@ body {
 .custom-dot-list-style {
   border: 1px solid red;
 }
+.custom-dot-list-style {
+  padding-top: 5rem;
+}
 
 @media (min-width: 992px) {
   .rotate-lg-6 {
