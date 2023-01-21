@@ -28,10 +28,12 @@ const NavBar = () => {
             />
           </div>
           <div className="items-center justify-center gap-5 bg-white text-white uppercase h-full flex flex-col text-black font-semibold text-lg">
+            <Link to="/">
+              <div>restaurants</div>
+            </Link>
             <Link to="/brand">
               <div>brand</div>
             </Link>
-            <div>restaurants</div>
             <Link to="/loyality">
               <div>Palais club card</div>
             </Link>
@@ -39,7 +41,7 @@ const NavBar = () => {
             <Link to="/contact">
               <div>contact</div>
             </Link>
-            <a href="https://menu.omegasoftware.ca/lepalais1">menu</a>
+            <div>Palais for business</div>
           </div>
         </div>
       ) : (
@@ -56,6 +58,9 @@ const NavBar = () => {
               <div>Palais club card</div>
             </Link>
             <div>careers</div>
+            <Link to="/contact">
+              <div>contact</div>
+            </Link>
             <Link to="/contact">
               <div>contact</div>
             </Link>
