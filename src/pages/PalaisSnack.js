@@ -210,7 +210,7 @@ const PalaisSnack = () => {
                 <Carousel
                   responsive={responsive}
                   swipeable={false}
-                  draggable={false}
+                  draggable={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
