@@ -209,7 +209,7 @@ const PalaisSnack = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
+                  swipeable={true}
                   draggable={true}
                   showDots={true}
                   ssr={true}
