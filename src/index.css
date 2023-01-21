@@ -41,20 +41,6 @@ body {
   background-size: cover;
 }
 
-/* .fidelity,
-.place {
-  font-family: "COCOGOOSE", sans-serif;
-  color: rgba(255, 0, 0, 0.678);
-  font-size: 45px;
-  line-height: 52px;
-  font-weight: 700;
-} */
-
-/* .slick-prev:before,
-.slick-next:before {
-  color: yellow !important;
-} */
-
 .carousel-container {
   border: 1px solid black;
 }
@@ -68,10 +54,6 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
-
-/* .react-multi-carousel-track {
-  gap: 10px;
-} */
 
 .react-multiple-carousel__arrow--right {
   right: calc(0% + 1px) !important;

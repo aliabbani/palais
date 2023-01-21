@@ -39,28 +39,28 @@ const Slider = () => {
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item active float-left w-full ">
           <img
-            src="https://i.ibb.co/89XVWtw/pexels-photo-1307698-1.jpg"
+            src="https://i.ibb.co/9v9RZqY/restaurant1.jpg"
             className="block w-full md:h-[550px]"
             alt="Wild Landscape"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://i.ibb.co/L522hT3/restaurant2.jpg"
             className="block w-full md:h-[550px]"
             alt="Camera"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://i.ibb.co/5Mp7zqk/restaurant3.jpg"
             className="block w-full md:h-[550px]"
             alt="Exotic Fruits"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://i.ibb.co/hdhwWwN/restaurant4.jpg"
             className="block w-full md:h-[550px]"
             alt="xxxx"
           />
