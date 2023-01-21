@@ -41,21 +41,14 @@ body {
   background-size: cover;
 }
 
-.fidelity,
+/* .fidelity,
 .place {
   font-family: "COCOGOOSE", sans-serif;
   color: rgba(255, 0, 0, 0.678);
   font-size: 45px;
   line-height: 52px;
   font-weight: 700;
-}
-
-.paragraph {
-  border: 3px solid white;
-  padding: 2vh 2vw;
-  line-height: 170%;
-  background: #d3d3d3;
-}
+} */
 
 /* .slick-prev:before,
 .slick-next:before {

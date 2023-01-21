@@ -61,9 +61,6 @@ const NavBar = () => {
             <Link to="/contact">
               <div>contact</div>
             </Link>
-            <Link to="/contact">
-              <div>contact</div>
-            </Link>
             <div>Palais for business</div>
             <div className="text-yellow-700">+243 999</div>
           </div>

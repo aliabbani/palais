@@ -12,13 +12,13 @@ const Loyality = () => {
       <div className="main flex flex-col justify-around pb-10 px-2 md:px-20 lg:px-40">
         <div>
           <div className="uppercase text-2xl md:text-6xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
-            carte de fidélité
+            Palais club card
           </div>
         </div>
         <div className="uppercase text-xl md:text-4xl font-black capitalize pb-6 pb-10">
           vous garder une place
         </div>
-        <div className="paragraph mb-10">
+        <div className="border-4 border-white p-6 leading-relaxed bg-[#d3d3d3] mb-10">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
