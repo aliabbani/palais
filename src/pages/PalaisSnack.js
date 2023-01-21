@@ -211,6 +211,7 @@ const PalaisSnack = () => {
                   responsive={responsive}
                   swipeable={false}
                   draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
