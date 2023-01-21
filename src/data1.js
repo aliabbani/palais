@@ -1748,16 +1748,16 @@ export const palaisSushiLePalaisRolls = [
     desc: "",
     image: "",
   },
-  {
-    name: "Dynamite Roll",
-    ingredient: "Saumon Frais, Avocat, Pili-Pili, Oeufs de Capelan, Nori, Riz",
-    pieces: "4 pieces",
-    price: "10.5",
-    pieces1: "8 pieces",
-    price1: "19",
-    desc: "",
-    image: "",
-  },
+  // {
+  //   name: "Dynamite Roll",
+  //   ingredient: "Saumon Frais, Avocat, Pili-Pili, Oeufs de Capelan, Nori, Riz",
+  //   pieces: "4 pieces",
+  //   price: "10.5",
+  //   pieces1: "8 pieces",
+  //   price1: "19",
+  //   desc: "",
+  //   image: "",
+  // },
 ];
 export const palaisSushiSashimi = [
   {
