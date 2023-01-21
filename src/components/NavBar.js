@@ -12,7 +12,7 @@ const NavBar = () => {
           <div>Palais</div>
         </Link>
         <AiOutlineMenu
-          className={`flex md:hidden text-4xl text-white hover:text-yellow-600 cursor-pointer transition ease transform duration-300
+          className={`flex md:hidden text-4xl text-white hover:text-yellow-600 cursor-pointer transition-property ease transform duration-300
           ${
             showMenu
                 ? "rotate-180 translate-y-3"

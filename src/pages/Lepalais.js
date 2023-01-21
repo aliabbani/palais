@@ -70,7 +70,7 @@ const Lepalais = () => {
           <button
             href="https://menu.omegasoftware.ca/lepalais1"
             type="button"
-            className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+            className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
           >
             delivery menu
           </button>
@@ -234,7 +234,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -279,7 +279,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -315,7 +315,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -360,7 +360,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -396,7 +396,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -441,7 +441,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -477,7 +477,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -522,7 +522,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -558,7 +558,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -603,7 +603,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -639,7 +639,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -684,7 +684,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -720,7 +720,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -765,7 +765,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -801,7 +801,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -846,7 +846,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -882,7 +882,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -927,7 +927,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -963,7 +963,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -1008,7 +1008,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1044,7 +1044,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -1089,7 +1089,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1125,7 +1125,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -1170,7 +1170,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1206,7 +1206,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -1316,7 +1316,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1362,7 +1362,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1408,7 +1408,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1454,7 +1454,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1500,7 +1500,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1546,7 +1546,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1592,7 +1592,7 @@ const Lepalais = () => {
                             className="w-max-xs h-[300px] rounded"
                           />
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
@@ -1629,7 +1629,7 @@ const Lepalais = () => {
                   >
                     <button
                       type="button"
-                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                      className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
                     >
                       delivery menu
                     </button>
@@ -1674,7 +1674,7 @@ const Lepalais = () => {
                           className="w-max-xs h-[300px] rounded"
                         />
                         <div
-                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                          className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
