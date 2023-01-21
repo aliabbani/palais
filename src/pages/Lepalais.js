@@ -220,8 +220,8 @@ const Lepalais = () => {
       </nav>
       {nav === 1 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Amuse Bouche
@@ -255,8 +255,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -301,8 +302,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 2 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Salades
@@ -336,8 +337,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -382,8 +384,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 3 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Pates Et Risottos
@@ -417,8 +419,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -463,8 +466,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 4 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Pizza
@@ -498,8 +501,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -544,8 +548,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 5 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Sandwiches
@@ -579,8 +583,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -625,8 +630,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 6 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Burgers
@@ -660,8 +665,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -706,8 +712,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 7 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Mezzes Froids
@@ -741,8 +747,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -787,8 +794,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 8 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Mezzes Chauds
@@ -822,8 +829,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -868,8 +876,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 9 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Shawarma
@@ -903,8 +911,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -949,8 +958,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 10 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Grillades
@@ -984,8 +993,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -1030,8 +1040,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 11 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Plats
@@ -1065,8 +1075,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -1111,8 +1122,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 12 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Manakish Et Kaak
@@ -1146,8 +1157,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
@@ -1192,8 +1204,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 13 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Sushi
@@ -1292,8 +1304,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1338,8 +1351,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1384,8 +1398,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1430,8 +1445,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1476,8 +1492,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1522,8 +1539,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1568,8 +1586,9 @@ const Lepalais = () => {
               <div className="">
                 <Carousel
                   responsive={responsive}
-                  swipeable={false}
-                  draggable={false}
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                   ssr={true}
                   infinite={true}
                   // keyBoardControl={true}
@@ -1615,8 +1634,8 @@ const Lepalais = () => {
         </div>
       ) : nav === 14 ? (
         <div className="bg-[#262527] py-16">
-          <div className="mx-10">
-            <div className="mx-2 pb-10 text-white">
+          <div className="md:mx-10">
+            <div className="mx-10 pb-10 text-white">
               <div className="flex flex-row justify-between align-center items-center">
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Desserts
@@ -1650,8 +1669,9 @@ const Lepalais = () => {
             <div className="">
               <Carousel
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
+                showDots={true}
                 ssr={true}
                 infinite={true}
                 // keyBoardControl={true}
