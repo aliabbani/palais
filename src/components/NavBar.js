@@ -7,17 +7,13 @@ const NavBar = () => {
 
   return (
     <nav className="flex flex-row w-full justify-between bg-[#272a31]">
-      <div className="flex flex-row justify-between items-center text-white uppercase p-6 w-full md:w-max">
+      <div className="flex flex-row justify-between items-center text-white uppercase p-6 w-full lg:w-max">
         <Link to="/">
           <div>Palais</div>
         </Link>
         <AiOutlineMenu
-          className={`flex md:hidden text-4xl text-white hover:text-yellow-600 cursor-pointer transition-property ease transform duration-300
-          ${
-            showMenu
-                ? "rotate-180 translate-y-3"
-                : ""
-        }`}
+          className={`flex lg:hidden text-4xl text-white hover:text-yellow-600 cursor-pointer transition-property ease transform duration-300
+          ${showMenu ? "rotate-180 translate-y-3" : ""}`}
           onClick={() => setShowMenu(true)}
         />
       </div>
@@ -48,7 +44,7 @@ const NavBar = () => {
         </div>
       ) : (
         // desktop
-        <div className="hidden md:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
+        <div className="hidden lg:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
           <div className="flex md:gap-5 lg:gap-10 text-white uppercase">
             <Link to="/">
               <div>restaurants</div>
