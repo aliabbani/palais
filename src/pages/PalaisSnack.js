@@ -174,8 +174,8 @@ const PalaisSnack = () => {
         {/* amouse bouche carousel */}
         {nav === 1 ? (
           <div className="bg-[#262527] py-16">
-            <div className="mx-10">
-              <div className="mx-2 pb-10 text-white">
+            <div className="md:mx-10">
+              <div className="mx-10 pb-10 text-white">
                 <div className="flex flex-row justify-between align-center items-center">
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Amuse Bouche
