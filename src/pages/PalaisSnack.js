@@ -965,7 +965,7 @@ const PalaisSnack = () => {
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-xs h-max-xs rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
