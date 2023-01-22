@@ -1,3 +1,4 @@
+// image w:430px h:320px
 // inital data - dynamic data strutre works
 export const initalState = [
   { idx: 1, pos: 1, text: "1", active: true },
@@ -14,7 +15,7 @@ export const palaisSnackMenuAmuseBouche = [
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/xMpbywb/fries-1.jpg",
+    image: "https://i.ibb.co/2tsbdKJ/pomme-frites.png",
   },
   {
     name: "Wedges Potatos",
@@ -28,14 +29,14 @@ export const palaisSnackMenuAmuseBouche = [
     ingredient: "5 pièces mozzarella pané, sauce cocktail",
     price: "8",
     desc: "",
-    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+    image: "https://i.ibb.co/ZH9Krsy/batonnet-mozzarella.png",
   },
   {
     name: "Fish Finger",
     ingredient: "5 pièces de poisson pané, sauce tartare",
     price: "10",
     desc: "",
-    image: "https://i.ibb.co/472NK3p/fish-fingers.jpg",
+    image: "https://i.ibb.co/92z8M2z/fish-finger.png",
   },
 ];
 
@@ -214,13 +215,13 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Hamburger Plat",
-    ingredient: "2 viande, frites, choux mayonnaise, ketchup",
-    price: "13.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Hamburger Plat",
+  //   ingredient: "2 viande, frites, choux mayonnaise, ketchup",
+  //   price: "13.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Cheese Burger Sand",
     ingredient:
@@ -229,14 +230,14 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Cheese Burger Plat",
-    ingredient:
-      "2 viande, lolo rosso, sauce classic, sauce cocktail, cornichon, tomate, cheddar edam, choux mayonaise, frites",
-    price: "15.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Cheese Burger Plat",
+  //   ingredient:
+  //     "2 viande, lolo rosso, sauce classic, sauce cocktail, cornichon, tomate, cheddar edam, choux mayonaise, frites",
+  //   price: "15.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Burger Le Palais Sand",
     ingredient:
@@ -245,30 +246,30 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Burger Le Palais Plat",
-    ingredient:
-      "2 viande, fromage mozzarella, lolo rosso, tomate, cornichon, sauce cocktail, sauce classique, choux mayonaise, frites",
-    price: "16.50",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Burger Le Palais Plat",
+  //   ingredient:
+  //     "2 viande, fromage mozzarella, lolo rosso, tomate, cornichon, sauce cocktail, sauce classique, choux mayonaise, frites",
+  //   price: "16.50",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "American Burger Sand",
     ingredient:
       "Viande hachée marinée grillée, laitue, oignon frais, tomate, sauce HP, sauce classic, honey mustard, emental fromage, cheddar sauce, baby chips",
     price: "9.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/pjCvZYr/american-burger.png",
   },
-  {
-    name: "American Burger Plat",
-    ingredient:
-      "2 Viande hachée marinée grillée, laitue, oignon frais, tomate, sauce HP, sauce classic, honey mustard, emental fromage, cheddar sauce, baby chips, choux mayonaise, frites",
-    price: "17.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "American Burger Plat",
+  //   ingredient:
+  //     "2 Viande hachée marinée grillée, laitue, oignon frais, tomate, sauce HP, sauce classic, honey mustard, emental fromage, cheddar sauce, baby chips, choux mayonaise, frites",
+  //   price: "17.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Burger Au Poisson Sand",
     ingredient: "Poisson pané, laitue, cornichon, sauce tartare",
@@ -276,14 +277,14 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Burger Au Poisson Plat",
-    ingredient:
-      "2 Poisson pané, laitue, cornichon, sauce tartare, choux mayonaise, frites",
-    price: "16.5",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Burger Au Poisson Plat",
+  //   ingredient:
+  //     "2 Poisson pané, laitue, cornichon, sauce tartare, choux mayonaise, frites",
+  //   price: "16.5",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Zinger Burger Sand",
     ingredient:
@@ -292,30 +293,30 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Zinger Burger Plat",
-    ingredient:
-      "2 Poulet pané piquant, laitue, tomate, cornichon, sauce cocktail, cheddar sauce, choux mayonaise, frites, dinde",
-    price: "16.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Zinger Burger Plat",
+  //   ingredient:
+  //     "2 Poulet pané piquant, laitue, tomate, cornichon, sauce cocktail, cheddar sauce, choux mayonaise, frites, dinde",
+  //   price: "16.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Bbq Bacon Sand",
     ingredient:
       "Viande, lolo roso, sauce classic, sauce bbq, dinde bacon, cornichon, oignon caramélisé",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/khjsfLh/bbq-bacon.png",
   },
-  {
-    name: "Bbq Bacon Plat",
-    ingredient:
-      "2 Viande, lolo roso, sauce classic, sauce bbq, dinde bacon, cornichon, oignon caramélisé, choux mayonaise, frites",
-    price: "16.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Bbq Bacon Plat",
+  //   ingredient:
+  //     "2 Viande, lolo roso, sauce classic, sauce bbq, dinde bacon, cornichon, oignon caramélisé, choux mayonaise, frites",
+  //   price: "16.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Vegetarien Burger Sand",
     ingredient:
@@ -324,14 +325,14 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Vegetarien Burger Plat",
-    ingredient:
-      "mélange de légumes, sauce classic, cocktail sauce, cornichons, iceberg, tomate, choux mayonaise, frites",
-    price: "15.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Vegetarien Burger Plat",
+  //   ingredient:
+  //     "mélange de légumes, sauce classic, cocktail sauce, cornichons, iceberg, tomate, choux mayonaise, frites",
+  //   price: "15.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "Burger Poulet Mozzarella Sand",
     ingredient:
@@ -340,14 +341,14 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "Burger Poulet Mozzarella Plat",
-    ingredient:
-      "2 Blanc de poulet, lolo roso, tomate, cornichons, aioli sauce, honey mustard, mozarrella panne, choux mayonaise, frites",
-    price: "17.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "Burger Poulet Mozzarella Plat",
+  //   ingredient:
+  //     "2 Blanc de poulet, lolo roso, tomate, cornichons, aioli sauce, honey mustard, mozarrella panne, choux mayonaise, frites",
+  //   price: "17.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
   {
     name: "BURGER AU POULET SAND",
     ingredient: "Blanc de poulet, lolo roso, tomate, cornichons",
@@ -355,14 +356,14 @@ export const palaisSnackBurgers = [
     desc: "",
     image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
   },
-  {
-    name: "BURGER AU POULET PLAT",
-    ingredient:
-      "Blanc de poulet, lolo roso, tomate, cornichons,choux mayonaise, frites",
-    price: "14.00",
-    desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
-  },
+  // {
+  //   name: "BURGER AU POULET PLAT",
+  //   ingredient:
+  //     "Blanc de poulet, lolo roso, tomate, cornichons,choux mayonaise, frites",
+  //   price: "14.00",
+  //   desc: "",
+  //   image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+  // },
 ];
 
 export const palaisSnackMezzesFroids = [
@@ -663,7 +664,7 @@ export const palaisSnackBroasted = [
       "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, honey mustard sauce",
     price: "10.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/S7gpKS5/broasted-5-pieces.png",
   },
   {
     name: "Broasted Poulet 10 Pieces",
@@ -671,7 +672,7 @@ export const palaisSnackBroasted = [
       "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, honey mustard sauce",
     price: "19.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/86FmsmB/borasted-10-piecess.png",
   },
   {
     name: "Broasted Poulet Piquante 5 Pieces",
@@ -679,7 +680,7 @@ export const palaisSnackBroasted = [
       "Choux de mayonnaise, frite, cornichon, sauce ail, ketchup, sauce piquante, honey mustard sauce",
     price: "10.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/S7gpKS5/broasted-5-pieces.png",
   },
   {
     name: "Broasted Poulet Piquante 10 Pieces",
@@ -687,7 +688,7 @@ export const palaisSnackBroasted = [
       "5 pièces crispy, choux de mayonnaise, honey mustard sauce, frite, ketchup, cornichons, honey mustard sauce",
     price: "19.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/86FmsmB/borasted-10-piecess.png",
   },
   {
     name: "Crispy Au Poulet",
@@ -713,18 +714,16 @@ export const palaisSnackPetitDejeuner = [
     ingredient: "",
     price: "20.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/GcSsgq1/petit-dejeuner-continental.png",
   },
   {
-    name: "PETIT DEJEUNER ORIENTALE",
+    name: "Petit Déjeuner Orientale",
     ingredient: "",
     price: "15.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/7CkPK2L/Petit-D-jeuner-Orientale.png",
   },
 ];
-
-
 
 // {
 //   name: "",

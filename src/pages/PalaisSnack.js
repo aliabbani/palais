@@ -225,20 +225,20 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="rounded w-max-[320px] max-h-80"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -307,24 +307,24 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
-                                {item.ingredient}
+                              <p className="text-white text-base font-medium opacity-100">
+                                 {item.ingredient}
                               </p>
                             </div>
                           </div>
@@ -389,23 +389,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -467,23 +467,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -549,23 +549,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -631,23 +631,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -713,23 +713,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -795,23 +795,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -877,23 +877,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-[300px] rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
@@ -959,23 +959,23 @@ const PalaisSnack = () => {
                     return (
                       <div className="" key={index}>
                         <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-xs h-[300px]"
+                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
                           style={{ backgroundPosition: "50%" }}
                         >
                           <img
                             src={item.image}
                             alt=""
-                            className="w-max-xs h-max-xs rounded"
+                            className="w-max-[320px] max-h-80 rounded"
                           />
                           <div
                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
-                              <p className="text-white opacity-100">
+                              <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
                             </div>
