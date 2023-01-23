@@ -81,7 +81,7 @@ export const palaisSnackSandwiches = [
       "Poitrine de poulet, poivron vert, oignon, champignons de Paris, maïs, soya sauce, sauce guacamole, sauce piquante, mozzarella",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg",
+    image: "https://i.ibb.co/HK1Mcd4/fajita.png",
   },
   {
     name: "Philadelphia",
@@ -89,7 +89,7 @@ export const palaisSnackSandwiches = [
       "viande, poivron vert, oignon, champignon, maïs, soya sauce, mozzarella, sauce bbq, mayonaise",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/cC79tpv/philadelfiaa.png",
   },
   {
     name: "Francisco",
@@ -97,14 +97,14 @@ export const palaisSnackSandwiches = [
       "Poulet grillé, fromage mozzarella, maïs, cornichon, laitue, sauce mayonnaise, soya sauce",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "Sandwich Frites",
     ingredient: "Frites, choux mayonnaise, ketchup, cornichons",
     price: "3.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/BVrzhZr/fries-sandwich.png",
   },
   {
     name: "Sandwich Quésadillas",
@@ -112,7 +112,7 @@ export const palaisSnackSandwiches = [
       "Poitrine de poulet, oignons, poivrons, fromage mozzarella, fromage cheddar, parmesan, sauce guacamole, sauce piquante,  champignon, mais, et olives, pain tortillas",
     price: "8.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Zm0GJsk/quasadias.png",
   },
   {
     name: "Sandwich Twister Au Poulet",
@@ -120,14 +120,14 @@ export const palaisSnackSandwiches = [
       "Poitrine de poulet mariné, iceberg, mayonnaise, pain tortillas, fromage cheddar, tomate",
     price: "6.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/zNG5pHB/twister.png",
   },
   {
     name: "Sandwich Falafel",
     ingredient: "Tomate, cornichons, persil, sauce sésame, menthe et radis",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/X8vBH8f/falafel-sand.png",
   },
   {
     name: "Sandwich Chicken Sub",
@@ -151,7 +151,7 @@ export const palaisSnackSandwiches = [
       "Poitrine de poulet, mix fromage, pesto sauce, cornichons, tomate, mais, iceberg",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/KVK8hT1/chicken-pesto-sand.png",
   },
   {
     name: "Sandwich soujouk",
@@ -159,7 +159,7 @@ export const palaisSnackSandwiches = [
       "saucisses libanaise poelees, tomate, cornichon, ail, mayonaise, laitue, jus de citron",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/LR1Lf0V/soujouk-sand.png",
   },
   {
     name: "Sandwich Makanek",
@@ -167,7 +167,7 @@ export const palaisSnackSandwiches = [
       "saucisses libanaise poelees, tomate, cornichon, ail, mayonaise, laitue, jus de citron",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "Plat falafel",
@@ -175,35 +175,35 @@ export const palaisSnackSandwiches = [
       "mélange legumineuse epice, sauce sesame, legume frais, cornichon",
     price: "12.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "SANDWICH DINDE",
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "SANDWICH FROMAGE",
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "SANDWICH SALAMI",
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
   {
     name: "SANDWICH LABNEH",
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/Mn4Qrws/francisco.png",
   },
 ];
 
@@ -213,7 +213,7 @@ export const palaisSnackBurgers = [
     ingredient: "viande, frites, choux mayonnaise, ketchup",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/C9FRvZs/hamburger.png",
   },
   // {
   //   name: "Hamburger Plat",
@@ -228,7 +228,7 @@ export const palaisSnackBurgers = [
       "viande, lolo rosso, sauce classic, sauce cocktail, cornichon, tomate, cheddar edam",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/fQFjjqm/cheese-burger.png",
   },
   // {
   //   name: "Cheese Burger Plat",
@@ -260,7 +260,7 @@ export const palaisSnackBurgers = [
       "Viande hachée marinée grillée, laitue, oignon frais, tomate, sauce HP, sauce classic, honey mustard, emental fromage, cheddar sauce, baby chips",
     price: "9.00",
     desc: "",
-    image: "https://i.ibb.co/pjCvZYr/american-burger.png",
+    image: "https://i.ibb.co/gtKwvJb/american-burger.png",
   },
   // {
   //   name: "American Burger Plat",
@@ -275,7 +275,7 @@ export const palaisSnackBurgers = [
     ingredient: "Poisson pané, laitue, cornichon, sauce tartare",
     price: "7.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/zsH7Y2L/fish-burger.png",
   },
   // {
   //   name: "Burger Au Poisson Plat",
@@ -291,7 +291,7 @@ export const palaisSnackBurgers = [
       "Poulet pané piquant, laitue, tomate, cornichon, sauce cocktai, cheddar sauce, dinde",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/ysqmV1s/Zinger-Burger.png",
   },
   // {
   //   name: "Zinger Burger Plat",
@@ -307,7 +307,7 @@ export const palaisSnackBurgers = [
       "Viande, lolo roso, sauce classic, sauce bbq, dinde bacon, cornichon, oignon caramélisé",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/khjsfLh/bbq-bacon.png",
+    image: "https://i.ibb.co/DCnzMbR/My-project-1.png",
   },
   // {
   //   name: "Bbq Bacon Plat",
@@ -339,7 +339,7 @@ export const palaisSnackBurgers = [
       "Blanc de poulet, lolo roso, tomate, cornichons, aioli sauce, honey mustard, mozarrella panne",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/TqDKy4y/chicken-mozerella.png",
   },
   // {
   //   name: "Burger Poulet Mozzarella Plat",

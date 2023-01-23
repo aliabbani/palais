@@ -324,7 +324,7 @@ const PalaisSnack = () => {
                                 {item.name}
                               </h2>
                               <p className="text-white text-base font-medium opacity-100">
-                                 {item.ingredient}
+                                {item.ingredient}
                               </p>
                             </div>
                           </div>
