@@ -28,7 +28,7 @@ import {
   palaisSushiSashimi,
   palaisSushiChefSignaturesRolls,
   palaisSushiLesPlateaux,
-} from "../data1";
+} from "../dataLePalais";
 
 const Lepalais = () => {
   const [nav, setNav] = useState(1);

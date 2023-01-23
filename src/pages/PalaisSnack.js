@@ -14,7 +14,7 @@ import {
   palaisSnackGrillades,
   palaisSnackBroasted,
   palaisSnackPetitDejeuner,
-} from "../data";
+} from "../dataPalaisSnack";
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import RestaurantsMaps from "../components/RestaurantsMaps";
 import PalaisSnackOffer from "../components/PalaisSnackOffer";
