@@ -60,7 +60,7 @@ const Slider = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://i.ibb.co/hdhwWwN/restaurant4.jpg"
+            src="https://design-chronicle.com/wp-content/uploads/2018/12/Super-Quality-Indian-Snack-Bar-David-Dworkind-12.jpg"
             className="block w-full md:h-[550px]"
             alt="xxxx"
           />
