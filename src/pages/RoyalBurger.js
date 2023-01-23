@@ -15,9 +15,8 @@ import {
   RoyalDrink,
 } from "../dataRoyal";
 import RestaurantsSlider from "../components/RestaurantsSlider";
-import RestaurantsMaps from "../components/RestaurantsMaps";
 import PalaisSnackOffer from "../components/PalaisSnackOffer";
-import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
+import { MdWifiCalling } from "react-icons/md";
 
 const RoyalBurger = () => {
   const [nav, setNav] = useState(1);
@@ -51,19 +50,15 @@ const RoyalBurger = () => {
       />
 
       <div className="text-center pt-5 md:pt-1">
-        <a
-          href="https://menu.omegasoftware.ca/lepalais1"
-          target="_blank"
-          rel="noreferrer"
-        >
+        {/* <a href="" target="_blank" rel="noreferrer"> */}
           <button
-            href="https://menu.omegasoftware.ca/lepalais1"
+            // href=""
             type="button"
             className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
           >
             delivery menu
           </button>
-        </a>
+        {/* </a> */}
       </div>
 
       {/* menu nav */}
@@ -926,7 +921,7 @@ const RoyalBurger = () => {
                 <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
                   <div className="map-container-2 h-[500px] w-full">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15914.154496626461!2d15.2913576!3d-4.3093537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x460f42fa8a33099b!2sLC%20Waikiki!5e0!3m2!1sen!2scd!4v1674508368049!5m2!1sen!2scd"
                       allowFullScreen
                       className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                       loading="lazy"

@@ -1727,7 +1727,7 @@ const Lepalais = () => {
           description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
                     neque iaculis malesuada. Aenean gravida magna orci, non
                     efficitur est porta id. Donec magna diam."
-          src1="https://i.ibb.co/QQzmZff/15-discount.jpg"
+          src1="https://i.ibb.co/p46Brs0/Le-Palais-Future-Offre.png"
         />
       </div>
       <div className="">
