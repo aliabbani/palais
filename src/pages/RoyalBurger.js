@@ -17,6 +17,7 @@ import {
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import RestaurantsMaps from "../components/RestaurantsMaps";
 import PalaisSnackOffer from "../components/PalaisSnackOffer";
+import { MdOutlineDeliveryDining, MdWifiCalling } from "react-icons/md";
 
 const RoyalBurger = () => {
   const [nav, setNav] = useState(1);
@@ -909,7 +910,7 @@ const RoyalBurger = () => {
           description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
                     neque iaculis malesuada. Aenean gravida magna orci, non
                     efficitur est porta id. Donec magna diam."
-          src1="https://i.ibb.co/QQzmZff/15-discount.jpg"
+          src1="https://i.ibb.co/pwVBsV7/Royal-Burger-Future-Offre.png"
         />
       </div>
       {/* Maps & contact */}
@@ -917,13 +918,50 @@ const RoyalBurger = () => {
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
           Our Contact
         </div>
-        <RestaurantsMaps
-          src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
-          email="lepalais1restaurant@gmail.com"
-          phone1="+243-907-626-431"
-          phone2="+234-999-444-333"
-          phone3="+234-999-555-333"
-        />
+
+        <div className="container my-12 px-6 mx-auto">
+          <section className="mb-32 text-gray-800">
+            <div className="block rounded-lg shadow-lg bg-white">
+              <div className="flex flex-wrap items-center">
+                <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+                  <div className="map-container-2 h-[500px] w-full">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497.32452895858546!2d15.3113547!3d-4.2983301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a330641c56e55%3A0x601ebf4d2e79c8f7!2sLe%20Palais%201%20Restaurant%20CTC!5e0!3m2!1sen!2scd!4v1673478785405!5m2!1sen!2scd"
+                      allowFullScreen
+                      className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      alt=""
+                      title="title"
+                    ></iframe>
+                  </div>
+                </div>
+                <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+                  <div className="flex flex-wrap justify-center pt-12 lg:pt-0">
+                    <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                      <div className="flex items-start">
+                        <div className="shrink-0">
+                          <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center text-white text-4xl">
+                            <MdWifiCalling />
+                          </div>
+                        </div>
+                        <div className="grow ml-6">
+                          <p className="font-bold mb-1">
+                            Reservation & Enquiries
+                          </p>
+                          <p className="text-gray-500">
+                            royalburger@gmail.com"
+                          </p>
+                          <p className="text-gray-500">+243-907-626-431</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
 
       <Footer />
