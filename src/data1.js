@@ -5,28 +5,28 @@ export const palaisMenuAmuseBouche = [
     ingredient: "5 pièces mozzarella pané, sauce cocktail",
     price: "8",
     desc: "",
-    image: "https://i.ibb.co/f8VFxjP/batonet-mozerella.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fish Tender",
     ingredient: "5 pièces de poulet pané, sauce moutarde au miel",
     price: "9.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fish Finger",
     ingredient: "5 pièces de poisson pané, sauce tartare",
     price: "10",
     desc: "",
-    image: "https://i.ibb.co/472NK3p/fish-fingers.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crevettes Butterfly",
     ingredient: "6 pièces de crevettes pané, sauce tartare",
     price: "11.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Ailes de Buffalo Parmeson",
@@ -34,7 +34,7 @@ export const palaisMenuAmuseBouche = [
       "10 pièces d'ailes de poulet pané, sauce buffalo, fromage parmeson",
     price: "10.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Rouleaux aux Crevettes",
@@ -42,28 +42,28 @@ export const palaisMenuAmuseBouche = [
       "5 pièces de pate filo farcie de légumes et petites crevettes, sauce cocktail",
     price: "12.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Wedges Potatos",
     ingredient: "pomme de terre, crème aigre doux, bbq sauce, sauce cocktail",
     price: "7.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Nuggets de Poulet",
     ingredient: "8 pièces blanc de poulet pané, sauce cocktail",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Calamars du Pêcheur",
     ingredient: "8 pièces calamar mariné, sauce tartar",
     price: "11.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Nachos",
@@ -71,7 +71,7 @@ export const palaisMenuAmuseBouche = [
       "nachos, fromage, olive noire, jalapeno, sauce guacamole, crème aigre",
     price: "8.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pommes Frites",
@@ -85,14 +85,14 @@ export const palaisMenuAmuseBouche = [
     ingredient: "5 pièces de crevettes, chilli sauce",
     price: "12.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crispy au Poulet",
     ingredient: "5 pièces de ppoulet, sauce cocktail",
     price: "",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -102,14 +102,14 @@ export const palaisSalades = [
     ingredient: "iceberg, tomate cerise, fromage feta, noix, essence citronnée",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade Méchwia (légumes grillés)",
     ingredient: "Tomate, oignon, poivron, ail, oeuf, thon, olive",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tartare de Saumon",
@@ -117,7 +117,7 @@ export const palaisSalades = [
       "saumon frais, oignons câpre, persil, citron, avocat, huile d'olive",
     price: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cocktail de Crevettes",
@@ -125,7 +125,7 @@ export const palaisSalades = [
       "crevette, iceberg, tomate cerise, avocat, pâte d'arachide, sauce cocktail",
     price: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade César",
@@ -139,7 +139,7 @@ export const palaisSalades = [
     ingredient: "Iceberg, crabe, mais, sauce citron",
     price: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade Niçoise",
@@ -171,14 +171,14 @@ export const palaisSalades = [
       "Fromage de chèvre, noisettes, olive, salade iceberg, sauce balsamique",
     price: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Poêlee de Saint Jacques",
     ingredient: "Escalope de saint jacques, crème fraiche, citron",
     price: "12.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -189,7 +189,7 @@ export const palaisPatesEtRisottos = [
       "saumon frais et gambas carpeau de parmesan, sauce crème safranée, basilic frais",
     price: "20",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Spaghetti aux Crevettes",
@@ -197,28 +197,28 @@ export const palaisPatesEtRisottos = [
       "Spagetti, crevettes, sauce tomate, crème fraiche, fromage parmesan",
     price: "29",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pate aux Quatre Fromages",
     ingredient: "pates penne, crème fraiche, mélange de quatre fromages",
     price: "15.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Risotto aux Crevettes",
     ingredient: "Risotto, crevette, crème fraiche, fromage parmesan",
     price: "20",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Risotto aux Champignons",
     ingredient: "Risotto, champignons, crème fraiche, fromage parmesan",
     price: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fettucini Alfredo",
@@ -226,14 +226,14 @@ export const palaisPatesEtRisottos = [
       "pate fetuccini, crème fraiche, poitrine de poulet, champignons, parmesan",
     price: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Spagetti Bolognaise",
     ingredient: "Spagetti, viande hanchée, sauce tomate, fromage parmesan",
     price: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -244,7 +244,7 @@ export const palaisPizza = [
     price1: "13",
     price2: "18.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza Peppéroni",
@@ -252,7 +252,7 @@ export const palaisPizza = [
     price1: "14.5",
     price2: "19.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza Quatre fromages",
@@ -260,7 +260,7 @@ export const palaisPizza = [
     price1: "15",
     price2: "20.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza Fruits de Mer",
@@ -268,7 +268,7 @@ export const palaisPizza = [
     price1: "16.5",
     price2: "22",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza 4 saisons",
@@ -276,7 +276,7 @@ export const palaisPizza = [
     price1: "14",
     price2: "19.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza au Poulet Fumé et Pistou",
@@ -285,7 +285,7 @@ export const palaisPizza = [
     price1: "14.5",
     price2: "19.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza dinde",
@@ -293,7 +293,7 @@ export const palaisPizza = [
     price1: "14",
     price2: "19.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza au Thon",
@@ -301,7 +301,7 @@ export const palaisPizza = [
     price1: "14",
     price2: "19.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pizza Soujouk",
@@ -309,7 +309,7 @@ export const palaisPizza = [
     price1: "14",
     price2: "195",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -319,7 +319,7 @@ export const palaisSandwiches = [
     ingredient: "Pain de mie, dinde fumé, fromage mozerella, origan",
     price: "7",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Club Rosto",
@@ -327,7 +327,7 @@ export const palaisSandwiches = [
       "pain de mie, viande rosto, fromage mozerella, laitue, tomate, cornichon, moutarde à l'ancienne, sauce mayonnaise",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Club Sandwich",
@@ -335,7 +335,7 @@ export const palaisSandwiches = [
       "pain de mie, poitrine de poulet, fromage mozarella, tomate, oeufs, sauce pesto",
     price: "8.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fajitas",
@@ -343,7 +343,7 @@ export const palaisSandwiches = [
       "Poitrine de poulet, poivron vert, oignon, champignons de Paris, maïs, soya sauce, sauce guacamole, laitue, mozzarella",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/xmPVgrN/chicken-fajita-sandwich.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Philadelphia",
@@ -351,7 +351,7 @@ export const palaisSandwiches = [
       "viande, poivron vert, oignon, champignon, maïs, soya sauce, mozzarella, sauce cocktail",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Francisco",
@@ -359,7 +359,7 @@ export const palaisSandwiches = [
       "Poulet grillé, fromage mozzarella, maïs, cornichon, laitue, sauce mayonnaise",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Roast Beef",
@@ -367,14 +367,14 @@ export const palaisSandwiches = [
       "viande, rosto, menthe, tomates, iceberg, mayonnaise, moutarde, cornichons",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Halloumi",
     ingredient: "Pain baguette, fromage halloumi, concombre, sauce pistou",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Oriental",
@@ -382,14 +382,14 @@ export const palaisSandwiches = [
       "Pain baguette, labneh, concombre, menthe, olives vertes, huile d'olive",
     price: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Frites",
     ingredient: "Frites, choux mayonnaise, ketchup, cornichons",
     price: "3.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Crevettes Panées",
@@ -397,7 +397,7 @@ export const palaisSandwiches = [
       "Crevettes panées, iceberg, cornichon, tomates, sauce cocktail et tartare",
     price: "8",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Quésadillas",
@@ -405,7 +405,7 @@ export const palaisSandwiches = [
       "Poitrine de poulet, oignons, poivrons, fromage mozzarella, fromage cheddar, sauce guacamole, pain tortillas, jalopenos et olive",
     price: "8.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Twister Au Poulet",
@@ -413,7 +413,7 @@ export const palaisSandwiches = [
       "Poitrine de poulet mariné, iceberg, cornichons, ketshup, mayonnaise, pain tortillas, fromage cheddar, jalapenos",
     price: "6.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Zinger Chicken",
@@ -421,21 +421,21 @@ export const palaisSandwiches = [
       "Poulet pané, piment, laitue, cornichon, sauce mayonnaise à l'ail et cheddar",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Ras Asfour",
     ingredient: "Emincée de viande, choux mayonaise, pomme frites",
     price: "6",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sandwich Falafel",
     ingredient: "Tomate, cornichons, persil, sauce sésame",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -446,7 +446,7 @@ export const palaisBurgers = [
       "viande hanchée, choux mayonnaise, laitue, moutarde, ketchup, tomate, oignon grillé",
     price: "6.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hamburger Plat",
@@ -454,7 +454,7 @@ export const palaisBurgers = [
       "2 viande hanchée, choux mayonnaise, laitue, moutarde, ketchup, tomate, oignon grillé, fries",
     price1: "13.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cheese Burger Sand",
@@ -462,7 +462,7 @@ export const palaisBurgers = [
       "viande hanchée, choux mayonnaise, laitue, moutarde, ketchup, tomate, oignon grillé, fromage cheddar",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cheese Burger Plat",
@@ -470,7 +470,7 @@ export const palaisBurgers = [
       "2 viande hanchée, choux mayonnaise, laitue, moutarde, ketchup, tomate, oignon grillé, fromage cheddar, fries",
     price: "15.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger au Poulet Sand",
@@ -478,7 +478,7 @@ export const palaisBurgers = [
       "Poulet grillé, laitue, tomate, cornichon, sauce mayonnaise à l'ail",
     price: "8.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger au Poulet Plat",
@@ -486,7 +486,7 @@ export const palaisBurgers = [
       "2 Poulet grillé, laitue, tomate, cornichon, sauce mayonnaise à l'ail, fries",
     price: "14.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger Le Palais Sand",
@@ -494,7 +494,7 @@ export const palaisBurgers = [
       "viande hanchée, fromage mozerella pané, laitue, tomate, cornichon, sauce cocktail",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger Le Palais Plat",
@@ -502,7 +502,7 @@ export const palaisBurgers = [
       "2 viande hanchée, fromage mozerella pané, laitue, tomate, cornichon, sauce cocktail, fries",
     price: "16.50",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "American Burger Sand",
@@ -510,7 +510,7 @@ export const palaisBurgers = [
       "viande hanchée marinée grillée, laitue, oignon frais, tomate, sauce HP, ketchup",
     price: "9.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "American Burger Plat",
@@ -518,14 +518,14 @@ export const palaisBurgers = [
       "2 viande hanchée marinée grillée, laitue, oignon frais, tomate, sauce HP, ketchup, fries",
     price: "17.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger Au Poisson Sand",
     ingredient: "Poisson pané, laitue, tomate, sauce tartare",
     price: "7.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Burger Au Poisson Plat",
@@ -533,7 +533,7 @@ export const palaisBurgers = [
       "2 Poisson pané, laitue, tomate, sauce tartare, choux mayonaise, frites",
     price: "16.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Zinger Burger Sand",
@@ -541,7 +541,7 @@ export const palaisBurgers = [
       "Poulet pané piquant, laitue, tomate, cornichon, sauce cocktail",
     price: "8.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Zinger Burger Plat",
@@ -549,7 +549,7 @@ export const palaisBurgers = [
       "2 Poulet pané piquant, laitue, tomate, cornichon, sauce cocktail, frites",
     price: "16.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -560,7 +560,7 @@ export const palaisMezzesFroids = [
       "Persil, oignon, tomate, blé concasse, jus de citron, huile d olive",
     price: "8.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fattouch",
@@ -568,35 +568,35 @@ export const palaisMezzesFroids = [
       "Laitue, tomate, persil, concombre, oignon, radis, jus de citron, huile d olive, épice sumac, pain arabe grillé",
     price: "9",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hommos (Nature)",
     ingredient: "Purée de pois chiches, crème de sésame, jus de citron",
     price: "6.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Moutabal",
     ingredient: "Purée d aubergine, crème de sésame, jus de citron",
     price: "6.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Chancklich",
     ingredient: "Fromage feta épicé traditionnel, tomate, oignon",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Feuilles de Vigne",
     ingredient: "Feuille de vigne farcie au légumes et au riz",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 
   {
@@ -604,7 +604,7 @@ export const palaisMezzesFroids = [
     ingredient: "viande de chèvre crue, blé concassé",
     price: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 
   {
@@ -613,7 +613,7 @@ export const palaisMezzesFroids = [
       "Purée de pois chiches, crème de sésame, citron, cornichon, persil",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 
   {
@@ -621,7 +621,7 @@ export const palaisMezzesFroids = [
     ingredient: "Purée de Pois chiches au piment rouge",
     price: "7",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisMezzesChauds = [
@@ -630,49 +630,49 @@ export const palaisMezzesChauds = [
     ingredient: "Ailes de poulet à la provençale, persil, ail, oignon",
     price: "6.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Makanik",
     ingredient: "Saucisse libanaise poêlées, sauce citron",
     price: "10.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Soujouk",
     ingredient: "Saucisse libanaise poêlées, sauce piquante",
     price: "10.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pomme de terre à la Provençale",
     ingredient: "Dés de pomme de terre à la sauce provençale piquante",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Viande Ras Asfour",
     ingredient: "petite dés de viande cuite à la mélasse de grenadine",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hommos viande",
     ingredient: "viande poêlée sur un lit de hommos nature",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hommos Chawarma",
     ingredient: "chawarma viande sur un lit de hommos nature",
     price: "8",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Falafel",
@@ -680,14 +680,14 @@ export const palaisMezzesChauds = [
       "Mélange légumineux épicé, sauce sésame, légume frais, cornichon",
     price: "10.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Briks au Thon",
     ingredient: "Feuille de brick, pomme de terre, persil, thon, oeuf",
     price: "7",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Ojja aux Crevettes",
@@ -695,35 +695,35 @@ export const palaisMezzesChauds = [
       "Sauce tomate à la tunisienne, crevette, poivron, tomate, ail, oeuf",
     price: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kebbeh Nature",
     ingredient: "4 pièces boulette farcie de viande et pignon",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Rekakat au fromage",
     ingredient: "4 pièces de pâte feuilletée aux fromages",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Samossa viande",
     ingredient: "4 pièces de pâte farcie à la viande hachée",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fatayer Epinard",
     ingredient: "4 pièces de pâte farcie aux épinards marinés",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -733,42 +733,42 @@ export const palaisShawarma = [
     ingredient: "viande marinée et grillée, Salade biwaz, tomate, sauce sésame",
     price: "4.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Viande Plat",
     ingredient: "viande marinée et grillée, Salade biwaz, tomate, sauce sésame",
     price: "13",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Poulet Sand",
     ingredient: "Poulet mariné et grillé, cornichon, ail, frites",
     price: "4.5",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Poulet Plat",
     ingredient: "Poulet mariné et grillé, cornichon, ail, frites",
     price: "13",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Saj Sand",
     ingredient: "Viande ou poulet, pain saj libanais traditionel",
     price: "7.00",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Saj Plat",
     ingredient: "Viande ou poulet, pain saj libanais traditionel, frite",
     price: "15",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Le Palais Sand",
@@ -776,7 +776,7 @@ export const palaisShawarma = [
       "Shawarma viande marinée avec sauce grenadine, salade biwaz tomate, sauce sésame",
     price: "6",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shawarma Le Palais Plat",
@@ -784,7 +784,7 @@ export const palaisShawarma = [
       "Shawarma viande marinée avec sauce grenadine, salade biwaz tomate, sauce sésame",
     price: "15",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -794,7 +794,7 @@ export const palaisGrillades = [
     ingredient: "pain libanais grillé farci de kafta",
     price: "8.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Taouk Sandwich",
@@ -802,7 +802,7 @@ export const palaisGrillades = [
       "Brochettes de poulet marinée, sauce à l’ail, cornichon, frites",
     price: "6",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Taouk Plat",
@@ -810,14 +810,14 @@ export const palaisGrillades = [
       "Brochettes de poulet marinée, sauce à l’ail, cornichon, frites",
     price: "13",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Ourfali Sandwich",
     ingredient: "Viande émincée grillée pimentée, aubergine, tomate, oignon",
     price: "6",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Ourfali Plat",
@@ -825,7 +825,7 @@ export const palaisGrillades = [
       "Viande émincée grillée pimentée, aubergine, tomate, oignon, frite",
     price: "14",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kafta Sandwich",
@@ -833,7 +833,7 @@ export const palaisGrillades = [
       "Viande émincée et moulue avec persil et oignon grillé servie avec divers condiments",
     price: "6",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kafta Plat",
@@ -841,7 +841,7 @@ export const palaisGrillades = [
       "Viande émincée et moulue avec persil et oignon grillé servie avec divers condiments, frites",
     price: "14",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Kish Kash Sandwich",
@@ -849,7 +849,7 @@ export const palaisGrillades = [
       "viande émincée et moulue avec pimentée servie avec divers condiments",
     price: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Kish Kash Plat",
@@ -857,7 +857,7 @@ export const palaisGrillades = [
       "viande émincée et moulue avec pimentée servie avec divers condiments, fries",
     price: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Halabi Sandwich",
@@ -865,7 +865,7 @@ export const palaisGrillades = [
       "Viande émincée et moulue avec sauce piment, servie avec divers condiments",
     price: "6",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kabab Halabi Plat",
@@ -873,7 +873,7 @@ export const palaisGrillades = [
       "Viande émincée et moulue avec sauce piment, servie avec divers condiments, frite",
     price: "14",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Brochettes De Viande Sand",
@@ -881,7 +881,7 @@ export const palaisGrillades = [
       "Brochettes de viande marinée et grillée, servie avec divers condiments",
     price: "7",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Brochettes De Viande Plat",
@@ -889,7 +889,7 @@ export const palaisGrillades = [
       "2 Brochettes kafta, 1 brochette viande, 1 brochette taouk, frittes, hommos, sauce a l’ail, frite",
     price: "14",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Grillade Mixte",
@@ -897,7 +897,7 @@ export const palaisGrillades = [
       "2 Brochettes kafta, 1 brochette viande, 1 brochette taouk, frites",
     price: "15",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Poulet Entier Désossé Grillé",
@@ -905,7 +905,7 @@ export const palaisGrillades = [
       "Poulet mariné et grillé, servie avec cornichon sauce à l’ail et frites",
     price: "21",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Demi Poulet Entier Désossé Grillé",
@@ -913,7 +913,7 @@ export const palaisGrillades = [
       "Poulet mariné et grillé, servie avec cornichon sauce à l’ail et frites",
     price: "13",
     desc: "",
-    image: "https://i.ibb.co/Tr1mmZx/wedges-potato.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -924,7 +924,7 @@ export const palaisPlats = [
       "Poulet mariné, légumes poêlés, servis sur une plaque chaude, guacamole, crème aigre, pain tortilla",
     price: "22",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Poulet Mexicain",
@@ -932,14 +932,14 @@ export const palaisPlats = [
       "Poitrine de poulet, oignons, poivron, haricot rouge, jalopenos, concassée de tomate, riz, mais",
     price: "24",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Poulet à la congolaise",
     ingredient: "Poulet grillé, sauce tomate, banane Plantin",
     price: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Escalope Pané",
@@ -947,7 +947,7 @@ export const palaisPlats = [
       "Escalope de poulet, frite, choux, mayonnaise, sauté de légumes",
     price: "20",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cordon Bleu au poulet",
@@ -955,7 +955,7 @@ export const palaisPlats = [
       "Poulet farci, fromage mozzarella, jambon de dinde, légumes sautés, frites, sauce moutarde",
     price: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sizzling Philadelphia",
@@ -963,7 +963,7 @@ export const palaisPlats = [
       "Viande marinée, légumes poêlés, servis sur une plaque chaude, sauce guacamole, crème aigre, pain tortilla",
     price: "25",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Couscous à la Viande",
@@ -971,7 +971,7 @@ export const palaisPlats = [
       "Semoule, sauce épicée, viande, oignon, courgette, carotte, courge rouge",
     price: "25",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Filet Mignon",
@@ -979,14 +979,14 @@ export const palaisPlats = [
       "Filet de boeuf grillé, purée d'avocat, légumes sautés, sauce champignon ou sauce poivre",
     price: "29",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "T _ Bone Steak",
     ingredient: "T-Bone Steak grillé, légumes sautés, frites, sauce au choix",
     price: "29",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Côtelettes d’agneaux",
@@ -994,14 +994,14 @@ export const palaisPlats = [
       "Côtelettes d’agneaux, julienne de légumes, wedges potato, mousse de betterave",
     price: "30",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Poisson du Jour",
     ingredient: "Poisson au four + Banane plantain + Sauce provençale",
     price: "24",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Filet de Capitaine",
@@ -1009,7 +1009,7 @@ export const palaisPlats = [
       "Filet de capitaine grillé, pomme purée, légumes sautés, ratatouille, sauce crème à l’aneth",
     price: "22",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Saumon à la sauce Soja",
@@ -1017,7 +1017,7 @@ export const palaisPlats = [
       "Saumon frais, risotto, sauce soja, artichaut, mesclun de légume",
     price: "29",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crevettes à la thaïlandaise",
@@ -1025,7 +1025,7 @@ export const palaisPlats = [
       "Crevettes Royales, sauce curry au lait de coco, riz au coriandre",
     price: "28",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cossas Royales",
@@ -1033,7 +1033,7 @@ export const palaisPlats = [
       "Cossas Royales, beurre pimenté à l'ail, accompagnement riz ou banane Plantin",
     price: "29",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -1043,63 +1043,63 @@ export const palaisGarnitureExtra = [
     ingredient: "",
     price: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Banane Plantain (makemba)",
     ingredient: "",
     price: "5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Purée de la Pomme de Terre",
     ingredient: "",
     price: "5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Pomme de Terre Sautée",
     ingredient: "",
     price: "3",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Légumes Sautés",
     ingredient: "",
     price: "3",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Assiette de Légumes",
     ingredient: "",
     price: "6",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Assiette de Cornichons",
     ingredient: "",
     price: "3",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sauce Ail Grande",
     ingredient: "",
     price: "7",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sauce Ail Petite",
     ingredient: "",
     price: "2",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -1110,7 +1110,7 @@ export const palaisManakishEtKaak = [
     price: "3.5",
     price2: "5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Zaatar",
@@ -1118,7 +1118,7 @@ export const palaisManakishEtKaak = [
     price: "2.5",
     price2: "3.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Turkish",
@@ -1126,7 +1126,7 @@ export const palaisManakishEtKaak = [
     price: "4",
     price2: "6.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Viande",
@@ -1134,7 +1134,7 @@ export const palaisManakishEtKaak = [
     price: "3",
     price2: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Labneh",
@@ -1142,7 +1142,7 @@ export const palaisManakishEtKaak = [
     price: "2.5",
     price2: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Cocktail Fromage / Zaatar",
@@ -1150,7 +1150,7 @@ export const palaisManakishEtKaak = [
     price: "3",
     price2: "4.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Epinard",
@@ -1158,7 +1158,7 @@ export const palaisManakishEtKaak = [
     price: "2.5",
     price2: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Manakish Soujouk Fromage",
@@ -1166,28 +1166,28 @@ export const palaisManakishEtKaak = [
     price: "4",
     price2: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kaake Fromage",
     ingredient: "fromage akkawi ou halloumi",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kaake Zaatar / Fromage",
     ingredient: "",
     price: "7.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kaake Zaatar",
     ingredient: "",
     price: "4",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -1197,84 +1197,84 @@ export const palaisDesserts = [
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Cheese Cake",
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crèpe au Chocolat",
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fondant au Chocolat",
     ingredient: "",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Nougat Glacé",
     ingredient: "",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Mouhalabiyé",
     ingredient: "",
     price: "8",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Banana Split",
     ingredient: "",
     price: "8",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Ousmaliyé",
     ingredient: "",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Aish El Saraya",
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Knafeh",
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Halawet El Jibn",
     ingredient: "",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Mariage de Trois Glaces",
     ingredient: "",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 
@@ -1294,7 +1294,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hokkigai",
@@ -1302,7 +1302,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "9",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kani Stick",
@@ -1310,7 +1310,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salmon",
@@ -1318,7 +1318,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "9.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Scallop",
@@ -1326,7 +1326,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tuna",
@@ -1334,7 +1334,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "9.5",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Unagi Eel",
@@ -1342,7 +1342,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Viya Crab",
@@ -1350,7 +1350,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Yellowtail",
@@ -1358,7 +1358,7 @@ export const palaisSushiNegiri = [
     pieces: "2 peices",
     price: "12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisSushiEntreesEtSalades = [
@@ -1377,7 +1377,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade Le Palais",
@@ -1386,7 +1386,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Ocean Prawns",
@@ -1395,7 +1395,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade Kani Kama",
@@ -1404,7 +1404,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Okinawa",
@@ -1413,7 +1413,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salade Majestic Crunchy (Salmon Or Tuna)",
@@ -1422,7 +1422,7 @@ export const palaisSushiEntreesEtSalades = [
     pieces: "",
     price: "26.12",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisSushiMakiRolls = [
@@ -1434,7 +1434,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "14",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crispy Salmon Skin",
@@ -1455,7 +1455,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kani Crab",
@@ -1465,7 +1465,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "13",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Negi Salmon",
@@ -1475,7 +1475,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "16",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salmon",
@@ -1485,7 +1485,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sea Food",
@@ -1496,7 +1496,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "18",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Shrimp",
@@ -1506,7 +1506,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tuna & Avocado",
@@ -1516,7 +1516,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "15",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Unagi Kyu",
@@ -1526,7 +1526,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Yasai (V)",
@@ -1536,7 +1536,7 @@ export const palaisSushiMakiRolls = [
     pieces2: "6 pieces",
     price2: "10",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisSushiLePalaisRolls = [
@@ -1559,7 +1559,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "19",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hokkigai Roll",
@@ -1570,7 +1570,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "20",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Italian Roll",
@@ -1580,7 +1580,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "19",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Lotus",
@@ -1590,7 +1590,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "19",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Osaka Grilled Salmon",
@@ -1600,7 +1600,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Philadelphia Tuna",
@@ -1610,7 +1610,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "21",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Philly",
@@ -1621,7 +1621,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "19",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Rainbow",
@@ -1632,7 +1632,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Rock'n Rolls",
@@ -1642,7 +1642,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Royal Salmon",
@@ -1653,7 +1653,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "21",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tiffany",
@@ -1663,7 +1663,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "25",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kaizen",
@@ -1673,7 +1673,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "25",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Saisaki",
@@ -1683,7 +1683,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "24",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Atlantic Roll",
@@ -1694,7 +1694,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "24",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "California",
@@ -1705,7 +1705,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "16",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Caterpillar",
@@ -1715,7 +1715,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "16",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Chugoku Spicy Crab & Shrimp",
@@ -1726,7 +1726,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "25",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crunchy Crazy",
@@ -1736,7 +1736,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Dragon",
@@ -1746,7 +1746,7 @@ export const palaisSushiLePalaisRolls = [
     pieces1: "8 pieces",
     price1: "17",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   // {
   //   name: "Dynamite Roll",
@@ -1756,7 +1756,8 @@ export const palaisSushiLePalaisRolls = [
   //   pieces1: "8 pieces",
   //   price1: "19",
   //   desc: "",
-  //   image: "",
+  //       image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
+
   // },
 ];
 export const palaisSushiSashimi = [
@@ -1778,7 +1779,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "28",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Salmon",
@@ -1788,7 +1789,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Scallop",
@@ -1798,7 +1799,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tuna",
@@ -1808,7 +1809,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kani Crabe Stick",
@@ -1818,7 +1819,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "21",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Unagi Eel",
@@ -1828,7 +1829,7 @@ export const palaisSushiSashimi = [
     pieces1: "8 pieces",
     price1: "28",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisSushiChefSignaturesRolls = [
@@ -1852,7 +1853,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "22",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Boston",
@@ -1862,7 +1863,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Crunchy Honey Prawn",
@@ -1873,7 +1874,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "21",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Happy Prawns",
@@ -1884,7 +1885,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "19",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "King Crunchy",
@@ -1895,7 +1896,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "16",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Monster Roll",
@@ -1905,7 +1906,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Scallion Maguro",
@@ -1916,7 +1917,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "22",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tempura Shrimp",
@@ -1927,7 +1928,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "6 pieces",
     price1: "20",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Volcano",
@@ -1938,7 +1939,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "26",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Yellow Tail",
@@ -1948,7 +1949,7 @@ export const palaisSushiChefSignaturesRolls = [
     pieces1: "8 pieces",
     price1: "23",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 export const palaisSushiLesPlateaux = [
@@ -1958,7 +1959,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "16 pieces",
     price: "40",
     desc: "",
-    image: "https://i.ibb.co/MnCdD6Q/Chori-1.jpg",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Fuji Mountain",
@@ -1967,7 +1968,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "32 pieces",
     price: "65",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Hiroshima",
@@ -1976,7 +1977,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "28 pieces",
     price: "55",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Kimono",
@@ -1985,7 +1986,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "14 pieces",
     price: "47",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Samurai",
@@ -1993,7 +1994,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "16 pieces",
     price: "42",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Sumo Sashimi",
@@ -2002,7 +2003,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "31 pieces",
     price: "85",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Tsunami",
@@ -2011,7 +2012,7 @@ export const palaisSushiLesPlateaux = [
     pieces: "38 pieces",
     price: "71",
     desc: "",
-    image: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
 ];
 // {
@@ -2020,5 +2021,6 @@ export const palaisSushiLesPlateaux = [
 //   pieces: "",
 //   price: "",
 //   desc: "",
-//   image: "",
+//       image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
+
 // },
