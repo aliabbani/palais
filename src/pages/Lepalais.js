@@ -284,7 +284,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -366,7 +366,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -448,7 +448,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -530,7 +530,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -612,7 +612,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -694,7 +694,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -776,7 +776,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -858,7 +858,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -940,7 +940,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -1022,7 +1022,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -1104,7 +1104,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -1186,7 +1186,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
@@ -1333,7 +1333,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1380,7 +1380,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1427,7 +1427,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1474,7 +1474,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1521,7 +1521,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1568,7 +1568,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1615,7 +1615,7 @@ const Lepalais = () => {
                             style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                           >
                             <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white opacity-100">
+                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                                 {item.name}
                               </h2>
                               <p className="text-white opacity-100">
@@ -1698,7 +1698,7 @@ const Lepalais = () => {
                           style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
                         >
                           <div className="flex flex-col px-2 justify-center items-center h-full">
-                            <h2 className="text-white opacity-100">
+                            <h2 className="text-white text-lg font-semibold uppercase opacity-100">
                               {item.name}
                             </h2>
                             <p className="text-white opacity-100">
