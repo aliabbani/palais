@@ -51,13 +51,13 @@ const RoyalBurger = () => {
 
       <div className="text-center pt-5 md:pt-1">
         {/* <a href="" target="_blank" rel="noreferrer"> */}
-          <button
-            // href=""
-            type="button"
-            className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-          >
-            delivery menu
-          </button>
+        <button
+          // href=""
+          type="button"
+          className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
+        >
+          delivery menu
+        </button>
         {/* </a> */}
       </div>
 
@@ -902,9 +902,8 @@ const RoyalBurger = () => {
         </div>
         <PalaisSnackOffer
           title="Why is it so great?"
-          description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
-                    neque iaculis malesuada. Aenean gravida magna orci, non
-                    efficitur est porta id. Donec magna diam."
+          description="latest offer latest offer. latest offer latest offer
+          latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/pwVBsV7/Royal-Burger-Future-Offre.png"
         />
       </div>

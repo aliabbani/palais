@@ -1724,9 +1724,8 @@ const Lepalais = () => {
         </div>
         <PalaisSnackOffer
           title="Why is it so great?"
-          description="Nunc tincidunt vulputate elit. Mauris varius purus malesuada
-                    neque iaculis malesuada. Aenean gravida magna orci, non
-                    efficitur est porta id. Donec magna diam."
+          description="latest offer latest offer. latest offer latest offer
+          latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/p46Brs0/Le-Palais-Future-Offre.png"
         />
       </div>
