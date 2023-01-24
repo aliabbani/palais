@@ -3,13 +3,15 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { CircleFood, CircleDesserts, ComingSoon } from "../dataPalaisCircle";
+import { CircleSalad, CircleEntree, CircleShawarma, CirclePlateaux, CirclePizza, CircleBurger,  CircleDesserts, ComingSoon } from "../dataPalaisCircle";
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import PalaisSnackOffer from "../components/PalaisSnackOffer";
 import { MdWifiCalling } from "react-icons/md";
 
 const CircleDePalais = () => {
   const [nav, setNav] = useState(1);
+  const [temporaireNav, setTemporaireNav] = useState(1);
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -86,62 +88,355 @@ const CircleDePalais = () => {
                   <div></div>
                 </div>
                 <div>
-                  <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
-                  </div>
+                  <nav className="mx-0 px-0 flex flex-row flex-wrap md:justify-center align-center gap-2 md:gap-3 px-2 md:px-5 text-center text-xs md:text-XS py-5">
+                    <button
+                      onClick={() => setTemporaireNav(1)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 1
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Salad
+                    </button>
+                    <button
+                      onClick={() => setTemporaireNav(2)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 2
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Entrees
+                    </button>
+                    <button
+                      onClick={() => setTemporaireNav(3)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 3
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Shawarma
+                    </button>
+                    <button
+                      onClick={() => setTemporaireNav(4)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 4
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Les Plateaux
+                    </button>
+                    <button
+                      onClick={() => setTemporaireNav(5)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 5
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Pizza
+                    </button>
+                    <button
+                      onClick={() => setTemporaireNav(6)}
+                      className={`font-medium leading-tight uppercase py-2 px-1 hover:bg-gray-800 ${
+                        temporaireNav === 6
+                          ? "border-x-0 border-t-2 border-b-2 border-yellow-500 "
+                          : "border-none"
+                      }`}
+                    >
+                      Burger
+                    </button>
+                  </nav>
                 </div>
               </div>
-              <div className="">
-                <Carousel
-                  responsive={responsive}
-                  swipeable={true}
-                  draggable={true}
-                  showDots={true}
-                  ssr={true}
-                  infinite={true}
-                  // keyBoardControl={true}
-                  containerclassName="carousel-container"
-                  removeArrowOnDeviceType={["tablet", "mobile"]}
-                  // deviceType={this.props.deviceType}
-                  dotListclassName="custom-dot-list-style"
-                  itemclassName="carousel-item-padding-40-px"
-                >
-                  {CircleFood.map((item, index) => {
-                    return (
-                      <div className="" key={index}>
-                        <div
-                          className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
-                          style={{ backgroundPosition: "50%" }}
-                        >
-                          <img
-                            src={item.image}
-                            alt=""
-                            className="rounded w-max-[320px] max-h-80"
-                          />
+              {temporaireNav === 1 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CircleSalad.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
                           <div
-                            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
-                            style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
                           >
-                            <div className="flex flex-col px-2 justify-center items-center h-full">
-                              <h2 className="text-white text-lg font-semibold uppercase opacity-100">
-                                {item.name}
-                              </h2>
-                              <p className="text-white opacity-100">
-                                {item.ingredient}
-                              </p>
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    );
-                  })}
-                </Carousel>
-              </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : temporaireNav === 2 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CircleEntree.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
+                          <div
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
+                          >
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : temporaireNav === 3 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CircleShawarma.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
+                          <div
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
+                          >
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : temporaireNav === 4 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CirclePlateaux.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
+                          <div
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
+                          >
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : temporaireNav === 5 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CirclePizza.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
+                          <div
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
+                          >
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : temporaireNav === 6 ? (
+                <div className="">
+                  <Carousel
+                    responsive={responsive}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    ssr={true}
+                    infinite={true}
+                    // keyBoardControl={true}
+                    containerclassName="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    // deviceType={this.props.deviceType}
+                    dotListclassName="custom-dot-list-style"
+                    itemclassName="carousel-item-padding-40-px"
+                  >
+                    {CircleBurger.map((item, index) => {
+                      return (
+                        <div className="" key={index}>
+                          <div
+                            className="relative overflow-hidden bg-no-repeat bg-cover w-max-[320px] max-h-80"
+                            style={{ backgroundPosition: "50%" }}
+                          >
+                            <img
+                              src={item.image}
+                              alt=""
+                              className="rounded w-max-[320px] max-h-80"
+                            />
+                            <div
+                              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition-property duration-300 ease-in-out"
+                              style={{ backgroundColor: "rgba(0,0,0,0.6)" }}
+                            >
+                              <div className="flex flex-col px-2 justify-center items-center h-full">
+                                <h2 className="text-white text-lg font-semibold uppercase opacity-100">
+                                  {item.name}
+                                </h2>
+                                <p className="text-white opacity-100">
+                                  {item.ingredient}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </div>
+              ) : (
+                <div></div>
+              )}
             </div>
           </div>
         ) : nav === 2 ? (

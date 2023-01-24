@@ -1,4 +1,4 @@
-export const CircleFood = [
+export const CircleSalad = [
   {
     name: "Salade Cesar",
     ingredient: "",
@@ -20,6 +20,9 @@ export const CircleFood = [
     desc: "",
     image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
+];
+
+export const CircleEntree = [
   {
     name: "Pomme Frite",
     ingredient: "",
@@ -41,6 +44,9 @@ export const CircleFood = [
     desc: "",
     image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
+];
+
+export const CircleShawarma = [
   {
     name: "Shawarma Poulet Sand",
     ingredient: "",
@@ -69,6 +75,9 @@ export const CircleFood = [
     desc: "",
     image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
+];
+
+export const CirclePlateaux = [
   {
     name: "T Bone Steak",
     ingredient: "",
@@ -83,6 +92,16 @@ export const CircleFood = [
     desc: "",
     image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
+  {
+    name: "Plat Escalope Panne",
+    ingredient: "",
+    price: "6.5",
+    desc: "",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
+  },
+];
+
+export const CirclePizza = [
   {
     name: "Pizza Margarita",
     ingredient: "",
@@ -111,6 +130,9 @@ export const CircleFood = [
     desc: "",
     image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
+];
+
+export const CircleBurger = [
   {
     name: "Plat Burger Le Palais",
     ingredient: "",
@@ -148,13 +170,6 @@ export const CircleFood = [
   },
   {
     name: "Sand Chicken Burger",
-    ingredient: "",
-    price: "6.5",
-    desc: "",
-    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
-  },
-  {
-    name: "Plat Escalope Panne",
     ingredient: "",
     price: "6.5",
     desc: "",
