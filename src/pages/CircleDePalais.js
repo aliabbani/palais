@@ -334,7 +334,7 @@ const CircleDePalais = () => {
                 <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
                   <div className="map-container-2 h-[500px] w-full">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15914.154496626461!2d15.2913576!3d-4.3093537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x460f42fa8a33099b!2sLC%20Waikiki!5e0!3m2!1sen!2scd!4v1674508368049!5m2!1sen!2scd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4023626092867!2d15.248516914120705!3d-4.335316947771861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a315533d6ff59%3A0xeef95f9e7d568613!2sCercle%20Libanais!5e0!3m2!1sen!2scd!4v1674583896701!5m2!1sen!2scd"
                       allowFullScreen
                       className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                       loading="lazy"
