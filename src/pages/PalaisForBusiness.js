@@ -7,7 +7,7 @@ const PalaisForBusiness = () => {
   return (
     <div>
       <NavBar />
-      <section className="mb-10">
+      <section className="">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -72,74 +72,78 @@ const PalaisForBusiness = () => {
         </div>
       </section>
 
-      {/* business conference */}
-      <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight pt-4">
-        événement d'entreprise
-      </div>
-      <div className="container my-4 px-6 mx-auto">
-        <section className="mb-32 text-gray-800 text-center lg:text-left">
-          <div className="container mx-auto xl:px-32 text-center lg:text-left">
-            <div className="grid lg:grid-cols-2 flex items-center">
-              <div className="mb-12 lg:mb-0">
-                <div
-                  className="relative block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
-                  style={{
-                    background: "hsla(0, 0%, 100%, 0.55)",
-                    backdropFilter: "blur(30px)",
-                    zIndex: "1",
-                  }}
-                >
-                  <h2 className="text-3xl font-bold mb-4 display-5">
-                    organisez votre événement d'entreprise
-                  </h2>
-                  <p className="text-gray-500 mb-12">
-                    Organisez votre événement d'entreprise dans l'un de nos
-                    restaurants, que vous célébriez un succès, lanciez de
-                    nouvelles fonctionnalités ou réunissiez vos employés. Le
-                    Palais est le meilleur endroit pour organiser votre
-                    événement.
-                  </p>
+      {/* business event */}
+      <div>
+        <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight pt-4">
+          événement d'entreprise
+        </div>
+        <div className="container my-4 px-6 mx-auto">
+          <section className="mb-32 text-gray-800 text-center lg:text-left">
+            <div className="container mx-auto xl:px-32 text-center lg:text-left">
+              <div className="grid lg:grid-cols-2 flex items-center">
+                <div className="mb-12 lg:mb-0">
+                  <div
+                    className="relative block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
+                    style={{
+                      background: "hsla(0, 0%, 100%, 0.55)",
+                      backdropFilter: "blur(30px)",
+                      zIndex: "1",
+                    }}
+                  >
+                    <h2 className="text-3xl font-bold mb-4 display-5">
+                      organisez votre événement d'entreprise
+                    </h2>
+                    <p className="text-gray-500 mb-12">
+                      Organisez votre événement d'entreprise dans l'un de nos
+                      restaurants, que vous célébriez un succès, lanciez de
+                      nouvelles fonctionnalités ou réunissiez vos employés. Le
+                      Palais est le meilleur endroit pour organiser votre
+                      événement.
+                    </p>
 
-                  <div className="grid md:grid-cols-3 gap-x-6">
-                    <div className="mb-12 md:mb-0">
-                      <h2 className="text-3xl font-bold text-dark mb-4">
-                        100%
-                      </h2>
-                      <h5 className="text-lg font-medium text-gray-500 mb-0">
-                        VIP Treatment
-                      </h5>
-                    </div>
+                    <div className="grid md:grid-cols-3 gap-x-6">
+                      <div className="mb-12 md:mb-0">
+                        <h2 className="text-3xl font-bold text-dark mb-4">
+                          100%
+                        </h2>
+                        <h5 className="text-lg font-medium text-gray-500 mb-0">
+                          VIP Treatment
+                        </h5>
+                      </div>
 
-                    <div className="mb-12 md:mb-0">
-                      <h2 className="text-3xl font-bold text-dark mb-4">
-                        100%
-                      </h2>
-                      <h5 className="text-lg font-medium text-gray-500 mb-0">
-                        Menu Planning
-                      </h5>
-                    </div>
+                      <div className="mb-12 md:mb-0">
+                        <h2 className="text-3xl font-bold text-dark mb-4">
+                          100%
+                        </h2>
+                        <h5 className="text-lg font-medium text-gray-500 mb-0">
+                          Menu Planning
+                        </h5>
+                      </div>
 
-                    <div className="">
-                      <h2 className="text-3xl font-bold text-dark mb-4">We</h2>
-                      <h5 className="text-lg font-medium text-gray-500 mb-0">
-                        Understand Your Budget
-                      </h5>
+                      <div className="">
+                        <h2 className="text-3xl font-bold text-dark mb-4">
+                          We
+                        </h2>
+                        <h5 className="text-lg font-medium text-gray-500 mb-0">
+                          Understand Your Budget
+                        </h5>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div>
-                {/* w: 600 h: 900 */}
-                <img
-                  src="https://i.ibb.co/ySFRLmv/business-conference.png"
-                  className="w-full shadow-lg fancy-border-radius rotate-lg-6"
-                  alt=""
-                />
+                <div>
+                  {/* w: 600 h: 900 */}
+                  <img
+                    src="https://i.ibb.co/ySFRLmv/business-conference.png"
+                    className="w-full shadow-lg fancy-border-radius rotate-lg-6"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
       <Footer />
     </div>
@@ -148,7 +152,5 @@ const PalaisForBusiness = () => {
 
 export default PalaisForBusiness;
 
-// business conference
 // wedding party
-// business event
 // Your Staff food organize your day to day menu
