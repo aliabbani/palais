@@ -32,10 +32,11 @@ const CircleDePalais = () => {
   return (
     <div>
       <NavBar />
+      {/* w:1600 h:707 */}
       <RestaurantsSlider
         src1="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
         src2="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        src3="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80"
+        src3="https://i.ibb.co/HGj7Pqz/football-court.png"
       />
 
       {/* menu nav */}
