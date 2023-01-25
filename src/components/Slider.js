@@ -46,14 +46,14 @@ const Slider = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://i.ibb.co/L522hT3/restaurant2.jpg"
+            src="https://i.ibb.co/5Mp7zqk/restaurant3.jpg"
             className="block w-full md:h-[550px]"
             alt="Camera"
           />
         </div>
         <div className="carousel-item float-left w-full">
           <img
-            src="https://i.ibb.co/5Mp7zqk/restaurant3.jpg"
+            src="https://i.ibb.co/L522hT3/restaurant2.jpg"
             className="block w-full md:h-[550px]"
             alt="Exotic Fruits"
           />

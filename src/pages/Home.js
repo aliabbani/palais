@@ -5,6 +5,9 @@ import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
 import Logo from "../assets/images/logo-colored.png";
 
+// GridRestaurants (carts)
+// w:780px h:520px
+
 const Home = () => {
   return (
     <>
