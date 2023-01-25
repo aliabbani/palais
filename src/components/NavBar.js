@@ -32,7 +32,12 @@ const NavBar = () => {
             {/* <Link to="/"> */}
             <div>
               <div className="flex flex-row items-baseline justify-between">
-                <div>restaurants</div>
+                <div
+                  className="cursor-pointer"
+                  onClick={() => setShowRestaurants(!showRestaurants)}
+                >
+                  restaurants
+                </div>
                 {showRestaurants ? (
                   <div className="pl-2 cursor-pointer">
                     <AiOutlineMinus onClick={() => setShowRestaurants(false)} />
