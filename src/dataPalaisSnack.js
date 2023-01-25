@@ -15,7 +15,7 @@ export const palaisSnackMenuAmuseBouche = [
     ingredient: "",
     price: "3.00",
     desc: "",
-    image: "https://i.ibb.co/2tsbdKJ/pomme-frites.png",
+    image: "https://i.ibb.co/MydJbVW/l-image-est-en-construction.png",
   },
   {
     name: "Wedges Potatos",

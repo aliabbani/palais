@@ -33,10 +33,12 @@ const Home = () => {
                       Let it surprise you
                     </h2>
                     <p className="mb-6 pb-2 lg:pb-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Maxime, sint, repellat vel quo quisquam accusamus in qui
-                      at ipsa enim quibusdam illo laboriosam omnis. Labore
-                      itaque illum distinctio eum neque!
+                      Bienvenue dans les concepts de restauration modernes les
+                      plus attractifs Niché au cœur d'un environnement urbain en
+                      effervescence, Palais Restaurants rassemble des personnes
+                      à la recherche de sorties sociales enrichissantes et
+                      d'expériences culinaires authentiques qui ressemblent à un
+                      resetting voyage!.
                     </p>
 
                     <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
@@ -84,18 +86,20 @@ const Home = () => {
                     </div>
 
                     <p>
-                      Duis sagittis, turpis in ullamcorper venenatis, ligula
-                      nibh porta dui, sit amet rutrum enim massa in ante.
-                      Curabitur in justo at lorem laoreet ultricies. Nunc ligula
-                      felis, sagittis eget nisi vitae, sodales vestibulum purus.
-                      Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                      vel justo. Duis faucibus sapien eget tortor finibus, a
-                      eleifend lectus dictum. Cras tempor convallis magna id
-                      rhoncus. Suspendisse potenti. Nam mattis faucibus
-                      imperdiet. Proin tempor lorem at neque tempus aliquet.
-                      Phasellus at ex volutpat, varius arcu id, aliquam lectus.
-                      Vestibulum mattis felis quis ex pharetra luctus. Etiam
-                      luctus sagittis massa, sed iaculis est vehicula ut.
+                      Le Palais rassemble les gourmands autour de gourmandises
+                      maison de grande qualité. Avec son atmosphère légère et
+                      décontractée, Palais Attire petits et grands. At Le Dans
+                      Le Palais, on retrouve le raffinement élégant et efficace
+                      d'un authentiques restaurants libanais internationaux.
+                      <br></br>
+                      Depuis des décennies, la formule du Palais assure le
+                      succès avec ses mezzés libanais, ses plats principaux
+                      savoureux et tendres accompagnés de sa fameuse sauce et
+                      ses sushis fins et dorés. Nam mattis faucibus imperdiet.
+                      Le Palais est un jardin, Le Palais est un Piano Bar, Le
+                      Palais est un lieu de détente à chicha. Vous sentirez
+                      toujours nouveau et vous donnerez envie de revenir après
+                      chaque visite.
                     </p>
                   </div>
                 </div>
