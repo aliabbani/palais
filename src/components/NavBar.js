@@ -44,11 +44,19 @@ const NavBar = () => {
                 )}
               </div>
               {showRestaurants && (
-                <div className="text-base pt-4 capitalize text-gray-600 flex flex-col items-start pl-6">
-                  <div>Le Palais</div>
-                  <div>Palais Snack</div>
-                  <div>Le Cercle</div>
-                  <div>Royal Burger</div>
+                <div className="text-base pt-4 capitalize text-gray-600 flex flex-col items-start pl-6 cursor-pointer">
+                  <Link to="/lepalais">
+                    <div>Le Palais</div>
+                  </Link>
+                  <Link to="/palaissnack">
+                    <div>Palais Snack</div>
+                  </Link>
+                  <Link to="/circledepalais">
+                    <div>Le Cercle</div>
+                  </Link>
+                  <Link to="/royalburger">
+                    <div>Royal Burger</div>
+                  </Link>
                 </div>
               )}
             </div>
