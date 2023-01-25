@@ -8,7 +8,7 @@ const NavBar = () => {
 
   return (
     <nav className="flex flex-row w-full justify-between bg-[#272a31]">
-      <div className="flex flex-row justify-between items-center text-white uppercase p-5 w-full lg:w-max">
+      <div className="flex flex-row justify-between items-center text-white uppercase p-4 lg:p-5 w-full lg:w-max">
         <Link to="/">
           <div>Palais</div>
         </Link>
@@ -21,7 +21,7 @@ const NavBar = () => {
       {showMenu ? (
         // mobile
         <div className="z-50 w-full h-full absolute top-0 left-0 overflow-scroll">
-          <div className="text-black bg-silver p-6 bg-stone-200 flex flex-row justify-between items-center">
+          <div className="text-black bg-silver p-4 bg-stone-200 flex flex-row justify-between items-center">
             <div className="uppercase cursor-pointer">Palais</div>
             <AiOutlineClose
               className="text-3xl cursor-pointer"
@@ -115,7 +115,7 @@ const NavBar = () => {
                     className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
                     href="/lepalais"
                   >
-                     Le Palais
+                    Le Palais
                   </a>
                 </li>
                 <li>
