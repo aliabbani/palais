@@ -23,8 +23,9 @@ function GridRestaurants() {
               Le Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              The Palais formula has ensured success with its Lebanese Mezze,
+              its tasty main dishes accompanied by its famous sauce, and its
+              fine and golden sushi.
             </p>
             <div onClick={scrollToTop}>
               <Link to="/lepalais">
@@ -49,13 +50,12 @@ function GridRestaurants() {
               alt=""
             />
           </a>
-          <div className="p-6">
+          <div className="p-6 flex flex-col content-between justify-between">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Palais Snack
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Le Palais Snack, the Lebanese international fast-food restaurant.
             </p>
             <div onClick={scrollToTop}>
               <Link to="/palaissnack">
@@ -85,8 +85,8 @@ function GridRestaurants() {
               Circle De Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Some quick description text Some quick description text Some quick
+              description text Some quick description text.
             </p>
             <div onClick={scrollToTop}>
               <Link to="/circledepalais">
@@ -116,8 +116,8 @@ function GridRestaurants() {
               Royal Burger
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Some quick description text Some quick description text Some quick
+              description text Some quick description text.
             </p>
             <div onClick={scrollToTop}>
               <Link to="/royalburger">
