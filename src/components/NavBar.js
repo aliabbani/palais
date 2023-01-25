@@ -21,7 +21,7 @@ const NavBar = () => {
       {showMenu ? (
         // mobile
         <div className="z-50 w-full h-full absolute top-0 left-0 overflow-scroll">
-          <div className="text-black bg-silver shadow-lg p-4 bg-stone-200 flex flex-row justify-between items-center">
+          <div className="text-black bg-silver shadow-lg p-5 bg-stone-200 flex flex-row justify-between items-center">
             <div className="uppercase cursor-pointer">Palais</div>
             <AiOutlineClose
               className="text-3xl cursor-pointer"
@@ -62,17 +62,17 @@ const NavBar = () => {
             </div>
             {/* </Link> */}
             <Link to="/brand">
-              <div>brand</div>
+              <div>marque</div>
             </Link>
             <Link to="/loyality">
-              <div>Palais club card</div>
+              <div>Carte Palais Club</div>
             </Link>
-            <div>careers</div>
+            <div>carrières</div>
             <Link to="/contact">
               <div>contact</div>
             </Link>
             <Link to="/palaisforbusiness">
-              <div>Palais for business</div>
+              <div>Palais des affaires</div>
             </Link>
           </div>
         </div>
@@ -83,7 +83,7 @@ const NavBar = () => {
             {/* <Link to="/"> */}
             <div className="dropdown relative">
               <button
-                className="dropdown-toggle px-0 py-2.5 bg-[#272a31] flex items-center whitespace-nowrap"
+                className="capitalize dropdown-toggle px-0 py-2.5 bg-[#272a31] flex items-center whitespace-nowrap"
                 type="button"
                 id="dropdownMenuButton10"
                 data-bs-toggle="dropdown"
@@ -146,24 +146,24 @@ const NavBar = () => {
             </div>
             {/* </Link> */}
 
-            <button>
-              <Link to="/brand">brand </Link>
+            <button className="capitalize">
+              <Link to="/brand">marque </Link>
             </button>
 
-            <button>
-              <Link to="/loyality">Palais club card</Link>
+            <button className="capitalize">
+              <Link to="/loyality">Carte Palais Club</Link>
             </button>
 
-            <button>
-              <Link>careers</Link>
+            <button className="capitalize">
+              <Link>carrières</Link>
             </button>
 
-            <button>
+            <button className="capitalize">
               <Link to="/contact">contact</Link>
             </button>
 
-            <button>
-              <Link to="/palaisforbusiness">Palais for business</Link>
+            <button className="capitalize">
+              <Link to="/palaisforbusiness">Palais des affaires</Link>
             </button>
 
             <button className="text-yellow-700">+243 999</button>
