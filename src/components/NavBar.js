@@ -28,7 +28,7 @@ const NavBar = () => {
               onClick={() => setShowMenu(false)}
             />
           </div>
-          <div className="items-center justify-center gap-5 bg-white text-white uppercase h-full flex flex-col text-black font-semibold text-lg">
+          <div className="h-full items-start p-14 gap-8 bg-white text-white uppercase flex flex-col text-black font-semibold text-xl">
             {/* <Link to="/"> */}
             <div>
               <div className="flex flex-row items-baseline justify-between">
@@ -44,7 +44,7 @@ const NavBar = () => {
                 )}
               </div>
               {showRestaurants && (
-                <div className="text-base pt-4 capitalize text-gray-600">
+                <div className="text-base pt-4 capitalize text-gray-600 flex flex-col items-start pl-6">
                   <div>Le Palais</div>
                   <div>Palais Snack</div>
                   <div>Le Cercle</div>
