@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 const NavBar = () => {
-  const [showMenu, setShowMenu] = React.useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const [showRestaurants, setShowRestaurants] = useState(false);
 
   return (
     <nav className="flex flex-row w-full justify-between bg-[#272a31]">
-      <div className="flex flex-row justify-between items-center text-white uppercase p-6 w-full lg:w-max">
+      <div className="flex flex-row justify-between items-center text-white uppercase p-5 w-full lg:w-max">
         <Link to="/">
           <div>Palais</div>
         </Link>
@@ -28,9 +29,30 @@ const NavBar = () => {
             />
           </div>
           <div className="items-center justify-center gap-5 bg-white text-white uppercase h-full flex flex-col text-black font-semibold text-lg">
-            <Link to="/">
-              <div>restaurants</div>
-            </Link>
+            {/* <Link to="/"> */}
+            <div>
+              <div className="flex flex-row items-baseline justify-between">
+                <div>restaurants</div>
+                {showRestaurants ? (
+                  <div className="pl-2 cursor-pointer">
+                    <AiOutlineMinus onClick={() => setShowRestaurants(false)} />
+                  </div>
+                ) : (
+                  <div className="pl-2 cursor-pointer">
+                    <AiOutlinePlus onClick={() => setShowRestaurants(true)} />
+                  </div>
+                )}
+              </div>
+              {showRestaurants && (
+                <div className="text-base pt-4 capitalize text-gray-600">
+                  <div>Le Palais</div>
+                  <div>Palais Snack</div>
+                  <div>Le Cercle</div>
+                  <div>Royal Burger</div>
+                </div>
+              )}
+            </div>
+            {/* </Link> */}
             <Link to="/brand">
               <div>brand</div>
             </Link>
@@ -48,7 +70,7 @@ const NavBar = () => {
         </div>
       ) : (
         // desktop
-        <div className="hidden lg:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
+        <div className="hidden lg:flex flex-row justify-between items-center bg-[#272a31] py-4 px-4">
           <div className="flex md:gap-5 lg:gap-10 text-white">
             {/* <Link to="/"> */}
             <div className="dropdown relative">
