@@ -83,7 +83,7 @@ const NavBar = () => {
             {/* <Link to="/"> */}
             <div className="dropdown relative">
               <button
-                className="dropdown-toggle px-0 py-2.5 bg-[#272a31] text-white font-medium flex items-center whitespace-nowrap"
+                className="dropdown-toggle px-0 py-2.5 bg-[#272a31] flex items-center whitespace-nowrap"
                 type="button"
                 id="dropdownMenuButton10"
                 data-bs-toggle="dropdown"
@@ -113,15 +113,15 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                    href="#"
+                    href="/lepalais"
                   >
-                    Le Palais
+                     Le Palais
                   </a>
                 </li>
                 <li>
                   <a
                     className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                    href="#"
+                    href="/palaissnack"
                   >
                     Palais Snack
                   </a>
@@ -129,7 +129,7 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                    href="#"
+                    href="/circledepalais"
                   >
                     Le Cercle
                   </a>
@@ -137,7 +137,7 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                    href="#"
+                    href="/royalburger"
                   >
                     Royal Burger
                   </a>
