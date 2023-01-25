@@ -49,24 +49,94 @@ const NavBar = () => {
       ) : (
         // desktop
         <div className="hidden lg:flex flex-row justify-between items-center bg-[#272a31] py-7 px-4">
-          <div className="flex md:gap-5 lg:gap-10 text-white uppercase">
-            <Link to="/">
-              <div>restaurants</div>
-            </Link>
-            <Link to="/brand">
-              <div>brand</div>
-            </Link>
-            <Link to="/loyality">
-              <div>Palais club card</div>
-            </Link>
-            <div>careers</div>
-            <Link to="/contact">
-              <div>contact</div>
-            </Link>
-            <Link to="/palaisforbusiness">
-              <div>Palais for business</div>
-            </Link>
-            <div className="text-yellow-700">+243 999</div>
+          <div className="flex md:gap-5 lg:gap-10 text-white">
+            {/* <Link to="/"> */}
+            <div className="dropdown relative">
+              <button
+                className="dropdown-toggle px-0 py-2.5 bg-[#272a31] text-white font-medium flex items-center whitespace-nowrap"
+                type="button"
+                id="dropdownMenuButton10"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Restaurants
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="caret-down"
+                  className="w-2 ml-2"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                  ></path>
+                </svg>
+              </button>
+              <ul
+                className="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none"
+                aria-labelledby="dropdownMenuButton10"
+              >
+                <li>
+                  <a
+                    className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                    href="#"
+                  >
+                    Le Palais
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                    href="#"
+                  >
+                    Palais Snack
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                    href="#"
+                  >
+                    Le Cercle
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                    href="#"
+                  >
+                    Royal Burger
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* </Link> */}
+
+            <button>
+              <Link to="/brand">brand </Link>
+            </button>
+
+            <button>
+              <Link to="/loyality">Palais club card</Link>
+            </button>
+
+            <button>
+              <Link>careers</Link>
+            </button>
+
+            <button>
+              <Link to="/contact">contact</Link>
+            </button>
+
+            <button>
+              <Link to="/palaisforbusiness">Palais for business</Link>
+            </button>
+
+            <button className="text-yellow-700">+243 999</button>
           </div>
         </div>
       )}
