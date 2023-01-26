@@ -8,6 +8,7 @@ import PalaisSnack from "./pages/PalaisSnack.js";
 import CircleDePalais from "./pages/CircleDePalais.js";
 import RoyalBurger from "./pages/RoyalBurger.js";
 import PalaisForBusiness from "./pages/PalaisForBusiness.js";
+import Career from "./pages/Career.js";
 // import SwipeToSlide from "./components/SwipeToSlide.js";
 
 // Import css files
@@ -21,6 +22,7 @@ function App() {
         <Route path="/brand" element={<Brand />} />
         <Route path="/loyality" element={<Loyality />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/career" element={<Career />} />
         <Route path="/lepalais" element={<Lepalais />} />
         <Route path="/palaissnack" element={<PalaisSnack />} />
         <Route path="/circledepalais" element={<CircleDePalais />} />

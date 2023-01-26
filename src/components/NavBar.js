@@ -72,7 +72,10 @@ const NavBar = () => {
             <Link to="/loyality">
               <div>Carte Palais Club</div>
             </Link>
-            <div>carrières</div>
+            <Link to="/career">
+              <div>carrières</div>
+            </Link>
+
             <Link to="/contact">
               <div>contact</div>
             </Link>
@@ -160,7 +163,7 @@ const NavBar = () => {
             </button>
 
             <button className="capitalize">
-              <Link>carrières</Link>
+              <Link to="/career">carrières</Link>
             </button>
 
             <button className="capitalize">
