@@ -226,7 +226,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Amuse Bouche
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -239,16 +239,12 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Notre délicieuse sélection de Amuse Bouche, parfaite pour le
+                  partage.
                 </div>
               </div>
             </div>
@@ -308,7 +304,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Salades
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -321,16 +317,12 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Salades fraîches composées uniquement des meilleurs légumes du
+                  marché, soigneusement sélectionnés chaque jour.
                 </div>
               </div>
             </div>
@@ -390,7 +382,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Pates Et Risottos
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -403,16 +395,13 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Risotto riche et crémeux avec une consistance presque
+                  semblable à celle d'une bouillie, mais chaque grain de riz
+                  conserve une morsure distincte.
                 </div>
               </div>
             </div>
@@ -472,7 +461,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Pizza
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -485,16 +474,14 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Origine italienne consistant en un disque aplati de pâte à
+                  pain garni d'une combinaison d'huile d'olive, d'origan, de
+                  tomate, d'olives, de mozzarella ou d'un autre fromage, et de
+                  nombreux autres ingrédients, cuit avec notre four à bois.
                 </div>
               </div>
             </div>
@@ -554,7 +541,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Sandwiches
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -567,16 +554,12 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Seuls les meilleurs ingrédients du marché entrent dans notre
+                  pain frais.
                 </div>
               </div>
             </div>
@@ -636,7 +619,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Burgers
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -649,16 +632,11 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Burgers de qualité supérieure préparés à la commande.
                 </div>
               </div>
             </div>

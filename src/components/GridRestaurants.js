@@ -23,9 +23,9 @@ function GridRestaurants() {
               Le Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              The Palais formula has ensured success with its Lebanese Mezze,
-              its tasty main dishes accompanied by its famous sauce, and its
-              fine and golden sushi.
+              La formule Palais a assuré le succès avec ses mezzés libanais, ses
+              plats principaux savoureux accompagnés de sa fameuse sauce, et ses
+              sushis fins et dorés.
             </p>
             <div>
               <Link to="/lepalais">
@@ -55,7 +55,8 @@ function GridRestaurants() {
               Palais Snack
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Le Palais Snack, the Lebanese international fast-food restaurant.
+              Le Palais Snack, le restaurant libanais international de
+              restauration rapide.
             </p>
             <div>
               <Link to="/palaissnack">
@@ -85,8 +86,8 @@ function GridRestaurants() {
               Circle De Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick description text Some quick description text Some quick
-              description text Some quick description text.
+              Notre prochaine surprise, qui comprend un restaurant, une
+              terrasse, une piscine et 3 terrains de football.
             </p>
             <div>
               <Link to="/circledepalais">
@@ -116,8 +117,7 @@ function GridRestaurants() {
               Royal Burger
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Some quick description text Some quick description text Some quick
-              description text Some quick description text.
+              Royal Burger, le snack burger de la restauration rapide..
             </p>
             <div>
               <Link to="/royalburger">

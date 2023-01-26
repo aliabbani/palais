@@ -197,12 +197,8 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Notre délicieuse sélection de Amuse Bouche, parfaite pour le
+                    partage.
                   </div>
                 </div>
               </div>
@@ -262,7 +258,7 @@ const PalaisSnack = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Salades
                   </h2>
-                  <div>
+                  {/* <div>
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
@@ -275,16 +271,12 @@ const PalaisSnack = () => {
                         delivery menu
                       </button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Salades fraîches composées uniquement des meilleurs légumes
+                    du marché, soigneusement sélectionnés chaque jour.
                   </div>
                 </div>
               </div>
@@ -361,12 +353,8 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Seuls les meilleurs ingrédients du marché entrent dans notre
+                    pain frais.
                   </div>
                 </div>
               </div>
@@ -408,6 +396,9 @@ const PalaisSnack = () => {
                               <p className="text-white text-base font-medium opacity-100">
                                 {item.ingredient}
                               </p>
+                              {/* <p className="text-white text-base font-medium opacity-100">
+                                ${item.price}
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -443,8 +434,7 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    You’re in for a divine experience with our premium
-                    cooked-to-order burgers.
+                    Burgers de qualité supérieure préparés à la commande..
                   </div>
                 </div>
               </div>
