@@ -9,15 +9,15 @@ function GridRestaurants() {
   return (
     <div className="mb-10 main px-2 md:px-2 py-10 md:py-10 justify-evenly flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8">
       {/* first */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" onClick={scrollToTop}>
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <a href="#!">
+          <Link to="/lepalais">
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/89XVWtw/pexels-photo-1307698-1.jpg"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Le Palais
@@ -27,7 +27,7 @@ function GridRestaurants() {
               its tasty main dishes accompanied by its famous sauce, and its
               fine and golden sushi.
             </p>
-            <div onClick={scrollToTop}>
+            <div>
               <Link to="/lepalais">
                 <button
                   type="button"
@@ -41,15 +41,15 @@ function GridRestaurants() {
         </div>
       </div>
       {/* second */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" onClick={scrollToTop}>
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <a href="#!">
+          <Link to="/palaissnack">
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/3RV1K97/restaurant33.png"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-6 flex flex-col content-between justify-between">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Palais Snack
@@ -57,7 +57,7 @@ function GridRestaurants() {
             <p className="text-gray-700 text-base mb-4">
               Le Palais Snack, the Lebanese international fast-food restaurant.
             </p>
-            <div onClick={scrollToTop}>
+            <div>
               <Link to="/palaissnack">
                 <button
                   type="button"
@@ -71,15 +71,15 @@ function GridRestaurants() {
         </div>
       </div>
       {/* third */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" onClick={scrollToTop}>
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <a href="#!">
+          <Link to="/circledepalais">
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/30cnGGQ/restaurant22.png"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Circle De Palais
@@ -88,7 +88,7 @@ function GridRestaurants() {
               Some quick description text Some quick description text Some quick
               description text Some quick description text.
             </p>
-            <div onClick={scrollToTop}>
+            <div>
               <Link to="/circledepalais">
                 <button
                   type="button"
@@ -102,15 +102,15 @@ function GridRestaurants() {
         </div>
       </div>
       {/* fourth */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" onClick={scrollToTop}>
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <a href="#!">
+          <Link to="/royalburger">
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/N9CSXJY/restaurant44-2.png"
               alt=""
             />
-          </a>
+          </Link>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Royal Burger
@@ -119,7 +119,7 @@ function GridRestaurants() {
               Some quick description text Some quick description text Some quick
               description text Some quick description text.
             </p>
-            <div onClick={scrollToTop}>
+            <div>
               <Link to="/royalburger">
                 <button
                   type="button"
