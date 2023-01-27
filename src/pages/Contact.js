@@ -11,30 +11,32 @@ const Contact = () => {
           contact us
         </div>
         <div>
-          Have a question or feedback about a delivery order? please contact us
-          at: 0996-555-555 or at: 0996-333-333.
+          Have a question or feedback ? <br></br>
+          Do you want to reserve for an event in one of our restaurants?{" "}
+          <br></br>
+          Please contact us at: 0996-555-555 or at: 0996-333-333.
         </div>
         <form action="https://formspree.io/f/mknanvrb" method="POST">
           <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
-            feedback details
+            Details
           </div>
           <label>
             <textarea
               name="message"
-              placeholder="*Please provide more details about your feedback"
+              placeholder="*Please provide more details about your demandes"
               className="h-28 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               required
             ></textarea>
           </label>
           <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
-            your info
+            vos informations
           </div>
           <div className="pb-6">
             <input
               className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               type="text"
-              name="first name"
-              placeholder="*First Name"
+              name="Prénom"
+              placeholder="*Prénom"
               required
             />
           </div>
@@ -42,8 +44,8 @@ const Contact = () => {
             <input
               className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               type="text"
-              name="last name"
-              placeholder="*Last Name"
+              name="Nom de famille"
+              placeholder="*Nom de famille"
               required
             />
           </div>
@@ -52,24 +54,25 @@ const Contact = () => {
               className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               type="email"
               name="email"
-              placeholder="*Personal Email"
+              placeholder="*Email personnel"
               required
             />
           </div>
           <div className="pb-6">
             <input
               className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
-              placeholder="*Phone Number"
+              placeholder="*Numéro de téléphone"
               bordered="false"
               type="tel"
-              name="phone number"
+              name="Numéro de téléphone"
               pattern="[0-9]{9}"
               required
             />
           </div>
           <div>
-            By selecting Submit, any information you provide will be protected.
-            We may contact you regarding your submission.
+            En sélectionnant Soumettre, toutes les informations que vous
+            fournissez seront protégées. Nous pouvons vous contacter au sujet de
+            votre soumission.
           </div>
           <div className="py-20">
             <button
