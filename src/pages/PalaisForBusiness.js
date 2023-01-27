@@ -296,7 +296,7 @@ const PalaisForBusiness = () => {
 
                   <div>
                     <img
-                      src="https://i.ibb.co/j3Tzxbw/wedding-event.png"
+                      src="https://i.ibb.co/D5rYpJW/company-s-food.png"
                       className="w-full shadow-lg fancy-border-radius rotate-lg-6"
                       alt=""
                     />
