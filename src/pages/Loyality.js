@@ -19,13 +19,15 @@ const Loyality = () => {
           vous garder une place
         </div>
         <div className="border-4 border-white p-6 leading-relaxed bg-[#d3d3d3] mb-10">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. ok a galley of type and
-          scrambled it to make a type specimen book. ok a galley of type and
-          scrambled it to make a type specimen book. ok a galley of type and
-          scrambled it to make a type specimen book.
+          Nous savons que vous êtes un client fidèle et nous apprécions votre
+          entreprise. C'est pourquoi nous offrons une remise spéciale sur le
+          menu grâce à notre programme de fidélité. Vous souhaitez bénéficier
+          d'une réduction sur votre prochaine expérience culinaire ? Nous sommes
+          là pour vous aider. Notre carte de fidélité offre une réduction sur
+          nos 4 restaurants. Ainsi, vous pouvez profiter de la nourriture que
+          vous aimez à un prix inférieur. Cliquez simplement sur Appliquer. Une
+          fois sur place, vous pourrez vous inscrire pour votre carte de
+          fidélité et commencer à profiter des avantages immédiatement !
         </div>
         <button
           type="submit"
