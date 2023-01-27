@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import logoColored from "../assets/images/logo-colored.png";
 
+// rounded image w:600 h:900
+
 const PalaisForBusiness = () => {
   return (
     <div>
@@ -38,8 +40,8 @@ const PalaisForBusiness = () => {
             <div className="grid lg:grid-cols-2 gap-12 flex items-center">
               <div className="mt-12 lg:mt-0">
                 <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                  The best offer <br />
-                  <span className="text-yellow-500">for your business</span>
+                  La meilleure offre <br />
+                  <span className="text-yellow-500">pour votre entreprise</span>
                 </h1>
                 <a
                   className="inline-block px-7 py-3 mr-2 bg-yellow-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-yellow-700 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -161,7 +163,7 @@ const PalaisForBusiness = () => {
                       }}
                     >
                       <h2 className="text-3xl font-bold mb-4 display-5">
-                        organisez votre Fête de mariage
+                        Organisez votre Fête de mariage
                       </h2>
                       <p className="text-gray-500 mb-12">
                         Notre restaurant organise votre fête de mariage Un
@@ -207,7 +209,7 @@ const PalaisForBusiness = () => {
                         </div>
                         <div className="">
                           <h2 className="text-3xl font-bold text-dark mb-4">
-                            optional
+                            Optional
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
                             Services de photographie
@@ -218,9 +220,83 @@ const PalaisForBusiness = () => {
                   </div>
 
                   <div>
-                    {/* w: 600 h: 900 */}
                     <img
-                      src="https://i.ibb.co/ySFRLmv/business-conference.png"
+                      src="https://i.ibb.co/j3Tzxbw/wedding-event.png"
+                      className="w-full shadow-lg fancy-border-radius rotate-lg-6"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        {/* wedding party */}
+        <div>
+          <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight pt-4">
+            Nourriture de l'entreprise
+          </div>
+          <div className="container my-4 px-6 mx-auto">
+            <section className="mb-32 text-gray-800 text-center lg:text-left">
+              <div className="container mx-auto xl:px-32 text-center lg:text-left">
+                <div className="grid lg:grid-cols-2 flex items-center">
+                  <div className="mb-12 lg:mb-0">
+                    <div
+                      className="relative block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
+                      style={{
+                        background: "hsla(0, 0%, 100%, 0.55)",
+                        backdropFilter: "blur(30px)",
+                        zIndex: "1",
+                      }}
+                    >
+                      <h2 className="text-3xl font-bold mb-4 display-5">
+                        Offrez à vos employés la nourriture de nos menus.
+                      </h2>
+                      <p className="text-gray-500 mb-12">
+                        Nous avons travaillé avec de nombreuses entreprises dans
+                        le passé et nous pouvons également vous aider. Nous
+                        avons un large menu d'articles que nous pouvons fournir
+                        à vos employés. Notre service de livraison nous permet
+                        d'offrir de la bonne nourriture à des prix abordables et
+                        il est sûr de plaire à tout client qui commande chez
+                        nous. Nous offrons des coupons mensuels aux entreprises
+                        pour tous vos employés
+                      </p>
+
+                      <div className="grid md:grid-cols-3 gap-x-6">
+                        <div className="mb-12 md:mb-0">
+                          <h2 className="text-3xl font-bold text-dark mb-4">
+                            100%
+                          </h2>
+                          <h5 className="text-lg font-medium text-gray-500 mb-0">
+                            Nourriture de qualité
+                          </h5>
+                        </div>
+
+                        <div className="mb-12 md:mb-0">
+                          <h2 className="text-3xl font-bold text-dark mb-4">
+                            Précis
+                          </h2>
+                          <h5 className="text-lg font-medium text-gray-500 mb-0">
+                            Heure de livraison
+                          </h5>
+                        </div>
+
+                        <div className="">
+                          <h2 className="text-3xl font-bold text-dark mb-4">
+                            Nous
+                          </h2>
+                          <h5 className="text-lg font-medium text-gray-500 mb-0">
+                            Comprendre votre budget
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <img
+                      src="https://i.ibb.co/j3Tzxbw/wedding-event.png"
                       className="w-full shadow-lg fancy-border-radius rotate-lg-6"
                       alt=""
                     />
@@ -238,5 +314,4 @@ const PalaisForBusiness = () => {
 
 export default PalaisForBusiness;
 
-// wedding party
 // Your Staff food organize your day to day menu

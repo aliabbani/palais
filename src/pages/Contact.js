@@ -11,19 +11,18 @@ const Contact = () => {
           contact us
         </div>
         <div>
-          Have a question or feedback ? <br></br>
-          Do you want to reserve for an event in one of our restaurants?{" "}
-          <br></br>
-          Please contact us at: 0996-555-555 or at: 0996-333-333.
+          Vous avez une question ou un commentaire ? Vous souhaitez réserver
+          pour un événement à un de nos restaurants? Veuillez nous contacter au
+          : 0996-555-555 ou au : 0996-333-333.
         </div>
         <form action="https://formspree.io/f/mknanvrb" method="POST">
           <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
-            Details
+            Détails
           </div>
           <label>
             <textarea
               name="message"
-              placeholder="*Please provide more details about your demandes"
+              placeholder="*Veuillez fournir plus de détails sur vos demandes"
               className="h-28 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
               required
             ></textarea>
