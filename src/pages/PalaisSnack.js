@@ -601,12 +601,12 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Hot Mezzes is our modern take on traditional Mediterranean
-                    appetizers.
+                    Mezzes chauds est notre version moderne de la cuisine
+                    méditerranéenne traditionnelle apéritifs.
                     <br></br>
-                    The different varieties present on the menu are full of
-                    flavor, freshness, and balance - the perfect combination to
-                    enhance the dining experience!
+                    Les différentes variétés présentes sur la carte regorgent de
+                    saveur, fraîcheur et équilibre - la combinaison parfaite
+                    pour améliorez l'expérience culinaire!
                   </div>
                 </div>
               </div>
@@ -683,11 +683,11 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Our beef and chicken shawarma, roasted over a flame and then
-                    carved right off the spit, are the freshest, tastiest
-                    ingredients available.<br></br> Our chefs have spent
-                    countless hours perfecting our recipes so that every bite is
-                    full of flavor.
+                    Notre shawarma au bœuf et au poulet, rôti à la flamme puis
+                    taillés à la broche, sont les plus frais et les plus
+                    savoureux ingrédients disponibles.<br></br> Nos chefs ont
+                    passé d'innombrables heures à perfectionner nos recettes
+                    afin que chaque bouchée soit plein de saveur.
                   </div>
                 </div>
               </div>
