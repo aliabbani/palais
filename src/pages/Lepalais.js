@@ -243,8 +243,9 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Notre délicieuse sélection de Amuse Bouche, parfaite pour le
-                  partage.
+                  Voici un avant-goût de nos menus à venir. Ces petites
+                  assiettes font partie d'une image plus grande, et nous pensons
+                  qu'elles sont plutôt géniales.
                 </div>
               </div>
             </div>
@@ -322,7 +323,12 @@ const Lepalais = () => {
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
                   Salades fraîches composées uniquement des meilleurs légumes du
-                  marché, soigneusement sélectionnés chaque jour.
+                  marché, soigneusement sélectionnés chaque jour.<br></br>
+                  Nous sommes tout au sujet des salades. Vous n'avez pas besoin
+                  de suivre un régime ou d'essayer de mieux manger pour les
+                  aimer. Toujours pleines de saveurs, plus légères et plus
+                  fraîches, ces salades sont parfaites pour toutes les
+                  occasions.
                 </div>
               </div>
             </div>
@@ -558,8 +564,8 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Seuls les meilleurs ingrédients du marché entrent dans notre
-                  pain frais.
+                  Des sandwichs frais et délicieux pour le déjeuner ou le dîner.
+                  Parfait pour une bouchée rapide ou pour partager.
                 </div>
               </div>
             </div>
@@ -636,7 +642,10 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Burgers de qualité supérieure préparés à la commande.
+                  Des hamburgers qui peuvent élever votre moral et vous faire
+                  sentir bien! Tous les meilleurs ingrédients. <br></br>Luxe et
+                  confort à chaque bouchée. Nos burgers signatures sont faits
+                  avec amour.
                 </div>
               </div>
             </div>
@@ -713,12 +722,11 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Vous serez époustouflé par le goût unique et rafraîchissant de
+                  nos mezzés froids. <br></br>
+                  Notre sélection comprend des options végétariennes, des
+                  trempettes, des salades et plus encore, qui sont parfaites
+                  pour vous.
                 </div>
               </div>
             </div>
@@ -795,12 +803,12 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Hot Mezzes is our modern take on traditional Mediterranean
+                  appetizers.
+                  <br></br>
+                  The different varieties present on the menu are full of
+                  flavor, freshness, and balance - the perfect combination to
+                  enhance the dining experience!
                 </div>
               </div>
             </div>
@@ -877,12 +885,11 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Our beef and chicken shawarma, roasted over a flame and then
+                  carved right off the spit, are the freshest, tastiest
+                  ingredients available.<br></br> Our chefs have spent countless
+                  hours perfecting our recipes so that every bite is full of
+                  flavor.
                 </div>
               </div>
             </div>
@@ -959,12 +966,10 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Nos Grillages vous font découvrir de nouvelles saveurs de
+                  plats traditionnels. <br></br>
+                  Nos chefs maîtrisent l'art du grillage et il est temps pour
+                  vous d'en profiter.
                 </div>
               </div>
             </div>
@@ -1041,12 +1046,8 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Prenez un repas bien équilibré avec nos assiettes
+                  satisfaisantes, pleines d'ingrédients frais.
                 </div>
               </div>
             </div>
@@ -1123,12 +1124,10 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Le manakish et le Kaak sont un célèbre pain plat du
+                  Moyen-Orient, garni de za'atar, de fromage et d'autres
+                  délices. Notre carte vous fera découvrir ces délicieuses
+                  spécialités libanaises.
                 </div>
               </div>
             </div>
@@ -1635,12 +1634,8 @@ const Lepalais = () => {
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Market fresh salads made with only the best vegetables of the
-                  bunch, carefully selected every day.<br></br>
-                  Mix and match as you like from our list of homemade dressings:
-                  • Oil & lemon • Creamy lemon • Balsamic vinegar • Sesame
-                  balsamic • Basil vinaigrette • Home-style lemon • Mustard
-                  lemon • Cuban • Caesar • Light vinegar
+                  Our desserts menu is here to provide you with the perfect
+                  ending to your meal.
                 </div>
               </div>
             </div>

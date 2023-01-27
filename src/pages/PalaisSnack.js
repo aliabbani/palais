@@ -197,8 +197,9 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Notre délicieuse sélection de Amuse Bouche, parfaite pour le
-                    partage.
+                    Voici un avant-goût de nos menus à venir. Ces petites
+                    assiettes font partie d'une image plus grande, et nous
+                    pensons qu'elles sont plutôt géniales.
                   </div>
                 </div>
               </div>
@@ -276,7 +277,12 @@ const PalaisSnack = () => {
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
                     Salades fraîches composées uniquement des meilleurs légumes
-                    du marché, soigneusement sélectionnés chaque jour.
+                    du marché, soigneusement sélectionnés chaque jour.<br></br>
+                    Nous sommes tout au sujet des salades. Vous n'avez pas
+                    besoin de suivre un régime ou d'essayer de mieux manger pour
+                    les aimer. Toujours pleines de saveurs, plus légères et plus
+                    fraîches, ces salades sont parfaites pour toutes les
+                    occasions.
                   </div>
                 </div>
               </div>
@@ -353,8 +359,8 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Seuls les meilleurs ingrédients du marché entrent dans notre
-                    pain frais.
+                    Des sandwichs frais et délicieux pour le déjeuner ou le
+                    dîner. Parfait pour une bouchée rapide ou pour partager.
                   </div>
                 </div>
               </div>
@@ -434,7 +440,10 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Burgers de qualité supérieure préparés à la commande..
+                    Des hamburgers qui peuvent élever votre moral et vous faire
+                    sentir bien! Tous les meilleurs ingrédients. <br></br>Luxe
+                    et confort à chaque bouchée. Nos burgers signatures sont
+                    faits avec amour.
                   </div>
                 </div>
               </div>
@@ -511,12 +520,11 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Vous serez époustouflé par le goût unique et rafraîchissant
+                    de nos mezzés froids. <br></br>
+                    Notre sélection comprend des options végétariennes, des
+                    trempettes, des salades et plus encore, qui sont parfaites
+                    pour vous.
                   </div>
                 </div>
               </div>
@@ -593,12 +601,12 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Hot Mezzes is our modern take on traditional Mediterranean
+                    appetizers.
+                    <br></br>
+                    The different varieties present on the menu are full of
+                    flavor, freshness, and balance - the perfect combination to
+                    enhance the dining experience!
                   </div>
                 </div>
               </div>
@@ -675,12 +683,11 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Our beef and chicken shawarma, roasted over a flame and then
+                    carved right off the spit, are the freshest, tastiest
+                    ingredients available.<br></br> Our chefs have spent
+                    countless hours perfecting our recipes so that every bite is
+                    full of flavor.
                   </div>
                 </div>
               </div>
@@ -757,12 +764,10 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Nos Grillages vous font découvrir de nouvelles saveurs de
+                    plats traditionnels. <br></br>
+                    Nos chefs maîtrisent l'art du grillage et il est temps pour
+                    vous d'en profiter.
                   </div>
                 </div>
               </div>
@@ -839,12 +844,8 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Poulet entier rôti, arrosé, croustillant, juteux et
+                    fraîchement cuit.
                   </div>
                 </div>
               </div>
@@ -921,12 +922,11 @@ const PalaisSnack = () => {
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Le repas le plus important de la journée, et un délicieux en
+                    plus. Commencez votre journée avec notre menu Petit
+                    Déjeuner. <br></br>
+                    Ce petit déjeuner classique offre une variété de choix pour
+                    bien continuer votre longue journée.
                   </div>
                 </div>
               </div>
