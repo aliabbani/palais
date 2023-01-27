@@ -20,17 +20,17 @@ const Loyality = () => {
         </div>
         <div className="border-4 border-white p-6 leading-relaxed bg-[#d3d3d3] mb-10">
           Nous savons que vous êtes un client fidèle et nous apprécions votre
-          entreprise. <br></br>
+          entreprise.
           <br></br>
           C'est pourquoi nous offrons une remise spéciale sur le menu grâce à
-          notre programme de fidélité.<br></br>
+          notre programme de fidélité.
           <br></br>
           Vous souhaitez bénéficier d'une réduction sur votre prochaine
-          expérience culinaire ? <br></br>
+          expérience culinaire ?
           <br></br>Nous sommes là pour vous aider.<br></br>
           <br></br>Notre carte de fidélité offre une réduction sur nos 4
           restaurants. Ainsi, vous pouvez profiter de la nourriture que vous
-          aimez à un prix inférieur.<br></br>
+          aimez à un prix inférieur.
           <br></br>
           Cliquez simplement sur Appliquer maintenant. Une fois sur place, vous
           pourrez vous inscrire pour votre carte de fidélité et commencer à

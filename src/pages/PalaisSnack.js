@@ -988,9 +988,9 @@ const PalaisSnack = () => {
           Latest Offers
         </div>
         <PalaisSnackOffer
-          title="Why is it so great?"
-          description="latest offer latest offer. latest offer latest offer
-          latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
+          title="Remise à la livraison"
+          description="Nous donnons reduction de 15% pour chaque commande de livraison a domicile plus que 20$. 
+          Livraison a domicille gratuite."
           src1="https://i.ibb.co/QQzmZff/15-discount.jpg"
         />
       </div>
