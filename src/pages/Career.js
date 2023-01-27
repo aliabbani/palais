@@ -28,10 +28,10 @@ const Career = () => {
                   backdropFilter: "blur(30px)",
                 }}
               >
-                <h1 className="text-5xl md:text-6xl xl:text-6xl font-bold tracking-tight mb-12">
-                  Join Our Team <br />
+                <h1 className="text-5xl md:text-6xl xl:text-6xl font-bold tracking-tight mb-12 capitalize">
+                  Rejoins notre équipe <br />
                   <span className="text-blue-600">
-                    Explore a world of opportunities
+                    Explorez un monde d'opportunités
                   </span>
                 </h1>
                 <a
@@ -41,7 +41,7 @@ const Career = () => {
                   href="#!"
                   role="button"
                 >
-                  Get started
+                  Commencer
                 </a>
               </div>
             </div>
