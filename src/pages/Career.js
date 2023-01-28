@@ -136,6 +136,72 @@ const Career = () => {
               {apply && (
                 <div>
                   <div>apply form</div>
+                  <form action="https://formspree.io/f/mknanvrb" method="POST">
+                    <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
+                      vos informations
+                    </div>
+                    <div className="pb-6">
+                      <input
+                        className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+                        type="text"
+                        name="Prénom"
+                        placeholder="*Prénom"
+                        required
+                      />
+                    </div>
+                    <div className="pb-6">
+                      <input
+                        className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+                        type="text"
+                        name="Nom de famille"
+                        placeholder="*Nom de famille"
+                        required
+                      />
+                    </div>
+                    <div className="pb-6">
+                      <input
+                        className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+                        type="email"
+                        name="email"
+                        placeholder="*Email personnel"
+                        required
+                      />
+                    </div>
+                    <div className="pb-6">
+                      <input
+                        className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+                        placeholder="*Numéro de téléphone"
+                        bordered="false"
+                        type="tel"
+                        name="Numéro de téléphone"
+                        pattern="[0-9]{9}"
+                        required
+                      />
+                    </div>
+                    <div className="pb-6">
+                      <div>Resume</div>
+                      <input
+                        className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
+                        bordered="false"
+                        type="file"
+                        name="Numéro de téléphone"
+                        required
+                      />
+                    </div>
+                    <div>
+                      En sélectionnant Soumettre, toutes les informations que
+                      vous fournissez seront protégées. Nous pouvons vous
+                      contacter au sujet de votre soumission.
+                    </div>
+                    <div className="py-20">
+                      <button
+                        type="submit"
+                        className="bg-[#ffbc0d] rounded-md border-none py-3 px-8 text-center no-underline text-base text-[#292929] outline-none w-auto min-w-117"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
                 </div>
               )}
             </div>
