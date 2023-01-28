@@ -9,9 +9,9 @@ function GridRestaurants() {
   return (
     <div className="mb-10 main px-2 md:px-2 py-10 md:py-10 justify-evenly flex flex-col md:flex-row md:flex-wrap gap-x-8 gap-y-8 md:gap-x-0 md:gap-y-8">
       {/* first */}
-      <div className="flex justify-center" onClick={scrollToTop}>
+      <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <Link to="/lepalais">
+          <Link to="/lepalais" onClick={scrollToTop}>
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/89XVWtw/pexels-photo-1307698-1.jpg"
@@ -27,7 +27,7 @@ function GridRestaurants() {
               plats principaux savoureux accompagnés de sa fameuse sauce, et ses
               sushis fins et dorés.
             </p>
-            <div>
+            <div onClick={scrollToTop}>
               <Link to="/lepalais">
                 <button
                   type="button"
@@ -41,9 +41,9 @@ function GridRestaurants() {
         </div>
       </div>
       {/* second */}
-      <div className="flex justify-center" onClick={scrollToTop}>
+      <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <Link to="/palaissnack">
+          <Link to="/palaissnack" onClick={scrollToTop}>
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/3RV1K97/restaurant33.png"
@@ -56,9 +56,12 @@ function GridRestaurants() {
             </h5>
             <p className="text-gray-700 text-base mb-4">
               Le Palais Snack, le restaurant libanais international de
-              restauration rapide.
+              restauration rapide. Le restaurant propose également une grande
+              variété de délicieux rôtis et de collations authentiques ainsi que
+              des plats traditionnels libanais tels que des falafels, des
+              brochettes et du shawarma.
             </p>
-            <div>
+            <div onClick={scrollToTop}>
               <Link to="/palaissnack">
                 <button
                   type="button"
@@ -72,9 +75,9 @@ function GridRestaurants() {
         </div>
       </div>
       {/* third */}
-      <div className="flex justify-center" onClick={scrollToTop}>
+      <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <Link to="/circledepalais">
+          <Link to="/circledepalais" onClick={scrollToTop}>
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/30cnGGQ/restaurant22.png"
@@ -86,10 +89,12 @@ function GridRestaurants() {
               Circle De Palais
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Notre prochaine surprise, qui comprend un restaurant, une
-              terrasse, une piscine et 3 terrains de football.
+              Situé dans l'un des plus beaux quartiers de Kinshasa. Le Cercle
+              comprend un restaurant, une terrasse, une piscine et 2 terrains de
+              football. Les installations sont idéales pour profiter de votre
+              temps libre avec votre famille ou vos amis.
             </p>
-            <div>
+            <div onClick={scrollToTop}>
               <Link to="/circledepalais">
                 <button
                   type="button"
@@ -103,9 +108,9 @@ function GridRestaurants() {
         </div>
       </div>
       {/* fourth */}
-      <div className="flex justify-center" onClick={scrollToTop}>
+      <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-white max-w-lg">
-          <Link to="/royalburger">
+          <Link to="/royalburger" onClick={scrollToTop}>
             <img
               className="rounded-t-lg"
               src="https://i.ibb.co/N9CSXJY/restaurant44-2.png"
@@ -117,9 +122,9 @@ function GridRestaurants() {
               Royal Burger
             </h5>
             <p className="text-gray-700 text-base mb-4">
-              Royal Burger, le snack burger de la restauration rapide..
+              Royal Burger, le snack burger de la restauration rapide.
             </p>
-            <div>
+            <div onClick={scrollToTop}>
               <Link to="/royalburger">
                 <button
                   type="button"
