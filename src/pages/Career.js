@@ -43,11 +43,11 @@ const Career = () => {
         </section>
       </div>
 
-      <div class="flex justify-center">
-        <div class="block p-6 rounded-lg shadow-lg bg-white ">
-          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+      <div class="flex justify-center pb-10">
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-6xl">
+          <div className="text-gray-900 text-xl md:text-2xl font-black capitalize pb-4 md:pb-6">
             Cassier
-          </h5>
+          </div>
           <p class="text-gray-700 text-base mb-4">
             We are looking for a cashier who is friendly, enthusiastic, and
             outgoing. You'll be working with the public at a restaurant, so we
@@ -131,46 +131,57 @@ const Career = () => {
             ${apply ? "hidden" : ""}`}
                 onClick={() => setApply(!apply)}
               >
-                See more
+                Apply Now
               </button>
               {apply && (
                 <div>
-                  <div>apply form</div>
                   <form action="https://formspree.io/f/mknanvrb" method="POST">
-                    <div className="text-xl md:text-2xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
+                    <div className="text-lg md:text-xl font-black capitalize pt-6 pb-6 md:pt-20 pb-10">
                       vos informations
                     </div>
                     <div className="pb-6">
+                      <div className="text-gray-700 text-md font-medium capitalize pb-2">
+                        *Prénom:
+                      </div>
                       <input
                         className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
                         type="text"
                         name="Prénom"
-                        placeholder="*Prénom"
+                        placeholder=""
                         required
                       />
                     </div>
                     <div className="pb-6">
+                      <div className="text-gray-700 text-md font-medium capitalize pb-2">
+                        *Nom de famille:
+                      </div>
                       <input
                         className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
                         type="text"
                         name="Nom de famille"
-                        placeholder="*Nom de famille"
+                        placeholder=""
                         required
                       />
                     </div>
                     <div className="pb-6">
+                      <div className="text-gray-700 text-md font-medium capitalize pb-2">
+                        *Email:
+                      </div>
                       <input
                         className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
                         type="email"
                         name="email"
-                        placeholder="*Email personnel"
+                        placeholder=""
                         required
                       />
                     </div>
                     <div className="pb-6">
+                      <div className="text-gray-700 text-md font-medium capitalize pb-2">
+                        *Numéro de téléphone:
+                      </div>
                       <input
                         className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
-                        placeholder="*Numéro de téléphone"
+                        placeholder=""
                         bordered="false"
                         type="tel"
                         name="Numéro de téléphone"
@@ -179,7 +190,9 @@ const Career = () => {
                       />
                     </div>
                     <div className="pb-6">
-                      <div>Resume</div>
+                      <div className="text-gray-700 text-md font-medium capitalize pb-2">
+                        *Resume:
+                      </div>
                       <input
                         className="h-10 border-b-[1px] border-gray-300 w-full text-normal font-semibold py-2 px-3 text-gray-700 placeholder-gray-400 !outline-none !ring-0"
                         bordered="false"
@@ -193,10 +206,10 @@ const Career = () => {
                       vous fournissez seront protégées. Nous pouvons vous
                       contacter au sujet de votre soumission.
                     </div>
-                    <div className="py-20">
+                    <div className="py-6">
                       <button
                         type="submit"
-                        className="bg-[#ffbc0d] rounded-md border-none py-3 px-8 text-center no-underline text-base text-[#292929] outline-none w-auto min-w-117"
+                        className="bg-[#ffbc0d] rounded-md border-none py-2.5 px-6 text-center no-underline text-base text-[#292929] outline-none w-auto min-w-117"
                       >
                         Submit
                       </button>
