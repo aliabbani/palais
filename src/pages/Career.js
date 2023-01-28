@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 const Career = () => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = useState(false);
+  const [apply, setApply] = useState(false);
+
   return (
     <div className="flex flex-col content-between">
       <NavBar />
@@ -52,74 +54,92 @@ const Career = () => {
             need someone who is comfortable interacting with people in a
             fast-paced environment.
           </p>
-
-          <div>
-            <div>The Cashier will be responsible for:</div>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Making sure all cash transactions are completed correctly and
-              promptly.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Accepting payment from customers using a credit card or debit
-              card, or making change if necessary.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Redeem stamps, offers and coupons
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Maintaining an orderly work area by keeping it clean and
-              organized at all times.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - You should be able to multi-task by taking orders from customers
-              and ringing them up at the register.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Providing excellent customer service by greeting customers
-              politely, offering assistance when needed, and thanking them when
-              they leave the restaurant satisfied with their visit (or not).
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - You should have knowledge working on ordering system.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - You should be able to memorize the food menu, including the
-              ingredient in one months period.
-            </p>
-          </div>
-          <div>
-            <div>The Cashier qualification:</div>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Basic PC knowledge.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - 2 experience working as a cashier.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Familiarity with electronic equipment, like cash register and
-              POS
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Good math skills.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Strong communication and time management skills.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - Customer satisfaction-oriented.
-            </p>
-            <p className="text-gray-700 text-base mb-1 pl-4">
-              - bachelor degree or equivalent in business management,
-              accounting, or marketing.
-            </p>
-          </div>
           <button
             type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            className={`inline-block px-4 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out 
+            ${show ? "hidden" : ""}`}
+            onClick={() => setShow(!show)}
           >
-            Apply Now
+            See more
           </button>
-          {show && <div></div>}
+          {show && (
+            <div>
+              <div>
+                <div>The Cashier will be responsible for:</div>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Making sure all cash transactions are completed correctly
+                  and promptly.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Accepting payment from customers using a credit card or
+                  debit card, or making change if necessary.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Redeem stamps, offers and coupons
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Maintaining an orderly work area by keeping it clean and
+                  organized at all times.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - You should be able to multi-task by taking orders from
+                  customers and ringing them up at the register.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Providing excellent customer service by greeting customers
+                  politely, offering assistance when needed, and thanking them
+                  when they leave the restaurant satisfied with their visit (or
+                  not).
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - You should have knowledge working on ordering system.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - You should be able to memorize the food menu, including the
+                  ingredient in one months period.
+                </p>
+              </div>
+              <div>
+                <div>The Cashier qualification:</div>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Basic PC knowledge.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - 2 experience working as a cashier.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Familiarity with electronic equipment, like cash register
+                  and POS
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Good math skills.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Strong communication and time management skills.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - Customer satisfaction-oriented.
+                </p>
+                <p className="text-gray-700 text-base mb-1 pl-4">
+                  - bachelor degree or equivalent in business management,
+                  accounting, or marketing.
+                </p>
+              </div>
+              <button
+                type="button"
+                className={`inline-block px-4 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out 
+            ${apply ? "hidden" : ""}`}
+                onClick={() => setApply(!apply)}
+              >
+                See more
+              </button>
+              {apply && (
+                <div>
+                  <div>apply form</div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
       <Footer />
