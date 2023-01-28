@@ -98,7 +98,7 @@ const Home = () => {
                       Depuis des décennies, la formule du Palais assure le
                       succès avec ses mezzés libanais, ses plats principaux
                       savoureux et tendres accompagnés de sa fameuse sauce et
-                      ses sushis fins et dorés. Nam mattis faucibus imperdiet.
+                      ses sushis fins et dorés.
                       Le Palais est un jardin, Le Palais est un Piano Bar, Le
                       Palais est un lieu de détente à chicha. Vous sentirez
                       toujours nouveau et vous donnerez envie de revenir après
