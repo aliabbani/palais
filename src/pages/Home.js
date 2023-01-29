@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="bg-yellow-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
                   <div className="lg:pl-12">
                     <h2 className="text-3xl font-bold mb-6">
-                      Let it surprise you
+                      Laissez-vous surprendre
                     </h2>
                     <p className="mb-6 pb-2 lg:pb-0">
                       Bienvenue dans les concepts de restauration modernes les
@@ -98,11 +98,10 @@ const Home = () => {
                       Depuis des décennies, la formule du Palais assure le
                       succès avec ses mezzés libanais, ses plats principaux
                       savoureux et tendres accompagnés de sa fameuse sauce et
-                      ses sushis fins et dorés.
-                      Le Palais est un jardin, Le Palais est un Piano Bar, Le
-                      Palais est un lieu de détente à chicha. Vous sentirez
-                      toujours nouveau et vous donnerez envie de revenir après
-                      chaque visite.
+                      ses sushis fins et dorés. Le Palais est un jardin, Le
+                      Palais est un Piano Bar, Le Palais est un lieu de détente
+                      à chicha. Vous sentirez toujours nouveau et vous donnerez
+                      envie de revenir après chaque visite.
                     </p>
                   </div>
                 </div>
