@@ -40,13 +40,15 @@ const Brand = () => {
             noir et blanc.
           </p>
           <p className="pb-5 text-red-600">
-            2017 a été une année marquante: alors que nous ouvrons notre premier
-            snack de restauration rapide nommé Royal Burger dans le centre
+            2017 a été une année spéciale : nous avons ouvert notre premier
+            snack-bar de restauration rapide nommé Royal Burger dans le centre
             commercial LC Waikiki.
           </p>
           <p className="pb-5">
-            2022 a été une autre année marquante: alors que nous ouvrions une
-            petite version de Le Palais au centre ville.
+            2022 a été une année marquante: M. Abdallah Fouani a rejoint
+            l'entreprise, ajoutant ses connaissances et son succès à la valeur
+            fondamentale de l'entreprise. Alors que nous ouvrions une petite
+            version de Le Palais au centre ville.
           </p>
           <p className="pb-5 text-red-600">
             En 2023, nous prévoyons d'ouvrir un nouveau restaurant dans le

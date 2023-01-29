@@ -31,7 +31,7 @@ const RestaurantsMaps = (props) => {
                     </div>
                     <div className="grow ml-6">
                       <p className="font-bold mb-1">
-                        Réservation et renseignements
+                        Réservation & renseignements
                       </p>
                       <p className="text-gray-500">{props.email}</p>
                       <p className="text-gray-500">{props.phone1}</p>
