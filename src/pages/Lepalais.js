@@ -1617,7 +1617,7 @@ const Lepalais = () => {
                 <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                   Desserts
                 </h2>
-                <div>
+                {/* <div>
                   <a
                     href="https://menu.omegasoftware.ca/lepalais1"
                     target="_blank"
@@ -1630,12 +1630,12 @@ const Lepalais = () => {
                       delivery menu
                     </button>
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <div className="text-xs pr-0 md:pr-60 pt-5">
-                  Our desserts menu is here to provide you with the perfect
-                  ending to your meal.
+                  Notre carte des desserts est là pour vous offrir le parfait
+                  terminer votre repas.
                 </div>
               </div>
             </div>

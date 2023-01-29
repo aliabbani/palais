@@ -49,18 +49,6 @@ const RoyalBurger = () => {
         src3="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80"
       />
 
-      <div className="text-center pt-5 md:pt-1">
-        {/* <a href="" target="_blank" rel="noreferrer"> */}
-        <button
-          // href=""
-          type="button"
-          className="md:hidden inline-block px-16 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-        >
-          delivery menu
-        </button>
-        {/* </a> */}
-      </div>
-
       {/* menu nav */}
       <nav className="flex flex-row flex-wrap md:justify-center align-center gap-2 md:gap-5 px-2 md:px-10 text-center text-xs md:text-sm py-5">
         <button
@@ -165,29 +153,13 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Beef
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Des hamburgers qui peuvent élever votre moral et vous faire
+                    sentir bien! Tous les meilleurs ingrédients. Luxe et confort
+                    à chaque bouchée. Nos burgers signatures sont faits avec
+                    amour.
                   </div>
                 </div>
               </div>
@@ -247,29 +219,13 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Chicken
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Des hamburgers qui peuvent élever votre moral et vous faire
+                    sentir bien! Tous les meilleurs ingrédients. Luxe et confort
+                    à chaque bouchée. Nos burgers signatures sont faits avec
+                    amour.
                   </div>
                 </div>
               </div>
@@ -329,29 +285,11 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Starter
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Notre sélection d'entrées délicieusement originales,
+                    parfaites pour le partage.
                   </div>
                 </div>
               </div>
@@ -409,27 +347,18 @@ const RoyalBurger = () => {
               <div className="mx-10 pb-10 text-white">
                 <div className="flex flex-row justify-between align-center items-center">
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
-                    Salad
+                    Salades
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    You’re in for a divine experience with our premium
-                    cooked-to-order burgers.
+                    Salades fraîches composées uniquement des meilleurs légumes
+                    du marché, soigneusement sélectionnés chaque jour. Nous
+                    sommes tout au sujet des salades. Vous n'avez pas besoin de
+                    suivre un régime ou d'essayer de mieux manger pour les
+                    aimer. Toujours pleines de saveurs, plus légères et plus
+                    fraîches, ces salades sont parfaites pour toutes les
+                    occasions.
                   </div>
                 </div>
               </div>
@@ -489,29 +418,11 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Kids Meal
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Notre menu de repas pour enfants regorge d'options de grande
+                    valeur pour garder votre enfant heureux et diverti.
                   </div>
                 </div>
               </div>
@@ -571,29 +482,11 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Wrap
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Notre wrap, sont les plus frais et les plus savoureux
+                    ingrédients disponibles.
                   </div>
                 </div>
               </div>
@@ -653,29 +546,10 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Vegeterian And Fish
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Burgers Végétarien Et Poisson.
                   </div>
                 </div>
               </div>
@@ -735,29 +609,11 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Dessert
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    Notre carte des desserts est là pour vous offrir le parfait
+                    terminer votre repas.
                   </div>
                 </div>
               </div>
@@ -817,29 +673,10 @@ const RoyalBurger = () => {
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
                     Drink
                   </h2>
-                  <div>
-                    <a
-                      href="https://menu.omegasoftware.ca/lepalais1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="hidden md:inline-block px-10 py-4 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out"
-                      >
-                        delivery menu
-                      </button>
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                    porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                    justo at lorem laoreet ultricies. Nunc ligula felis,
-                    sagittis eget nisi vitae, sodales vestibulum purus.
-                    Vestibulum nibh ipsum, rhoncus vel sagittis nec, placerat
-                    vel justo.
+                    C'est la boisson parfaite pour faire voyager vos papilles.
                   </div>
                 </div>
               </div>
