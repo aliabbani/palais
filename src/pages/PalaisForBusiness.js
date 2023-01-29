@@ -106,7 +106,7 @@ const PalaisForBusiness = () => {
                             100%
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
-                            VIP Treatment
+                            Traitement VIP
                           </h5>
                         </div>
 
@@ -115,16 +115,16 @@ const PalaisForBusiness = () => {
                             100%
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
-                            Menu Planning
+                            Planification Des Menus
                           </h5>
                         </div>
 
                         <div className="">
                           <h2 className="text-3xl font-bold text-dark mb-4">
-                            We
+                            Nous
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
-                            Understand Your Budget
+                            Comprenons Votre Budget
                           </h5>
                         </div>
                       </div>
@@ -258,7 +258,7 @@ const PalaisForBusiness = () => {
                       <div className="grid md:grid-cols-4 gap-x-2">
                         <div className="mb-12 md:mb-0">
                           <h2 className="text-3xl font-bold text-dark mb-4">
-                            Food
+                            Nourriture
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
                             Prestations traiteur (Buffet ou assiette)
@@ -267,7 +267,7 @@ const PalaisForBusiness = () => {
 
                         <div className="mb-12 md:mb-0">
                           <h2 className="text-3xl font-bold text-dark mb-4">
-                            Drink
+                            Boissons
                           </h2>
                           <h5 className="text-lg font-medium text-gray-500 mb-0">
                             Toast au champagne
