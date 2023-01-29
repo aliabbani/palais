@@ -232,7 +232,7 @@ const Career = () => {
       <div class="flex justify-center pb-10">
         <div class="block p-6 rounded-lg shadow-lg bg-white w-full mx-4 md:mx-12">
           <div className="text-gray-900 text-xl md:text-2xl font-black capitalize pb-4 md:pb-6">
-            Cuisinier international
+            Cuisinier
           </div>
           <p class="text-gray-700 text-base mb-4">
             Nous recherchons un chef de partie talentueux pour aider notre
