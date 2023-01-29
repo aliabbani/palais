@@ -3,7 +3,16 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { CircleSalad, CircleEntree, CircleShawarma, CirclePlateaux, CirclePizza, CircleBurger,  CircleDesserts, ComingSoon } from "../dataPalaisCircle";
+import {
+  CircleSalad,
+  CircleEntree,
+  CircleShawarma,
+  CirclePlateaux,
+  CirclePizza,
+  CircleBurger,
+  CircleDesserts,
+  ComingSoon,
+} from "../dataPalaisCircle";
 import RestaurantsSlider from "../components/RestaurantsSlider";
 import PalaisSnackOffer from "../components/PalaisSnackOffer";
 import { MdWifiCalling } from "react-icons/md";
@@ -83,7 +92,7 @@ const CircleDePalais = () => {
               <div className="mx-10 pb-10 text-white">
                 <div className="flex flex-row justify-between align-center items-center">
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
-                    Food Menu
+                    Menu Temporaire
                   </h2>
                   <div></div>
                 </div>
@@ -97,7 +106,7 @@ const CircleDePalais = () => {
                           : "border-none"
                       }`}
                     >
-                      Salad
+                      Salades
                     </button>
                     <button
                       onClick={() => setTemporaireNav(2)}
@@ -445,9 +454,9 @@ const CircleDePalais = () => {
               <div className="mx-10 pb-10 text-white">
                 <div className="flex flex-row justify-between align-center items-center">
                   <h2 className="uppercase font-medium leading-tight text-xl md:text-4xl">
-                    Salades
+                    Desserts
                   </h2>
-                  <div>
+                  {/* <div>
                     <a
                       href="https://menu.omegasoftware.ca/lepalais1"
                       target="_blank"
@@ -460,16 +469,12 @@ const CircleDePalais = () => {
                         delivery menu
                       </button>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div>
                   <div className="text-xs pr-0 md:pr-60 pt-5">
-                    Market fresh salads made with only the best vegetables of
-                    the bunch, carefully selected every day.<br></br>
-                    Mix and match as you like from our list of homemade
-                    dressings: • Oil & lemon • Creamy lemon • Balsamic vinegar •
-                    Sesame balsamic • Basil vinaigrette • Home-style lemon •
-                    Mustard lemon • Cuban • Caesar • Light vinegar
+                    Our desserts menu is here to provide you with the perfect
+                    ending to your meal.
                   </div>
                 </div>
               </div>
@@ -549,10 +554,15 @@ const CircleDePalais = () => {
                       <br />
                       <span>pour notre piscine </span>
                     </h2>
-                    <p className="text-lg mb-12">
-                      Êtes-vous prêt sit pour notre piscine elit. Êtes-vous prêt
-                      sit pour notre piscine elit Êtes-vous prêt sit pour notre
-                      piscine elit.
+                    <p className="text-md md:text-lg mb-6 md:mb-12">
+                      Nous sommes ravis d'annoncer que Le Palais est maintenant
+                      ouvert à la baignade, ce qui signifie que nous pouvons
+                      enfin offrir à nos clients un endroit pour se rafraîchir
+                      et se détendre. Nous avons travaillé dur sur ce projet
+                      pendant des mois, et nous sommes si heureux qu'il soit
+                      enfin là ! Venez découvrir la nouvelle piscine - nous
+                      offrirons des laissez-passer gratuits toute la journée de
+                      février.
                     </p>
                     <a href="#contact">
                       <button className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out">
@@ -589,10 +599,10 @@ const CircleDePalais = () => {
                       <br />
                       <span>pour notre terrain de football </span>
                     </h2>
-                    <p className="text-lg mb-12">
-                      Êtes-vous prêt pour notre terrain de football. Êtes-vous
-                      prêt pour notre terrain de football Êtes-vous prêt pour
-                      notre terrain de football.
+                    <p className="text-md md:text-lg mb-6 md:mb-12">
+                      Que vous soyez un fan inconditionnel de football ou que
+                      vous recherchiez simplement une soirée amusante avec des
+                      amis, cet endroit est fait pour vous.
                     </p>
                     <a href="#contact">
                       <button className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition-property duration-150 ease-in-out">
@@ -608,10 +618,10 @@ const CircleDePalais = () => {
       </div>
       <div className="my-10">
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
-          Latest Offers
+          Dernières offres
         </div>
         <PalaisSnackOffer
-          title="Why is it so great?"
+          title="Pourquoi est-ce si grand?"
           description="latest offer latest offer. latest offer latest offer
           latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/qMzwPB0/Le-Circle-Future-Offre.png"
@@ -620,7 +630,7 @@ const CircleDePalais = () => {
       {/* Maps & contact */}
       <div className="" id="contact">
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
-          Our Contact
+          Notre Contact
         </div>
 
         <div className="container my-12 px-6 mx-auto">
@@ -651,7 +661,7 @@ const CircleDePalais = () => {
                         </div>
                         <div className="grow ml-6">
                           <p className="font-bold mb-1">
-                            Reservation & Enquiries
+                            Réservation et renseignements
                           </p>
                           <p className="text-gray-500">lecircle@gmail.com"</p>
                           <p className="text-gray-500">+243-999-999-999</p>
