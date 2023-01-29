@@ -12,7 +12,7 @@ const Career = () => {
     <div className="flex flex-col content-between">
       <NavBar />
       <div>
-        <section className="mb-40">
+        <section className="mb-20">
           <div
             className="relative overflow-hidden bg-no-repeat bg-cover"
             style={{
