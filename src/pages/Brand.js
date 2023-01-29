@@ -45,7 +45,7 @@ const Brand = () => {
             commercial LC Waikiki.
           </p>
           <p className="pb-5">
-            2022 a été une année marquante: M. Abdallah Fouani a rejoint
+            2022 a été une année marquante: Abdallah Fouani a rejoint
             l'entreprise, ajoutant ses connaissances et son succès à la valeur
             fondamentale de l'entreprise. Alors que nous ouvrions une petite
             version de Le Palais au centre ville.
