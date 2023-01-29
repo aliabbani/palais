@@ -30,7 +30,9 @@ const RestaurantsMaps = (props) => {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Reservation & Enquiries</p>
+                      <p className="font-bold mb-1">
+                        Réservation et renseignements
+                      </p>
                       <p className="text-gray-500">{props.email}</p>
                       <p className="text-gray-500">{props.phone1}</p>
                     </div>
@@ -44,7 +46,7 @@ const RestaurantsMaps = (props) => {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Delivery Order</p>
+                      <p className="font-bold mb-1">Bon de livraison</p>
                       <p className="text-gray-500">{props.phone2}</p>
                       <p className="text-gray-500">{props.phone3}</p>
                     </div>

@@ -1693,10 +1693,10 @@ const Lepalais = () => {
       ;{/* Maps & contact */}
       <div className="my-10">
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
-          Latest Offers
+          Dernières offres
         </div>
         <PalaisSnackOffer
-          title="Why is it so great?"
+          title="Pourquoi c'est si génial"
           description="latest offer latest offer. latest offer latest offer
           latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/p46Brs0/Le-Palais-Future-Offre.png"
@@ -1704,7 +1704,7 @@ const Lepalais = () => {
       </div>
       <div className="">
         <div className="text-center capitalize text-2xl md:text-4xl font-bold leading-tight text-gray-800">
-          Our Contact
+          Notre Contact
         </div>
         <RestaurantsMaps
           src1="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15913.734604197723!2d15.2733285!3d-4.329369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbdb935e1cc4340f!2sLe%20Palais!5e0!3m2!1sen!2scd!4v1673626795800!5m2!1sen!2scd"
