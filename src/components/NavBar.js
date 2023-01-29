@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlinePlus, AiOutlineMinus, AiTwotonePhone } from "react-icons/ai";
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showRestaurants, setShowRestaurants] = useState(false);
@@ -82,6 +82,14 @@ const NavBar = () => {
             <Link to="/palaisforbusiness">
               <div>Palais des affaires</div>
             </Link>
+            <button className="text-yellow-700">
+              <a href="tel:1027" className="flex flex-row gap-1 items-baseline">
+                <div>
+                  <AiTwotonePhone />
+                </div>
+                <div>1027</div>
+              </a>
+            </button>
           </div>
         </div>
       ) : (
@@ -174,7 +182,14 @@ const NavBar = () => {
               <Link to="/palaisforbusiness">Palais des affaires</Link>
             </button>
 
-            <button className="text-yellow-700">+243 999</button>
+            <button className="text-yellow-700">
+              <a href="tel:1027" className="flex flex-row gap-1 items-baseline">
+                <div>
+                  <AiTwotonePhone />
+                </div>
+                <div>1027</div>
+              </a>
+            </button>
           </div>
         </div>
       )}
