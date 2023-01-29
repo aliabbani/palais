@@ -738,7 +738,7 @@ const RoyalBurger = () => {
           Latest Offers
         </div>
         <PalaisSnackOffer
-          title="Why is it so great?"
+          title="Pourquoi est-ce si grand?"
           description="latest offer latest offer. latest offer latest offer
           latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/pwVBsV7/Royal-Burger-Future-Offre.png"
@@ -778,7 +778,7 @@ const RoyalBurger = () => {
                         </div>
                         <div className="grow ml-6">
                           <p className="font-bold mb-1">
-                            Reservation & Enquiries
+                            Réservation & renseignements
                           </p>
                           <p className="text-gray-500">
                             royalburger@gmail.com"
