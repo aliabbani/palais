@@ -61,7 +61,7 @@ const Lepalais = () => {
         src2="https://images.unsplash.com/photo-1515669097368-22e68427d265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
         src3="https://images.unsplash.com/photo-1567667778211-b19f5a4e1efe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       />
-      <div className="text-center pt-5 md:pt-1">
+      {/* <div className="text-center pt-5 md:pt-1">
         <a
           href="https://menu.omegasoftware.ca/lepalais1"
           target="_blank"
@@ -75,7 +75,7 @@ const Lepalais = () => {
             delivery menu
           </button>
         </a>
-      </div>
+      </div> */}
       <nav className="flex flex-row flex-wrap md:justify-center align-center gap-2 md:gap-3 px-2 md:px-5 text-center text-xs md:text-XS py-5">
         <button
           onClick={() => setNav(1)}
@@ -1696,7 +1696,7 @@ const Lepalais = () => {
           Dernières offres
         </div>
         <PalaisSnackOffer
-          title="Pourquoi c'est si génial"
+          title="Pourquoi c'est si génial?"
           description="latest offer latest offer. latest offer latest offer
           latest offer latest. latest offer latest offer, latest offer latest offer latest. latest offer latest."
           src1="https://i.ibb.co/p46Brs0/Le-Palais-Future-Offre.png"
