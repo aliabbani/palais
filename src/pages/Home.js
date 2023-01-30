@@ -45,7 +45,7 @@ const Home = () => {
                     </p>
 
                     <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
-                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-10 font-black">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
@@ -59,7 +59,7 @@ const Home = () => {
                         Meilleure équipe
                       </p>
 
-                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
+                      <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-10 font-black">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"
@@ -73,7 +73,7 @@ const Home = () => {
                         Meilleure qualité
                       </p>
 
-                      <p className="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
+                      <p className="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0 font-black">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 512 512"

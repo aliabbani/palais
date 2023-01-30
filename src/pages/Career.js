@@ -284,7 +284,7 @@ const Career = () => {
               </div>
               <div>
                 <div className="text-lg md:text-xl py-2">
-                  La qualification de caissier :
+                  La qualification de chef:
                 </div>
                 <p className="text-gray-700 text-base mb-1 pl-4">
                   - Diplôme d'une école de cuisine.
